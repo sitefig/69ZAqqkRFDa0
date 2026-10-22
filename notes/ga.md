@@ -1,6 +1,6 @@
 # Irish (ga) notes
 
-Status: unreviewed machine draft, written 2026-10-22. No native speaker has read it. Files: `src/ga/core.json` (681 entries) and `src/ga/findings.json` (232 entries), flat key to value, sorted keys. The validator (`scripts/i18n-check.ts`, run on a wrapped copy with the `i18n-dict/1` envelope) reports 0 errors and 0 missing for both.
+Status: unreviewed machine draft, written 2026-10-22, brought in line with the revised source strings (hash prefix in the files) the same day: 224 keys added, 98 orphan keys removed. No native speaker has read it. Files: `src/ga/core.json` (767 entries) and `src/ga/findings.json` (272 entries), flat key to value, sorted keys. `node tools/check.mjs` reports 0 errors, 0 missing and 0 warnings for ga.
 
 ## Decisions
 
@@ -73,3 +73,26 @@ Status: unreviewed machine draft, written 2026-10-22. No native speaker has read
 - "Items" is translated as "Míreanna" without context.
 - "Run it your way", "The data lights up", "Tell us" and similar headings are marketing copy; the Irish is literal and may need rewording.
 - "View for" ends the string with a preposition and a role placeholder is added elsewhere; "Amharc do" may need a case change.
+
+## Update of 2026-10-22 (revised source strings)
+
+Removed: 98 orphan keys (old fragment strings such as "{event} {phase}.", "Crawl {crawl}: {phase}.", "Sign in", "Sign out", the old "Crawl now" sentences without quotes). Added: 177 core and 50 findings keys, including the whole-sentence replacements. Moved between bundles (value kept): "Running" (now findings), "Summary" (now core), "Crawl runs" (now core). Re-checked and kept: Dark "Dorcha", Language "Teanga", Menu "Roghchlár", Search "Cuardach", password "pasfhocal", show "taispeáin" (read together as "taispeáin pasfhocal").
+
+New doubtful items:
+
+- "Log in/out" are rendered "Logáil isteach/amach" and "logged in" as "logáilte isteach", as before. The source no longer says "sign in"; the Irish is unchanged.
+- "Muinín" for "Confidence" (a rating column): "muinín" is the general word; the audit sense may need "cinnteacht" or "leibhéal muiníne".
+- "Raon" for "Reach" (how widely a finding applies): guess, may be wrong.
+- "Cás cúirte" (Court case) and "Treoir AE" (EU directive): "AE" as in the Irish name Aontas Eorpach; check.
+- "Déine laghdaithe leis an deisiú" for "Severity lowered by its fix": unclear in English too.
+- Schedule intervals: "Gach {n} huaire an chloig" (3 to 6, h-prefix) and "Gach {n} n-uaire an chloig" (7 to 10, eclipsis) put a mutation next to a digit; "Gach dhá lá" for two days; "lá" is kept for all counts (laethanta is used by many speakers after 10).
+- "Daily" and "Hourly" are "Gach lá" and "Gach uair an chloig" (not adjectives).
+- "Cuireadh ríomhphoist dheimhnithe chugat" (confirmation emails sent): mutation of the adjective is a guess.
+- "Ceangailte le {channel} sa fhoireann {team}": names after "le" and "sa" stay unmutated; real Irish may need "le hAibhistín" style forms for vowels. Same for "ar {domain}", "i {textLanguage}", "chuig {trim}".
+- "Ar an bplean {plan}" and "Tá tú ar an bplean {plan}": the plan name is a placeholder and follows the noun "plean", so no mutation is needed.
+- "Maoin Search Console" for "Search Console property": unchanged doubt, see item 16 above.
+- "Toirmiscthe: {what}" for "Not allowed: {what}" (robots.txt Disallow wording).
+- "Ag taispeáint an méid a theastaíonn ó {name}" and the sentences with "TF" (IT team) need a native check.
+- Legal and data sentences (need legal review): the Supabase/Cloudflare processor paragraph (now "Accounts and logins"), "Reports travel between our servers and your browser over an encrypted connection ...", the sentence on login records and how long they are kept, the browser storage sentence. The old Irish "logálacha isteach" was replaced by "logáil isteach" / "taifid logála isteach".
+- Source ambiguities that remain: "Items" and the "{severity}: {n}" label join; "URL sa liosta: {n}" avoids a plural of "URL".
+- Glossary: the el agent had written Greek terms into the ga column of 11 rows (check (noun), clean, could not be checked, failing, fix, log in, log out, sign out, ticket, ticket tracker, tracker); these were moved to the el column when empty and replaced with Irish values. The el agent should re-check that its values are still in its own column.

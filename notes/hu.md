@@ -1,6 +1,6 @@
 # Hungarian (hu) draft notes
 
-Status: unreviewed machine draft. No native speaker has read it. Files: `src/hu/core.json` (681 entries) and `src/hu/findings.json` (232 entries), flat key to string objects, plural entries with the categories one and other.
+Status: unreviewed machine draft. No native speaker has read it. Files: `src/hu/core.json` (767 entries) and `src/hu/findings.json` (272 entries), flat key to string objects, plural entries with the categories one and other. Brought in line with the 2026-10-22 source strings (224 keys added, 98 orphans removed).
 
 ## Formality
 
@@ -55,3 +55,22 @@ No placeholder carries a suffix. Sentences were reshaped so the placeholder stan
 - "Sign in" and "Log in" both map to "Bejelentkezés" because Hungarian has no clear difference.
 - "View for" ends in a role name chosen from a list; the Hungarian "Nézet:" takes it after a colon.
 - Plural keys such as "{n} failing" have identical English one and other forms, so the Hungarian forms are identical too.
+
+## Update after the source rewrite (2026-10-22)
+
+Still a machine draft; nothing here was reviewed by a native speaker. Orphan keys were deleted, new keys translated, `Running` moved to findings and `Crawl runs` and `Summary` to core (bundle changed in the source).
+
+### New risky keys
+
+- Legal and privacy paragraphs need legal review: "Accounts and logins are handled by Supabase ...", "Reports travel between our servers and your browser ...", "Your login is kept in your browser's own storage ...", "Your email address and password, so you can log in ...", "Login records: ...", "Download a copy of everything in your account ...", "Deletes your account, profile, plan ...".
+- "Search Console property" is "Search Console-tulajdon"; the live Hungarian Search Console UI should be checked.
+- "show" and "password" are read together as "show password". Hungarian puts the verb after the noun ("jelszó megjelenítése"), so "megjelenítés" + "jelszó" reads stiffly. A fix needs a different key design.
+- "Dark", "Language", "Menu", "Search" were re-read against the new notes and kept ("Sötét", "Nyelv", "Menü", "Keresés").
+- "Every {n} days/hours/minutes": one form is "Naponta", "Óránként", "Percenként"; other is "{n} naponta" and so on.
+- "{n} projects on the {plan} plan." is "{n} projekt, csomag: {plan}." to avoid a suffix on the plan name; reviewers may want a full sentence.
+- "Use at least {mINPASSWORD} characters. Yours has {length}." keeps the odd placeholder name from the source.
+- "Written from the check name ... {fields}" and "Showing what {name} needs." are stiff because the placeholder values come from code.
+- "Verified" for "{domain} is verified." is "Ellenőrizve", following the glossary; "Igazolva" may fit domain proof better.
+- "Severity lowered by its fix" ("A javítása csökkenti a súlyosságot") is a guess; the source has no note.
+- "Log in" and "Sign in" are both "Bejelentkezés", "Log out" and "Sign out" both "Kijelentkezés".
+- "Continue with GitHub/Google/LinkedIn" is "Folytatás GitHub-fiókkal" etc.

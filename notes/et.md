@@ -46,3 +46,18 @@ Impersonal imperatives where possible, otherwise polite plural "teie/te" (e.g. "
 - "You" (row heading) is rendered "Teie".
 - Some English source strings contain a trailing "·" page-title pattern; kept as is.
 - Plural keys such as "{n} projects" have no zero form in Estonian, so only one and other are given.
+
+## Update 2026-10-22 (source hash fa87591c)
+
+224 keys added, 98 removed (orphans deleted), 3 keys moved between bundles with their translations kept (Running, Crawl runs, Summary). Dark, Language, Menu, Search, show and password were re-read against their new notes. "password" changed from "parool" to "parooli" so that "näita parooli" and "peida parooli" are grammatical when read together.
+
+New risky keys: "Accounts and logins are handled by Supabase..." (privacy, legal, needs legal review), "Reports travel between our servers and your browser over an encrypted connection..." (privacy), "Your email address and password, so you can log in..." and "Your login is kept in your browser's own storage..." (privacy, legal review), "Deletes your account, profile, plan, purchases and dashboards right away..." (account deletion), "Written from the check name; no specific guidance yet. The parts written this way: {fields}.", "Rules that could not be decided: {undecided}. Rules that do not apply to this site: {notApplicable}...", "Saved. Schedule for {domain}: {period}. The first crawl starts one period from now...".
+Not translated on purpose: the identifier add_domain and the DNS name _sus-bot.{domain}.
+Nothing in this update is reviewed. Legal paragraphs need legal review.
+
+- Plural labels such as "{n} failing incidents" are "Ebaõnnestuvaid vahejuhtumeid: {n}" in both forms. "{n} evidence rows" and "{n} incidents" have real one and other forms.
+- "Every {n} days" is "Iga {n} päeva järel"; the one form is "Iga päev".
+- "Confidence" is "Kindlus", "Reach" is "Ulatus" (guesses from usage).
+- "Connected to a channel in {team}." is "Ühendatud kanaliga meeskonnas {team}."; {team} is not inflected.
+- "Nothing was charged." is "Tasu ei võetud."
+- "Google'iga" and "LinkedIniga" for "Continue with" use Estonian case endings on brand names.

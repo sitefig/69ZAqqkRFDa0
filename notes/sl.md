@@ -1,6 +1,6 @@
 # Slovenian (sl) machine draft notes
 
-Machine draft, not reviewed by a native speaker. 681 core and 232 findings entries; `node tools/check.mjs` reports 0 errors, 0 warnings and 0 missing for sl.
+Machine draft, not reviewed by a native speaker. 767 core and 272 findings entries (source hash fa87591c, second round 2026-10-22: 98 orphans removed, 227 added; the first-round figures were 681 and 232); `node tools/check.mjs --strict` reports 0 errors, 0 warnings and 0 missing for sl.
 
 ## Terms I was unsure about
 
@@ -17,6 +17,17 @@ Machine draft, not reviewed by a native speaker. 681 core and 232 findings entri
 - "Dismissed" is "Zavrnjeno" (glossary), and "Deny" on the consent page is "Zavrni". Same word for two different actions.
 - "Marketeer" is "Tržnik"; "Data protection officer" is "Pooblaščena oseba za varstvo podatkov".
 - "AI" is "UI" (glossary), so "AI tool" is "orodje UI".
+
+## Second round (2026-10-22)
+
+- The English now says "log in" and "log out" where the first round had "sign in" and "sign out". Slovenian keeps "prijava" and "odjava" for both, so the old wording of those sentences carried over.
+- Interval plurals ("Every {n} days", hours, minutes) decline in all four categories (Vsak dan, Vsaka {n} dneva, Vsake {n} dni, Vsakih {n} dni). The count phrases "{n} failing incidents", "{n} open incidents", "{n} incidents to review", "{n} pages affected" use the colon form in all four categories, as before. "{n} rules could not be checked" also uses the colon form.
+- "Running" (findings) is "V teku"; the first round had "Teče" in core under a different bundle. "Headline" is "Naslov"; "Reach" is "Doseg"; "Untouched" is "Nedotaknjeno"; "Check" (column) is "Preverjanje"; "Groups" is "Skupine". All are short words with little context.
+- Action buttons keep the short singular imperative ("Znova poveži Search Console", "Pošlji na IT"); sentences use the polite plural. Same mix as the first round.
+- The Dark, Language, Menu, Search, password and show translations were re-read against the new notes and kept.
+- Legal-sounding new keys that need a legal read: the Supabase and Cloudflare processors paragraph ("obdelovalca", "pogodba o obdelavi podatkov"), "Deletes your account ... right away" and the data download text.
+- "Day 1: getting started", "Week 2: growing" and "Month 3 and later: expert use" are rendered with ordinal numbers and a colon ("1. dan: začetek").
+- Fragment-like keys that remain: "Connected to {name}, {where}." ({where} is inserted text; case unknown) and "Report for the role: {role}".
 
 ## Formality
 

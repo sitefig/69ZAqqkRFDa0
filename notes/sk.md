@@ -50,3 +50,21 @@ Formal address with "vy" (vykanie) throughout: "Váš účet", "Zadajte", "Vyber
 ## Uncertain items
 
 About 25 keys: the fifteen above plus Search, Open, State, Name, None, Actions, Property, Terms & Conditions, back by and Returns to.
+
+## Update 2026-10-22 (source hash fa87591c)
+
+Removed 98 orphan keys, added 224 (core 177, findings 47 after moving 3 misfiled entries), changed 0 existing translations by hand. Ambiguous fragments such as "home", "just now" and "{n} {severity}" were replaced in the source by whole sentences; their old translations were reused where the meaning is the same. The sign-in wording in the source is now "log in / log out", Slovak stays Prihlásiť sa / Odhlásiť sa. The noteChanged keys Dark (Tmavá), Language (Jazyk), Menu (Ponuka), password (heslo) and show (zobraziť) still fit their notes. Search stays Vyhľadávanie per glossary although the note says it is a button; Hľadať may read better.
+
+New risky keys:
+
+- "Active, renews on {date}." and "Active.": the subject (plan, schedule) is not given, so I used the neuter Aktívne, which may need a gender change.
+- "Slack and email alerts for it are paused with it ...": "it" is the monitoring; the Slovak uses masculine "ním", "skončil".
+- "These texts are in {textLanguage}. The findings are in {findingsLanguage}.": rewritten as "Jazyk týchto textov: ..." because a language name from Intl.DisplayNames is nominative and does not fit "v jazyku".
+- "{base} The engine keeps at most 2,000 rows ...": "Rule engine" kept in English, no-break space in 2 000.
+- "Every {n} days/hours/minutes": all four plural forms declined by hand (Každé {n} dni, Každých {n} dňa, Každých {n} dní); check the many form.
+- Plural keys with a colon form (Neprešlé incidenty: {n}, Riadky dôkazov: {n}) use the same text in all categories on purpose.
+- Legal-adjacent, needs legal review: the Supabase and Cloudflare processors paragraph, the encrypted-connection and signed-reports sentence, the account deletion and data download sentences.
+- "Court case" is Súdny prípad and "EU directive" is Smernica EÚ (labels of legal references; check against the standards texts).
+- "Confidence" is Spoľahlivosť; "Reach" is Dosah; "Groups" is Skupiny. All three are bare labels with no context.
+- "Maintenance started" is Údržba sa začala, assumed to be a status line.
+- Glossary: no new rows added.

@@ -1,8 +1,19 @@
 {
   "schema": "i18n-source/1",
-  "hash": "4202111226cfee7d9ad76f55616b81a6088edfc53b003d42b669e6f600d219a4",
-  "count": 913,
+  "hash": "fa87591ca9bfd71ac29183f7656f5cc05a8040466b859106d5828b17d77957a9",
+  "count": 1039,
   "entries": {
+    "\"{label}\" needs the part of sus.bot that makes changes, which isn't connected to this app yet. Nothing was changed.": {
+      "bundle": "core",
+      "vars": [
+        "label"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/app-renderers.ts:39"
+      ],
+      "note": ""
+    },
     "1. What this service does": {
       "bundle": "core",
       "vars": [],
@@ -91,15 +102,6 @@
       "where": [
         "_site/terms/index.html:52",
         "_site/terms/index.html:81"
-      ],
-      "note": ""
-    },
-    "404 Not Found": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "_site/404.html:34"
       ],
       "note": ""
     },
@@ -245,6 +247,15 @@
       "where": [
         "config/app/pages/modules-pages.json:18",
         "_site/app/m/pages/index.html:78"
+      ],
+      "note": ""
+    },
+    "A person has to look at these. They are not failures.": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "src/app/findings-blocks.ts:181"
       ],
       "note": ""
     },
@@ -422,7 +433,7 @@
       ],
       "note": ""
     },
-    "Accounts and sign-ins are handled by Supabase. Reports and the files that make up this site are stored and served by Cloudflare. Both act as our processors under a data processing agreement, and data is kept in the European Union where that option exists.": {
+    "Accounts and logins are handled by Supabase. Reports and the files that make up this site are stored and served by Cloudflare. Both act as our processors under a data processing agreement, and data is kept in the European Union where that option exists.": {
       "bundle": "core",
       "vars": [],
       "plural": false,
@@ -437,6 +448,26 @@
       "plural": false,
       "where": [
         "src/app/decisions.ts:240"
+      ],
+      "note": ""
+    },
+    "Active, renews on {date}.": {
+      "bundle": "core",
+      "vars": [
+        "date"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/billing.ts:62"
+      ],
+      "note": ""
+    },
+    "Active.": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "src/app/billing.ts:62"
       ],
       "note": ""
     },
@@ -496,7 +527,7 @@
       ],
       "note": ""
     },
-    "Adding a project does not start a crawl. Press Crawl now on its Overview when you want one.": {
+    "Adding a project does not start a crawl. Press \"Crawl now\" on its Overview when you want one.": {
       "bundle": "core",
       "vars": [],
       "plural": false,
@@ -515,12 +546,21 @@
       ],
       "note": ""
     },
-    "After you choose, you return to the tool.": {
+    "After you choose, you return to the tool that sent you here.": {
       "bundle": "core",
       "vars": [],
       "plural": false,
       "where": [
         "_site/oauth/consent/index.html:38"
+      ],
+      "note": ""
+    },
+    "After your choice you return to:": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "_site/oauth/consent/index.html:39"
       ],
       "note": ""
     },
@@ -813,8 +853,8 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:231",
-        "src/shared/findings.ts:257"
+        "src/shared/findings.ts:233",
+        "src/shared/findings.ts:259"
       ],
       "note": ""
     },
@@ -824,6 +864,17 @@
       "plural": false,
       "where": [
         "_site/app/audits/detail/index.html:6"
+      ],
+      "note": ""
+    },
+    "Audit: {name}": {
+      "bundle": "findings",
+      "vars": [
+        "name"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/findings-blocks.ts:77"
       ],
       "note": ""
     },
@@ -865,7 +916,7 @@
       "plural": false,
       "where": [
         "config/app/pages/modules-audits.json:67",
-        "src/app/findings-blocks.ts:522",
+        "src/app/findings-blocks.ts:526",
         "_site/app/m/audits/index.html:81"
       ],
       "note": ""
@@ -880,12 +931,21 @@
       ],
       "note": ""
     },
+    "Audits with a rule that could not be checked": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "src/app/findings-blocks.ts:182"
+      ],
+      "note": ""
+    },
     "Audits with failures": {
       "bundle": "core",
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:376"
+        "src/shared/findings.ts:378"
       ],
       "note": ""
     },
@@ -896,6 +956,7 @@
       "where": [
         "config/app/pages/modules-audits.json:18",
         "config/app/pages/modules-detail.json:29",
+        "src/app/findings-blocks.ts:182",
         "_site/app/m/audits/index.html:78",
         "_site/app/m/detail/index.html:84"
       ],
@@ -921,15 +982,6 @@
       ],
       "note": ""
     },
-    "Back to my products": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "_site/403/index.html:41"
-      ],
-      "note": ""
-    },
     "Back to project": {
       "bundle": "core",
       "vars": [],
@@ -949,6 +1001,15 @@
       "plural": false,
       "where": [
         "_site/404.html:39"
+      ],
+      "note": ""
+    },
+    "Back to your projects": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "_site/403/index.html:41"
       ],
       "note": ""
     },
@@ -990,7 +1051,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:251"
+        "src/shared/findings.ts:253"
       ],
       "note": ""
     },
@@ -1119,15 +1180,6 @@
       ],
       "note": ""
     },
-    "Case": {
-      "bundle": "findings",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/words.json:98"
-      ],
-      "note": ""
-    },
     "Change password": {
       "bundle": "core",
       "vars": [],
@@ -1143,7 +1195,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:386"
+        "src/shared/findings.ts:388"
       ],
       "note": ""
     },
@@ -1167,6 +1219,17 @@
         "config/app/pages/runs.json:61",
         "_site/app/audits/detail/index.html:45",
         "_site/app/changes/detail/index.html:45"
+      ],
+      "note": ""
+    },
+    "Changes in crawl {crawl}": {
+      "bundle": "findings",
+      "vars": [
+        "crawl"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/findings-blocks.ts:108"
       ],
       "note": ""
     },
@@ -1212,6 +1275,15 @@
       "plural": false,
       "where": [
         "_site/account/settings/index.html:98"
+      ],
+      "note": ""
+    },
+    "Check": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "src/app/findings-blocks.ts:237"
       ],
       "note": ""
     },
@@ -1266,6 +1338,18 @@
       "plural": false,
       "where": [
         "_site/reset-password/index.html:28"
+      ],
+      "note": ""
+    },
+    "Checking {domain} now. Add this TXT record if you have not already, on {domain} or on _sus-bot.{domain}, and press the button again in a few minutes.": {
+      "bundle": "core",
+      "vars": [
+        "domain"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/domains-manage.ts:56",
+        "src/app/onboard-review.ts:40"
       ],
       "note": ""
     },
@@ -1380,6 +1464,28 @@
       ],
       "note": ""
     },
+    "Compared with crawl {previous}: new incidents {new}, fixed incidents {fixed}.": {
+      "bundle": "findings",
+      "vars": [
+        "fixed",
+        "new",
+        "previous"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/findings-blocks.ts:70"
+      ],
+      "note": ""
+    },
+    "Confidence": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "src/app/findings-blocks.ts:245"
+      ],
+      "note": ""
+    },
     "Confirm new password": {
       "bundle": "core",
       "vars": [],
@@ -1415,6 +1521,17 @@
       "plural": false,
       "where": [
         "_site/app/onboard/confirm/index.html:6"
+      ],
+      "note": ""
+    },
+    "Confirmation emails sent. Your address changes to {trim} once you confirm.": {
+      "bundle": "core",
+      "vars": [
+        "trim"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/account.ts:78"
       ],
       "note": ""
     },
@@ -1530,16 +1647,82 @@
       ],
       "note": ""
     },
+    "Connected on {date}. The numbers are collected once a day.": {
+      "bundle": "core",
+      "vars": [
+        "date"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/search-console-text.ts:14"
+      ],
+      "note": ""
+    },
+    "Connected to a channel in {team}.": {
+      "bundle": "core",
+      "vars": [
+        "team"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/alert-channels.ts:41"
+      ],
+      "note": ""
+    },
+    "Connected to a channel.": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "src/app/alert-channels.ts:41"
+      ],
+      "note": ""
+    },
+    "Connected to {channel} in {team}.": {
+      "bundle": "core",
+      "vars": [
+        "channel",
+        "team"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/alert-channels.ts:40"
+      ],
+      "note": ""
+    },
+    "Connected to {channel}.": {
+      "bundle": "core",
+      "vars": [
+        "channel"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/alert-channels.ts:40"
+      ],
+      "note": ""
+    },
+    "Connected to {name}, {where}.": {
+      "bundle": "core",
+      "vars": [
+        "name",
+        "where"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/tracker-connect.ts:195"
+      ],
+      "note": ""
+    },
     "Contact support": {
       "bundle": "core",
       "vars": [],
       "plural": false,
       "where": [
         "_site/403/index.html:51",
-        "_site/404.html:45",
         "_site/404.html:53",
         "_site/app/onboard/confirm/index.html:70",
-        "_site/app/onboard/crawling/index.html:80"
+        "_site/app/onboard/crawling/index.html:80",
+        "_site/app/onboard/index.html:75"
       ],
       "note": ""
     },
@@ -1574,13 +1757,45 @@
       ],
       "note": ""
     },
-    "Continue with": {
+    "Continue with GitHub": {
       "bundle": "core",
       "vars": [],
       "plural": false,
       "where": [
         "_site/login/index.html:31",
         "_site/signup/index.html:32"
+      ],
+      "note": ""
+    },
+    "Continue with Google": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "_site/login/index.html:31",
+        "_site/signup/index.html:32"
+      ],
+      "note": ""
+    },
+    "Continue with LinkedIn": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "_site/login/index.html:31",
+        "_site/signup/index.html:32"
+      ],
+      "note": ""
+    },
+    "Could not add {domain}: {state}.": {
+      "bundle": "core",
+      "vars": [
+        "domain",
+        "state"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/domains-manage.ts:101"
       ],
       "note": ""
     },
@@ -1615,16 +1830,21 @@
       ],
       "note": ""
     },
-    "Crawl": {
+    "Court case": {
       "bundle": "findings",
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/pages/runs-detail.json:6",
-        "config/app/pages/runs.json:6",
-        "src/app/findings-blocks.ts:528",
-        "_site/app/runs/detail/index.html:61",
-        "_site/app/runs/detail/index.html:82"
+        "config/app/words.json:98"
+      ],
+      "note": ""
+    },
+    "Crawl date": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "config/app/pages/runs.json:37"
       ],
       "note": ""
     },
@@ -1633,7 +1853,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:532"
+        "src/app/findings-blocks.ts:536"
       ],
       "note": ""
     },
@@ -1657,15 +1877,6 @@
         "_site/app/onboard/crawling/index.html:53",
         "_site/app/onboard/crawling/index.html:55",
         "_site/app/overview/index.html:86"
-      ],
-      "note": ""
-    },
-    "Crawl now needs JavaScript. You can also press it on the Overview page.": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "_site/app/onboard/crawling/index.html:60"
       ],
       "note": ""
     },
@@ -1697,13 +1908,27 @@
       ],
       "note": ""
     },
+    "Crawl requested for {domain}. The crawler picks it up shortly, and results appear on the Overview page when it finishes.": {
+      "bundle": "core",
+      "vars": [
+        "domain"
+      ],
+      "plural": false,
+      "where": [
+        "src/shared/monitoring.ts:56"
+      ],
+      "note": ""
+    },
     "Crawl runs": {
-      "bundle": "findings",
+      "bundle": "core",
       "vars": [],
       "plural": false,
       "where": [
+        "config/app/nav.json:133",
         "config/app/pages/runs.json:6",
-        "_site/app/runs/index.html:82"
+        "src/app/search.ts:40",
+        "_site/app/audits/detail/index.html:45",
+        "_site/app/changes/detail/index.html:45"
       ],
       "note": ""
     },
@@ -1713,6 +1938,16 @@
       "plural": false,
       "where": [
         "_site/app/runs/index.html:6"
+      ],
+      "note": ""
+    },
+    "Crawl state": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "config/app/pages/runs.json:41",
+        "src/shared/findings.ts:356"
       ],
       "note": ""
     },
@@ -1726,24 +1961,31 @@
       ],
       "note": ""
     },
-    "Crawl {crawl}: {n} pages crawled, {results} with results.": {
-      "bundle": "core",
+    "Crawl {crawl}": {
+      "bundle": "findings",
       "vars": [
-        "crawl",
-        "n",
-        "results"
+        "crawl"
       ],
-      "plural": true,
-      "forms": {
-        "one": "Crawl {crawl}: {n} page crawled, {results} with results.",
-        "other": "Crawl {crawl}: {n} pages crawled, {results} with results."
-      },
+      "plural": false,
       "where": [
-        "src/shared/findings.ts:209"
+        "src/app/findings-blocks.ts:107",
+        "src/app/findings-blocks.ts:233",
+        "src/app/findings-blocks.ts:65"
       ],
       "note": ""
     },
-    "Crawl {crawl}: {phase}.": {
+    "Crawl {crawl} is running.": {
+      "bundle": "core",
+      "vars": [
+        "crawl"
+      ],
+      "plural": false,
+      "where": [
+        "src/shared/findings.ts:162"
+      ],
+      "note": ""
+    },
+    "Crawl {crawl} is running: {phase}.": {
       "bundle": "core",
       "vars": [
         "crawl",
@@ -1751,11 +1993,24 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:161"
+        "src/shared/findings.ts:162"
       ],
       "note": ""
     },
-    "Crawl {crawl}: {results} with results.": {
+    "Crawl {crawl}. Pages crawled: {crawled}. Pages with results: {results}.": {
+      "bundle": "core",
+      "vars": [
+        "crawl",
+        "crawled",
+        "results"
+      ],
+      "plural": false,
+      "where": [
+        "src/shared/findings.ts:211"
+      ],
+      "note": ""
+    },
+    "Crawl {crawl}. Pages with results: {results}.": {
       "bundle": "core",
       "vars": [
         "crawl",
@@ -1763,16 +2018,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:208"
-      ],
-      "note": ""
-    },
-    "Crawl · sus.bot": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "_site/app/runs/detail/index.html:6"
+        "src/shared/findings.ts:210"
       ],
       "note": ""
     },
@@ -1880,6 +2126,15 @@
       ],
       "note": ""
     },
+    "Daily": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "src/shared/monitoring.ts:32"
+      ],
+      "note": ""
+    },
     "Danger zone": {
       "bundle": "core",
       "vars": [],
@@ -1900,7 +2155,7 @@
         "_site/app/decisions/index.html:69",
         "_site/app/experience/index.html:32"
       ],
-      "note": ""
+      "note": "Label of the switch for the dark colour theme. On means dark."
     },
     "Data protection officer": {
       "bundle": "findings",
@@ -1913,7 +2168,7 @@
       ],
       "note": ""
     },
-    "Day 1 · Starter": {
+    "Day 1: getting started": {
       "bundle": "core",
       "vars": [],
       "plural": false,
@@ -2075,7 +2330,7 @@
       ],
       "note": ""
     },
-    "Deletes your account, profile, plan, purchases and dashboards right away. Devices that are still signed in lose access within an hour.": {
+    "Deletes your account, profile, plan, purchases and dashboards right away. Devices that are still logged in lose access within an hour.": {
       "bundle": "core",
       "vars": [],
       "plural": false,
@@ -2109,7 +2364,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:255"
+        "src/shared/findings.ts:257"
       ],
       "note": ""
     },
@@ -2124,21 +2379,14 @@
       ],
       "note": ""
     },
-    "Directive": {
-      "bundle": "findings",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/words.json:93"
-      ],
-      "note": ""
-    },
-    "Disallow:": {
+    "Disconnect {name}? Nobody in this account can send tickets until a tracker is connected again. Tickets already made stay linked to their incidents.": {
       "bundle": "core",
-      "vars": [],
+      "vars": [
+        "name"
+      ],
       "plural": false,
       "where": [
-        "_site/403/index.html:34"
+        "src/app/tracker-connect.ts:96"
       ],
       "note": ""
     },
@@ -2198,6 +2446,17 @@
       ],
       "note": ""
     },
+    "Domain not found · {productName}": {
+      "bundle": "core",
+      "vars": [
+        "productName"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/domains.ts:291"
+      ],
+      "note": ""
+    },
     "Done": {
       "bundle": "findings",
       "vars": [],
@@ -2220,7 +2479,7 @@
       ],
       "note": ""
     },
-    "Download a copy of everything in your account as one JSON file: your profile, plan, purchases and license keys, sign-in history and your dashboards. Product content isn't included; it stays available here.": {
+    "Download a copy of everything in your account as one JSON file: your profile, plan, purchases and license keys, login history and your dashboards. Product content isn't included; it stays available here.": {
       "bundle": "core",
       "vars": [],
       "plural": false,
@@ -2236,6 +2495,15 @@
       "where": [
         "_site/account/settings/index.html:103",
         "_site/account/settings/index.html:149"
+      ],
+      "note": ""
+    },
+    "EU directive": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "config/app/words.json:93"
       ],
       "note": ""
     },
@@ -2259,6 +2527,16 @@
       "where": [
         "config/app/pages/settings-team.json:16",
         "_site/account/settings/index.html:86"
+      ],
+      "note": ""
+    },
+    "Email address of the person to invite": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "config/app/pages/settings-team.json:81",
+        "_site/app/settings/team/index.html:62"
       ],
       "note": ""
     },
@@ -2297,6 +2575,26 @@
       "plural": false,
       "where": [
         "_site/signup/index.html:67"
+      ],
+      "note": ""
+    },
+    "Ends at the end of this period, and will not renew.": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "src/app/billing.ts:61"
+      ],
+      "note": ""
+    },
+    "Ends on {date}, and will not renew.": {
+      "bundle": "core",
+      "vars": [
+        "date"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/billing.ts:61"
       ],
       "note": ""
     },
@@ -2360,7 +2658,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:358"
+        "src/shared/findings.ts:360"
       ],
       "note": ""
     },
@@ -2413,6 +2711,60 @@
       ],
       "note": ""
     },
+    "Every site you audit, with its findings.": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "_site/404.html:43"
+      ],
+      "note": ""
+    },
+    "Every {n} days": {
+      "bundle": "core",
+      "vars": [
+        "n"
+      ],
+      "plural": true,
+      "forms": {
+        "one": "Every day",
+        "other": "Every {n} days"
+      },
+      "where": [
+        "src/shared/monitoring.ts:33"
+      ],
+      "note": ""
+    },
+    "Every {n} hours": {
+      "bundle": "core",
+      "vars": [
+        "n"
+      ],
+      "plural": true,
+      "forms": {
+        "one": "Every hour",
+        "other": "Every {n} hours"
+      },
+      "where": [
+        "src/shared/monitoring.ts:34"
+      ],
+      "note": ""
+    },
+    "Every {n} minutes": {
+      "bundle": "core",
+      "vars": [
+        "n"
+      ],
+      "plural": true,
+      "forms": {
+        "one": "Every minute",
+        "other": "Every {n} minutes"
+      },
+      "where": [
+        "src/shared/monitoring.ts:35"
+      ],
+      "note": ""
+    },
     "Everything here can be changed later in Settings.": {
       "bundle": "core",
       "vars": [],
@@ -2443,21 +2795,13 @@
       ],
       "note": ""
     },
-    "Everything your plan includes, and what you bought.": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "_site/404.html:43"
-      ],
-      "note": ""
-    },
     "Evidence": {
       "bundle": "findings",
       "vars": [],
       "plural": false,
       "where": [
         "config/app/pages/incidents-detail.json:22",
+        "src/app/findings-blocks.ts:241",
         "_site/app/i/detail/index.html:123",
         "_site/app/i/detail/index.html:148"
       ],
@@ -2470,6 +2814,27 @@
       "where": [
         "config/app/pages/incidents.json:262",
         "config/app/pages/modules-incidents.json:193"
+      ],
+      "note": ""
+    },
+    "Evidence rows shown: {shown} of {total}.": {
+      "bundle": "findings",
+      "vars": [
+        "shown",
+        "total"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/findings-blocks.ts:425"
+      ],
+      "note": ""
+    },
+    "Evidence rows.": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "src/app/findings-blocks.ts:431"
       ],
       "note": ""
     },
@@ -2489,7 +2854,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:253"
+        "src/shared/findings.ts:255"
       ],
       "note": ""
     },
@@ -2525,6 +2890,15 @@
       ],
       "note": ""
     },
+    "Expected back by": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "_site/maintenance/index.html:33"
+      ],
+      "note": ""
+    },
     "Export as CSV or PDF": {
       "bundle": "findings",
       "vars": [],
@@ -2545,7 +2919,16 @@
       ],
       "note": ""
     },
-    "Fail": {
+    "Failed": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "config/app/words.json:26"
+      ],
+      "note": ""
+    },
+    "Failing": {
       "bundle": "findings",
       "vars": [],
       "plural": false,
@@ -2554,16 +2937,16 @@
         "config/app/pages/modules-incidents.json:13",
         "config/app/pages/pages.json:26",
         "config/app/words.json:4",
-        "_site/app/incidents/index.html:105"
+        "src/app/findings-blocks.ts:180"
       ],
       "note": ""
     },
-    "Failed": {
+    "Failing and review items are counted apart.": {
       "bundle": "findings",
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:26"
+        "src/app/findings-blocks.ts:76"
       ],
       "note": ""
     },
@@ -2600,6 +2983,18 @@
       ],
       "note": ""
     },
+    "Failing incidents: {fail}. Incidents to review: {review}.": {
+      "bundle": "core",
+      "vars": [
+        "fail",
+        "review"
+      ],
+      "plural": false,
+      "where": [
+        "src/shared/findings.ts:212"
+      ],
+      "note": ""
+    },
     "Failing items": {
       "bundle": "findings",
       "vars": [],
@@ -2616,7 +3011,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:364"
+        "src/shared/findings.ts:366"
       ],
       "note": ""
     },
@@ -2625,7 +3020,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:366"
+        "src/shared/findings.ts:368"
       ],
       "note": ""
     },
@@ -2634,7 +3029,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:365"
+        "src/shared/findings.ts:367"
       ],
       "note": ""
     },
@@ -2778,7 +3173,9 @@
       "plural": false,
       "where": [
         "config/app/pages/changes-detail.json:97",
-        "src/shared/findings.ts:236"
+        "src/app/findings-blocks.ts:240",
+        "src/app/findings-blocks.ts:249",
+        "src/shared/findings.ts:238"
       ],
       "note": ""
     },
@@ -2789,7 +3186,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:412"
+        "src/shared/findings.ts:415"
       ],
       "note": ""
     },
@@ -2800,16 +3197,6 @@
       "where": [
         "config/app/pages/overview.json:47",
         "_site/app/overview/index.html:102"
-      ],
-      "note": ""
-    },
-    "Fix": {
-      "bundle": "findings",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/pages/incidents-detail.json:26",
-        "_site/app/i/detail/index.html:123"
       ],
       "note": ""
     },
@@ -2831,7 +3218,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:384"
+        "src/shared/findings.ts:386"
       ],
       "note": ""
     },
@@ -2850,7 +3237,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:377"
+        "src/shared/findings.ts:379"
       ],
       "note": ""
     },
@@ -2859,7 +3246,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:385"
+        "src/shared/findings.ts:387"
       ],
       "note": ""
     },
@@ -2930,15 +3317,6 @@
       ],
       "note": ""
     },
-    "GET": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "_site/404.html:33"
-      ],
-      "note": ""
-    },
     "General": {
       "bundle": "core",
       "vars": [],
@@ -2970,16 +3348,6 @@
       ],
       "note": ""
     },
-    "Go to my products": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "_site/404.html:38",
-        "_site/reset-password/index.html:62"
-      ],
-      "note": ""
-    },
     "Go to the overview": {
       "bundle": "core",
       "vars": [],
@@ -2989,13 +3357,15 @@
       ],
       "note": ""
     },
-    "Go to your products": {
+    "Go to your projects": {
       "bundle": "core",
       "vars": [],
       "plural": false,
       "where": [
+        "_site/404.html:38",
         "_site/extension/connect/index.html:40",
-        "_site/oauth/consent/index.html:49"
+        "_site/oauth/consent/index.html:49",
+        "_site/reset-password/index.html:62"
       ],
       "note": ""
     },
@@ -3056,6 +3426,15 @@
       ],
       "note": ""
     },
+    "Groups": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "src/app/findings-blocks.ts:243"
+      ],
+      "note": ""
+    },
     "Guideline": {
       "bundle": "findings",
       "vars": [],
@@ -3083,12 +3462,21 @@
       ],
       "note": ""
     },
+    "Headline": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "src/shared/findings.ts:56"
+      ],
+      "note": ""
+    },
     "Healthy": {
       "bundle": "core",
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:193"
+        "src/shared/findings.ts:195"
       ],
       "note": ""
     },
@@ -3123,7 +3511,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:374"
+        "src/shared/findings.ts:376"
       ],
       "note": ""
     },
@@ -3134,6 +3522,15 @@
       "where": [
         "config/app/pages/incidents-detail.json:48",
         "_site/app/i/detail/index.html:132"
+      ],
+      "note": ""
+    },
+    "Hourly": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "src/shared/monitoring.ts:31"
       ],
       "note": ""
     },
@@ -3154,7 +3551,17 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:250"
+        "src/shared/findings.ts:252"
+      ],
+      "note": ""
+    },
+    "How to fix": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "config/app/pages/incidents-detail.json:26",
+        "_site/app/i/detail/index.html:123"
       ],
       "note": ""
     },
@@ -3164,6 +3571,15 @@
       "plural": false,
       "where": [
         "_site/app/experience/index.html:83"
+      ],
+      "note": ""
+    },
+    "How to verify": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "src/shared/findings.ts:62"
       ],
       "note": ""
     },
@@ -3276,8 +3692,8 @@
         "config/app/nav.json:60",
         "config/app/pages/audits-detail.json:43",
         "config/app/pages/pages.json:69",
-        "src/app/search.ts:30",
-        "src/app/search.ts:40"
+        "src/app/findings-blocks.ts:180",
+        "src/app/findings-blocks.ts:181"
       ],
       "note": ""
     },
@@ -3287,6 +3703,17 @@
       "plural": false,
       "where": [
         "config/app/pages/standards.json:106"
+      ],
+      "note": ""
+    },
+    "Incidents in this audit: {counts}.": {
+      "bundle": "findings",
+      "vars": [
+        "counts"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/findings-blocks.ts:76"
       ],
       "note": ""
     },
@@ -3344,7 +3771,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:373"
+        "src/shared/findings.ts:375"
       ],
       "note": ""
     },
@@ -3430,7 +3857,7 @@
       ],
       "note": ""
     },
-    "Invited, not yet signed in": {
+    "Invited, not yet logged in": {
       "bundle": "core",
       "vars": [],
       "plural": false,
@@ -3469,7 +3896,7 @@
       ],
       "note": ""
     },
-    "It uses your account to check robots.txt files and to show your plan. It never sees your password. It stays connected while you are signed in here, and you can disconnect it with Sign out in the extension.": {
+    "It uses your account to check robots.txt files and to show your plan. It never sees your password. It stays connected while you are logged in here, and you can disconnect it with Log out in the extension.": {
       "bundle": "core",
       "vars": [],
       "plural": false,
@@ -3492,7 +3919,9 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:237"
+        "src/app/findings-blocks.ts:180",
+        "src/app/findings-blocks.ts:181",
+        "src/shared/findings.ts:239"
       ],
       "note": ""
     },
@@ -3514,6 +3943,15 @@
       ],
       "note": ""
     },
+    "Its incidents are counted again in their own modules, so do not add this card to the others.": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "src/app/findings-blocks.ts:193"
+      ],
+      "note": ""
+    },
     "Jurisdiction": {
       "bundle": "findings",
       "vars": [],
@@ -3521,6 +3959,15 @@
       "where": [
         "config/app/pages/standards.json:26",
         "_site/app/standards/index.html:93"
+      ],
+      "note": ""
+    },
+    "Just now": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "_site/maintenance/index.html:32"
       ],
       "note": ""
     },
@@ -3564,7 +4011,7 @@
         "_site/account/settings/index.html:78",
         "_site/app/audits/detail/index.html:93"
       ],
-      "note": ""
+      "note": "Read by screen readers before the name of the current language, on the button that opens the language list."
     },
     "Language of reports": {
       "bundle": "core",
@@ -3602,6 +4049,17 @@
       "plural": false,
       "where": [
         "_site/app/index.html:61"
+      ],
+      "note": ""
+    },
+    "Last crawl {lastCrawl}": {
+      "bundle": "core",
+      "vars": [
+        "lastCrawl"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/shell.ts:98"
       ],
       "note": ""
     },
@@ -3702,11 +4160,11 @@
       "vars": [],
       "plural": false,
       "where": [
+        "config/app/pages/settings-integrations.json:23",
         "_site/403/index.html:19",
         "_site/404.html:19",
-        "_site/auth/confirm/index.html:19",
-        "_site/extension/connect/index.html:19",
-        "_site/forgot-password/index.html:19"
+        "_site/app/settings/integrations/index.html:54",
+        "_site/auth/confirm/index.html:19"
       ],
       "note": ""
     },
@@ -3716,6 +4174,15 @@
       "plural": false,
       "where": [
         "_site/403/index.html:40"
+      ],
+      "note": ""
+    },
+    "Log in to see the findings of your latest crawl.": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "_site/login/index.html:26"
       ],
       "note": ""
     },
@@ -3755,6 +4222,55 @@
       ],
       "note": ""
     },
+    "Log out": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "_site/account/settings/index.html:36",
+        "_site/app/audits/detail/index.html:101",
+        "_site/app/changes/detail/index.html:73",
+        "_site/app/decisions/index.html:73",
+        "_site/app/experience/index.html:36"
+      ],
+      "note": ""
+    },
+    "Log out everywhere": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "_site/account/settings/index.html:139"
+      ],
+      "note": ""
+    },
+    "Logging in still works, and so does your account page. Only your products and dashboards are unavailable.": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "_site/maintenance/index.html:39"
+      ],
+      "note": ""
+    },
+    "Login records: as long as the session exists. Logging out everywhere ends them.": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "_site/privacy/index.html:64"
+      ],
+      "note": ""
+    },
+    "Login records: the times you logged in, the browser and device, and the IP address of each session. You can see this list in your account settings.": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "_site/privacy/index.html:45"
+      ],
+      "note": ""
+    },
     "Low": {
       "bundle": "findings",
       "vars": [],
@@ -3765,6 +4281,24 @@
         "config/app/words.json:14",
         "_site/app/incidents/index.html:108",
         "_site/app/m/incidents/index.html:89"
+      ],
+      "note": ""
+    },
+    "Maintenance": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "_site/maintenance/index.html:26"
+      ],
+      "note": ""
+    },
+    "Maintenance started": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "_site/maintenance/index.html:32"
       ],
       "note": ""
     },
@@ -3812,7 +4346,7 @@
         "_site/app/decisions/index.html:20",
         "_site/app/i/detail/index.html:20"
       ],
-      "note": ""
+      "note": "Button that opens and closes the sidebar on a narrow screen."
     },
     "Module": {
       "bundle": "findings",
@@ -3846,6 +4380,17 @@
       "plural": false,
       "where": [
         "_site/app/m/detail/index.html:6"
+      ],
+      "note": ""
+    },
+    "Module: {module}": {
+      "bundle": "findings",
+      "vars": [
+        "module"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/findings-blocks.ts:176"
       ],
       "note": ""
     },
@@ -3884,7 +4429,7 @@
       ],
       "note": ""
     },
-    "Month 3+ · Expert": {
+    "Month 3 and later: expert use": {
       "bundle": "core",
       "vars": [],
       "plural": false,
@@ -3904,15 +4449,6 @@
         "_site/account/settings/index.html:19",
         "_site/account/settings/index.html:24",
         "_site/account/settings/index.html:35"
-      ],
-      "note": ""
-    },
-    "My products": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "_site/404.html:43"
       ],
       "note": ""
     },
@@ -3940,7 +4476,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:191"
+        "src/shared/findings.ts:193"
       ],
       "note": ""
     },
@@ -3971,7 +4507,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:382"
+        "src/shared/findings.ts:384"
       ],
       "note": ""
     },
@@ -3991,7 +4527,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:413"
+        "src/shared/findings.ts:416"
       ],
       "note": ""
     },
@@ -4020,7 +4556,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:377"
+        "src/shared/findings.ts:379"
       ],
       "note": ""
     },
@@ -4029,7 +4565,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:383"
+        "src/shared/findings.ts:385"
       ],
       "note": ""
     },
@@ -4039,6 +4575,17 @@
       "plural": false,
       "where": [
         "_site/privacy/index.html:89"
+      ],
+      "note": ""
+    },
+    "Next crawl: {when}.": {
+      "bundle": "core",
+      "vars": [
+        "when"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/monitoring.ts:122"
       ],
       "note": ""
     },
@@ -4057,7 +4604,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/table.ts:247"
+        "src/app/table.ts:250"
       ],
       "note": ""
     },
@@ -4093,7 +4640,7 @@
       ],
       "note": ""
     },
-    "No crawl has finished yet. Press Crawl now to start the first.": {
+    "No crawl has finished yet. Press \"Crawl now\" to start the first.": {
       "bundle": "findings",
       "vars": [],
       "plural": false,
@@ -4251,6 +4798,17 @@
       ],
       "note": ""
     },
+    "No projects yet, on the {plan} plan.": {
+      "bundle": "core",
+      "vars": [
+        "plan"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/dashboard.ts:136"
+      ],
+      "note": ""
+    },
     "No projects yet. Add a domain and it appears here at once.": {
       "bundle": "core",
       "vars": [],
@@ -4266,6 +4824,26 @@
       "plural": false,
       "where": [
         "src/app/search.ts:210"
+      ],
+      "note": ""
+    },
+    "No rule": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "_site/404.html:32"
+      ],
+      "note": ""
+    },
+    "No schedule is saved for {domain}. Nothing runs on a timer until you save one.": {
+      "bundle": "core",
+      "vars": [
+        "domain"
+      ],
+      "plural": false,
+      "where": [
+        "src/shared/monitoring.ts:65"
       ],
       "note": ""
     },
@@ -4294,7 +4872,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:292",
+        "src/shared/findings.ts:294",
         "_site/app/incidents/index.html:121",
         "_site/app/m/incidents/index.html:99"
       ],
@@ -4316,7 +4894,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:529"
+        "src/app/findings-blocks.ts:533"
       ],
       "note": ""
     },
@@ -4326,6 +4904,26 @@
       "plural": false,
       "where": [
         "_site/403/index.html:6"
+      ],
+      "note": ""
+    },
+    "Not allowed: {what}.": {
+      "bundle": "core",
+      "vars": [
+        "what"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/forbidden.ts:14"
+      ],
+      "note": ""
+    },
+    "Not assigned to an audit": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "src/app/findings-blocks.ts:230"
       ],
       "note": ""
     },
@@ -4343,7 +4941,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:189"
+        "src/shared/findings.ts:191"
       ],
       "note": ""
     },
@@ -4354,7 +4952,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:414"
+        "src/shared/findings.ts:417"
       ],
       "note": ""
     },
@@ -4364,6 +4962,19 @@
       "plural": false,
       "where": [
         "src/app/group-by.ts:22"
+      ],
+      "note": ""
+    },
+    "Not handled yet": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "config/app/pages/incidents.json:138",
+        "config/app/pages/modules-incidents.json:85",
+        "config/app/words.json:122",
+        "_site/app/incidents/index.html:117",
+        "_site/app/m/incidents/index.html:95"
       ],
       "note": ""
     },
@@ -4381,9 +4992,9 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:241",
-        "src/shared/findings.ts:244",
-        "src/shared/findings.ts:248"
+        "src/shared/findings.ts:243",
+        "src/shared/findings.ts:246",
+        "src/shared/findings.ts:250"
       ],
       "note": ""
     },
@@ -4452,6 +5063,18 @@
       ],
       "note": ""
     },
+    "On this page: {counts}. Worst result: {worst}.": {
+      "bundle": "findings",
+      "vars": [
+        "counts",
+        "worst"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/findings-blocks.ts:83"
+      ],
+      "note": ""
+    },
     "One audit, with what it means for each role": {
       "bundle": "core",
       "vars": [],
@@ -4468,6 +5091,26 @@
       "where": [
         "config/app/pages/settings-integrations.json:91",
         "_site/app/settings/integrations/index.html:65"
+      ],
+      "note": ""
+    },
+    "One crawl": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "config/app/pages/runs-detail.json:6",
+        "_site/app/runs/detail/index.html:61",
+        "_site/app/runs/detail/index.html:82"
+      ],
+      "note": ""
+    },
+    "One crawl · sus.bot": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "_site/app/runs/detail/index.html:6"
       ],
       "note": ""
     },
@@ -4573,19 +5216,6 @@
       ],
       "note": ""
     },
-    "Open": {
-      "bundle": "findings",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/pages/incidents.json:110",
-        "config/app/pages/modules-incidents.json:71",
-        "config/app/words.json:19",
-        "_site/app/incidents/index.html:111",
-        "_site/app/incidents/index.html:117"
-      ],
-      "note": ""
-    },
     "Open a project first.": {
       "bundle": "core",
       "vars": [],
@@ -4605,12 +5235,41 @@
       ],
       "note": ""
     },
+    "Open the live page": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "src/app/findings-blocks.ts:85"
+      ],
+      "note": ""
+    },
+    "Opening {provider}…": {
+      "bundle": "core",
+      "vars": [
+        "provider"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/ui.ts:88"
+      ],
+      "note": ""
+    },
     "Our legitimate interest in keeping the service available and preventing abuse.": {
       "bundle": "core",
       "vars": [],
       "plural": false,
       "where": [
         "_site/privacy/index.html:51"
+      ],
+      "note": ""
+    },
+    "Outcome of the audit": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "config/app/pages/modules-audits.json:83"
       ],
       "note": ""
     },
@@ -4652,6 +5311,7 @@
       "where": [
         "config/app/pages/pages-detail.json:2",
         "config/app/pages/pages.json:2",
+        "src/app/findings-blocks.ts:80",
         "_site/app/pages/detail/index.html:61",
         "_site/app/pages/detail/index.html:82"
       ],
@@ -4675,6 +5335,17 @@
       ],
       "note": ""
     },
+    "Page: {path}": {
+      "bundle": "findings",
+      "vars": [
+        "path"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/findings-blocks.ts:86"
+      ],
+      "note": ""
+    },
     "Pages": {
       "bundle": "core",
       "vars": [],
@@ -4694,10 +5365,10 @@
       "plural": false,
       "where": [
         "config/app/nav.json:233",
-        "src/shared/findings.ts:375",
+        "src/app/findings-blocks.ts:250",
+        "src/shared/findings.ts:377",
         "_site/app/audits/detail/index.html:80",
-        "_site/app/i/detail/index.html:80",
-        "_site/app/m/audits/index.html:40"
+        "_site/app/i/detail/index.html:80"
       ],
       "note": ""
     },
@@ -4720,6 +5391,17 @@
       ],
       "note": ""
     },
+    "Pages affected: {pages}.": {
+      "bundle": "findings",
+      "vars": [
+        "pages"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/findings-blocks.ts:76"
+      ],
+      "note": ""
+    },
     "Pages before": {
       "bundle": "findings",
       "vars": [],
@@ -4735,7 +5417,7 @@
       "plural": false,
       "where": [
         "config/app/pages/runs.json:46",
-        "src/app/findings-blocks.ts:531"
+        "src/app/findings-blocks.ts:535"
       ],
       "note": ""
     },
@@ -4744,7 +5426,19 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:356"
+        "src/shared/findings.ts:358"
+      ],
+      "note": ""
+    },
+    "Pages fetched: {done} of {total}.": {
+      "bundle": "core",
+      "vars": [
+        "done",
+        "total"
+      ],
+      "plural": false,
+      "where": [
+        "src/shared/findings.ts:164"
       ],
       "note": ""
     },
@@ -4757,13 +5451,22 @@
       ],
       "note": ""
     },
+    "Pages with a finding": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "src/app/findings-blocks.ts:182"
+      ],
+      "note": ""
+    },
     "Pages with results": {
       "bundle": "findings",
       "vars": [],
       "plural": false,
       "where": [
         "config/app/pages/pages.json:39",
-        "src/app/findings-blocks.ts:530",
+        "src/app/findings-blocks.ts:534",
         "_site/app/experience/index.html:83",
         "_site/app/pages/index.html:96"
       ],
@@ -4847,12 +5550,34 @@
       ],
       "note": ""
     },
+    "Paused. {domain} is no longer crawled on a timer. Your settings are kept.": {
+      "bundle": "core",
+      "vars": [
+        "domain"
+      ],
+      "plural": false,
+      "where": [
+        "src/shared/monitoring.ts:42"
+      ],
+      "note": ""
+    },
     "Payments, cards and invoices are handled by Stripe. We never see your card details.": {
       "bundle": "core",
       "vars": [],
       "plural": false,
       "where": [
         "_site/app/settings/billing/index.html:56"
+      ],
+      "note": ""
+    },
+    "Phase: {phase}.": {
+      "bundle": "core",
+      "vars": [
+        "phase"
+      ],
+      "plural": false,
+      "where": [
+        "src/shared/findings.ts:401"
       ],
       "note": ""
     },
@@ -4909,7 +5634,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:529"
+        "src/app/findings-blocks.ts:533"
       ],
       "note": ""
     },
@@ -4980,7 +5705,9 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:245"
+        "src/app/findings-blocks.ts:259",
+        "src/shared/findings.ts:247",
+        "src/shared/findings.ts:60"
       ],
       "note": ""
     },
@@ -5091,15 +5818,6 @@
       ],
       "note": ""
     },
-    "Property": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/pages/settings-integrations.json:60"
-      ],
-      "note": ""
-    },
     "Publishing results": {
       "bundle": "findings",
       "vars": [],
@@ -5119,6 +5837,15 @@
         "config/app/pages/standards.json:44",
         "config/app/words.json:41",
         "_site/app/audits/detail/index.html:43"
+      ],
+      "note": ""
+    },
+    "Reach": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "src/app/findings-blocks.ts:182"
       ],
       "note": ""
     },
@@ -5150,12 +5877,34 @@
       ],
       "note": ""
     },
+    "Reason: {reason}.": {
+      "bundle": "core",
+      "vars": [
+        "reason"
+      ],
+      "plural": false,
+      "where": [
+        "src/shared/findings.ts:403"
+      ],
+      "note": ""
+    },
+    "Reconnect Search Console": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "src/app/search-console-text.ts:12",
+        "src/app/search-console-text.ts:14"
+      ],
+      "note": ""
+    },
     "References": {
       "bundle": "core",
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:252"
+        "src/shared/findings.ts:254",
+        "src/shared/findings.ts:63"
       ],
       "note": ""
     },
@@ -5211,6 +5960,7 @@
       "plural": false,
       "where": [
         "config/app/pages/reports-detail.json:6",
+        "src/app/findings-blocks.ts:89",
         "_site/app/reports/detail/index.html:61",
         "_site/app/reports/detail/index.html:82"
       ],
@@ -5225,12 +5975,34 @@
       ],
       "note": ""
     },
+    "Report for the role: {role}": {
+      "bundle": "findings",
+      "vars": [
+        "role"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/findings-blocks.ts:90"
+      ],
+      "note": ""
+    },
     "Report · sus.bot": {
       "bundle": "core",
       "vars": [],
       "plural": false,
       "where": [
         "_site/app/reports/detail/index.html:6"
+      ],
+      "note": ""
+    },
+    "Report: {role}": {
+      "bundle": "findings",
+      "vars": [
+        "role"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/findings-blocks.ts:92"
       ],
       "note": ""
     },
@@ -5265,7 +6037,7 @@
       ],
       "note": ""
     },
-    "Reports are stored encrypted in transit, are signed so they cannot be altered unnoticed, and are served only after your sign-in has been checked.": {
+    "Reports travel between our servers and your browser over an encrypted connection. They are signed so they cannot be altered unnoticed, and they are served only after your login has been checked.": {
       "bundle": "core",
       "vars": [],
       "plural": false,
@@ -5301,12 +6073,32 @@
       ],
       "note": ""
     },
+    "Requested address": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "_site/404.html:32"
+      ],
+      "note": ""
+    },
     "Required for risk accepted and false positive. Up to 500 characters.": {
       "bundle": "core",
       "vars": [],
       "plural": false,
       "where": [
         "src/app/decisions.ts:134"
+      ],
+      "note": ""
+    },
+    "Resend in {left}s": {
+      "bundle": "core",
+      "vars": [
+        "left"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/ui.ts:143"
       ],
       "note": ""
     },
@@ -5401,28 +6193,6 @@
       ],
       "note": ""
     },
-    "Returns to": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "_site/oauth/consent/index.html:39"
-      ],
-      "note": ""
-    },
-    "Review": {
-      "bundle": "findings",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/pages/incidents.json:74",
-        "config/app/pages/modules-incidents.json:35",
-        "config/app/pages/pages.json:30",
-        "config/app/words.json:5",
-        "_site/app/incidents/index.html:105"
-      ],
-      "note": ""
-    },
     "Revoke": {
       "bundle": "core",
       "vars": [],
@@ -5462,7 +6232,17 @@
         "config/app/pages/audits-detail.json:28",
         "config/app/pages/incidents.json:224",
         "config/app/pages/modules-incidents.json:160",
-        "config/app/pages/pages-detail.json:41"
+        "config/app/pages/pages-detail.json:41",
+        "src/app/findings-blocks.ts:236"
+      ],
+      "note": ""
+    },
+    "Rule that applied": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "_site/403/index.html:32"
       ],
       "note": ""
     },
@@ -5483,6 +6263,19 @@
       "where": [
         "config/app/pages/audits-detail.json:107",
         "_site/app/audits/detail/index.html:136"
+      ],
+      "note": ""
+    },
+    "Rules that could not be decided: {undecided}. Rules that do not apply to this site: {notApplicable}. Rules that found nothing: {clean}. Open an audit to see which rules were not checked and why.": {
+      "bundle": "findings",
+      "vars": [
+        "clean",
+        "notApplicable",
+        "undecided"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/findings-blocks.ts:545"
       ],
       "note": ""
     },
@@ -5523,12 +6316,11 @@
       "note": ""
     },
     "Running": {
-      "bundle": "core",
+      "bundle": "findings",
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:24",
-        "src/shared/findings.ts:159"
+        "config/app/words.json:24"
       ],
       "note": ""
     },
@@ -5538,19 +6330,6 @@
       "plural": false,
       "where": [
         "config/app/words.json:35"
-      ],
-      "note": ""
-    },
-    "Runs": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/nav.json:133",
-        "src/app/search.ts:40",
-        "_site/app/audits/detail/index.html:45",
-        "_site/app/changes/detail/index.html:45",
-        "_site/app/changes/detail/index.html:61"
       ],
       "note": ""
     },
@@ -5616,6 +6395,29 @@
       ],
       "note": ""
     },
+    "Saved as {name}.": {
+      "bundle": "core",
+      "vars": [
+        "name"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/handoff.ts:77"
+      ],
+      "note": ""
+    },
+    "Saved. Schedule for {domain}: {period}. The first crawl starts one period from now. Nothing else on this account is scheduled.": {
+      "bundle": "core",
+      "vars": [
+        "domain",
+        "period"
+      ],
+      "plural": false,
+      "where": [
+        "src/shared/monitoring.ts:41"
+      ],
+      "note": ""
+    },
     "Saving a schedule needs JavaScript.": {
       "bundle": "core",
       "vars": [],
@@ -5672,6 +6474,18 @@
       ],
       "note": ""
     },
+    "Schedule for {domain}: {period}.": {
+      "bundle": "core",
+      "vars": [
+        "domain",
+        "period"
+      ],
+      "plural": false,
+      "where": [
+        "src/shared/monitoring.ts:68"
+      ],
+      "note": ""
+    },
     "Scheduled crawls": {
       "bundle": "core",
       "vars": [],
@@ -5691,7 +6505,7 @@
       ],
       "note": ""
     },
-    "Scheduled crawls and monitoring are a paid feature (the Pro plan). Without it, your site is crawled when you press Crawl now. You can upgrade later.": {
+    "Scheduled crawls and monitoring are a paid feature (the Pro plan). Without it, your site is crawled when you press \"Crawl now\". You can upgrade later.": {
       "bundle": "core",
       "vars": [],
       "plural": false,
@@ -5700,7 +6514,7 @@
       ],
       "note": ""
     },
-    "Scheduled crawls, change comparison and alerts are a paid feature (the Pro plan). Every account crawls by pressing Crawl now on the Overview page. Nothing runs on a timer until a paid account saves a schedule on this page.": {
+    "Scheduled crawls, change comparison and alerts are a paid feature (the Pro plan). Every account crawls by pressing \"Crawl now\" on the Overview page. Nothing runs on a timer until a paid account saves a schedule on this page.": {
       "bundle": "core",
       "vars": [],
       "plural": false,
@@ -5741,7 +6555,7 @@
         "_site/app/changes/detail/index.html:63",
         "_site/app/decisions/index.html:63"
       ],
-      "note": ""
+      "note": "Button that opens the search dialog."
     },
     "Search Console": {
       "bundle": "core",
@@ -5769,6 +6583,15 @@
       "plural": false,
       "where": [
         "_site/app/experience/index.html:62"
+      ],
+      "note": ""
+    },
+    "Search Console property": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "config/app/pages/settings-integrations.json:60"
       ],
       "note": ""
     },
@@ -5920,6 +6743,26 @@
       ],
       "note": ""
     },
+    "Send this incident to IT": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "src/app/send-to-it.ts:79"
+      ],
+      "note": ""
+    },
+    "Send to IT: {title}": {
+      "bundle": "core",
+      "vars": [
+        "title"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/send-to-it.ts:61"
+      ],
+      "note": ""
+    },
     "Sent": {
       "bundle": "core",
       "vars": [],
@@ -5929,14 +6772,14 @@
       ],
       "note": ""
     },
-    "Sent to": {
+    "Sent to IT as {key}.": {
       "bundle": "core",
-      "vars": [],
+      "vars": [
+        "key"
+      ],
       "plural": false,
       "where": [
-        "_site/forgot-password/index.html:45",
-        "_site/magic-link/index.html:45",
-        "_site/signup/index.html:69"
+        "src/app/send-to-it.ts:113"
       ],
       "note": ""
     },
@@ -6013,6 +6856,15 @@
       ],
       "note": ""
     },
+    "Severity lowered by its fix": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "src/app/findings-blocks.ts:228"
+      ],
+      "note": ""
+    },
     "Severity now": {
       "bundle": "findings",
       "vars": [],
@@ -6042,6 +6894,15 @@
       ],
       "note": ""
     },
+    "Shortly": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "_site/maintenance/index.html:33"
+      ],
+      "note": ""
+    },
     "Show it is yours": {
       "bundle": "core",
       "vars": [],
@@ -6067,7 +6928,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/table.ts:269"
+        "src/app/table.ts:272"
       ],
       "note": ""
     },
@@ -6092,6 +6953,17 @@
       ],
       "note": ""
     },
+    "Showing what {name} needs.": {
+      "bundle": "core",
+      "vars": [
+        "name"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/tracker-connect.ts:164"
+      ],
+      "note": ""
+    },
     "Showing {loaded} of {total}.": {
       "bundle": "core",
       "vars": [
@@ -6101,84 +6973,6 @@
       "plural": false,
       "where": [
         "src/shared/findings.ts:121"
-      ],
-      "note": ""
-    },
-    "Sign in": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/pages/settings-integrations.json:23",
-        "_site/app/settings/integrations/index.html:54"
-      ],
-      "note": ""
-    },
-    "Sign in to see the findings of your latest crawl.": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "_site/login/index.html:26"
-      ],
-      "note": ""
-    },
-    "Sign out": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "_site/account/settings/index.html:36",
-        "_site/app/audits/detail/index.html:101",
-        "_site/app/changes/detail/index.html:73",
-        "_site/app/decisions/index.html:73",
-        "_site/app/experience/index.html:36"
-      ],
-      "note": ""
-    },
-    "Sign out everywhere": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "_site/account/settings/index.html:139"
-      ],
-      "note": ""
-    },
-    "Sign-in records: as long as the session exists. Signing out everywhere ends them.": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "_site/privacy/index.html:64"
-      ],
-      "note": ""
-    },
-    "Sign-in records: the times you signed in, the browser and device, and the IP address of each session. You can see this list in your account settings.": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "_site/privacy/index.html:45"
-      ],
-      "note": ""
-    },
-    "Signed in as": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "_site/extension/connect/index.html:29",
-        "_site/oauth/consent/index.html:30"
-      ],
-      "note": ""
-    },
-    "Signing in still works, and so does your account page. Only your products and dashboards are unavailable.": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "_site/maintenance/index.html:39"
       ],
       "note": ""
     },
@@ -6209,7 +7003,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:357"
+        "src/shared/findings.ts:359"
       ],
       "note": ""
     },
@@ -6223,6 +7017,26 @@
       ],
       "note": ""
     },
+    "Slack and email alerts for it are paused with it and nothing was deleted. Upgrade and it resumes where it left off.": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "src/app/monitoring.ts:50"
+      ],
+      "note": ""
+    },
+    "Slack is connected to {channel}. Critical changes on this domain will be posted there.": {
+      "bundle": "core",
+      "vars": [
+        "channel"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/alert-channels.ts:73"
+      ],
+      "note": ""
+    },
     "Sorted by worst severity. Audits that found nothing are in the panel below.": {
       "bundle": "findings",
       "vars": [],
@@ -6232,6 +7046,30 @@
         "config/app/pages/modules-detail.json:30",
         "_site/app/m/audits/index.html:79",
         "_site/app/m/detail/index.html:85"
+      ],
+      "note": ""
+    },
+    "Sorted by {column}, ascending.": {
+      "bundle": "findings",
+      "vars": [
+        "column"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/table.ts:200",
+        "src/app/table.ts:214"
+      ],
+      "note": ""
+    },
+    "Sorted by {column}, descending.": {
+      "bundle": "findings",
+      "vars": [
+        "column"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/table.ts:200",
+        "src/app/table.ts:214"
       ],
       "note": ""
     },
@@ -6294,17 +7132,6 @@
       ],
       "note": ""
     },
-    "State": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/pages/modules-audits.json:83",
-        "config/app/pages/runs.json:41",
-        "src/shared/findings.ts:354"
-      ],
-      "note": ""
-    },
     "Status": {
       "bundle": "core",
       "vars": [],
@@ -6355,6 +7182,28 @@
       ],
       "note": ""
     },
+    "Steps": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "src/shared/findings.ts:61"
+      ],
+      "note": ""
+    },
+    "Still open": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "config/app/pages/incidents.json:110",
+        "config/app/pages/modules-incidents.json:71",
+        "config/app/words.json:19",
+        "_site/app/incidents/index.html:111",
+        "_site/app/m/incidents/index.html:92"
+      ],
+      "note": ""
+    },
     "Stopped": {
       "bundle": "findings",
       "vars": [],
@@ -6375,14 +7224,15 @@
       "note": ""
     },
     "Summary": {
-      "bundle": "findings",
+      "bundle": "core",
       "vars": [],
       "plural": false,
       "where": [
         "config/app/pages/incidents-detail.json:34",
         "config/app/pages/reports-detail.json:21",
-        "_site/app/i/detail/index.html:126",
-        "_site/app/reports/detail/index.html:93"
+        "src/app/findings-blocks.ts:258",
+        "src/shared/findings.ts:59",
+        "_site/app/i/detail/index.html:126"
       ],
       "note": ""
     },
@@ -6531,6 +7381,24 @@
       ],
       "note": ""
     },
+    "That comparison is not one we offer. Pick one from the list. Nothing was saved.": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "src/shared/monitoring.ts:46"
+      ],
+      "note": ""
+    },
+    "That interval is not in your plan. Pick one from the list. Nothing was saved.": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "src/shared/monitoring.ts:45"
+      ],
+      "note": ""
+    },
     "The address without https://, like shop.example.com.": {
       "bundle": "core",
       "vars": [],
@@ -6546,6 +7414,15 @@
       "plural": false,
       "where": [
         "_site/app/experience/index.html:83"
+      ],
+      "note": ""
+    },
+    "The button \"Crawl now\" needs JavaScript. You can also press it on the Overview page.": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "_site/app/onboard/crawling/index.html:60"
       ],
       "note": ""
     },
@@ -6612,12 +7489,43 @@
       ],
       "note": ""
     },
+    "The crawl is running.": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "src/shared/findings.ts:163"
+      ],
+      "note": ""
+    },
+    "The crawl is running: {phase}.": {
+      "bundle": "core",
+      "vars": [
+        "phase"
+      ],
+      "plural": false,
+      "where": [
+        "src/shared/findings.ts:163"
+      ],
+      "note": ""
+    },
     "The crawl reads your site once. It does not repeat by itself.": {
       "bundle": "core",
       "vars": [],
       "plural": false,
       "where": [
         "_site/app/onboard/crawling/index.html:54"
+      ],
+      "note": ""
+    },
+    "The crawl reads {domain} once. It does not repeat by itself.": {
+      "bundle": "core",
+      "vars": [
+        "domain"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/onboard-crawling.ts:23"
       ],
       "note": ""
     },
@@ -6669,12 +7577,22 @@
       ],
       "note": ""
     },
+    "The database gave an answer we do not know. Nothing was requested.": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "src/shared/monitoring.ts:59"
+      ],
+      "note": ""
+    },
     "The database gave an answer we do not know. Nothing was saved.": {
       "bundle": "core",
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/decisions.ts:74"
+        "src/app/decisions.ts:74",
+        "src/shared/monitoring.ts:49"
       ],
       "note": ""
     },
@@ -6684,6 +7602,17 @@
       "plural": false,
       "where": [
         "_site/app/onboard/confirm/index.html:53"
+      ],
+      "note": ""
+    },
+    "The email was sent to:": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "_site/forgot-password/index.html:45",
+        "_site/magic-link/index.html:45",
+        "_site/signup/index.html:69"
       ],
       "note": ""
     },
@@ -6731,6 +7660,17 @@
       "plural": false,
       "where": [
         "_site/app/experience/index.html:83"
+      ],
+      "note": ""
+    },
+    "The invitation was refused: {result}.": {
+      "bundle": "core",
+      "vars": [
+        "result"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/app-page.ts:251"
       ],
       "note": ""
     },
@@ -6794,7 +7734,7 @@
       ],
       "note": ""
     },
-    "The overview, every incident with the fix for each, one page for each module, the pages with results, and Crawl now. Failing and to-review items are always shown apart.": {
+    "The overview, every incident with the fix for each, one page for each module, the pages with results, and the button \"Crawl now\". Failing and to-review items are always shown apart.": {
       "bundle": "core",
       "vars": [],
       "plural": false,
@@ -6849,6 +7789,31 @@
       ],
       "note": ""
     },
+    "The record for {domain} was not found yet ({note}). Add this TXT record on {domain} or on _sus-bot.{domain} and press the button again. DNS can take a while.": {
+      "bundle": "core",
+      "vars": [
+        "domain",
+        "note"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/domains-manage.ts:55",
+        "src/app/onboard-review.ts:39"
+      ],
+      "note": ""
+    },
+    "The record for {domain} was not found yet. Add this TXT record on {domain} or on _sus-bot.{domain} and press the button again. DNS can take a while.": {
+      "bundle": "core",
+      "vars": [
+        "domain"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/domains-manage.ts:55",
+        "src/app/onboard-review.ts:39"
+      ],
+      "note": ""
+    },
     "The reports and dashboards we prepare for your account.": {
       "bundle": "core",
       "vars": [],
@@ -6865,6 +7830,30 @@
       "where": [
         "config/app/pages/reports.json:8",
         "_site/app/reports/index.html:83"
+      ],
+      "note": ""
+    },
+    "The schedule for {domain} is kept and paused, because your plan no longer includes monitoring. Schedule: {period}.": {
+      "bundle": "core",
+      "vars": [
+        "domain",
+        "period"
+      ],
+      "plural": false,
+      "where": [
+        "src/shared/monitoring.ts:66"
+      ],
+      "note": ""
+    },
+    "The schedule for {domain} is paused. Nothing runs on a timer. Schedule: {period}.": {
+      "bundle": "core",
+      "vars": [
+        "domain",
+        "period"
+      ],
+      "plural": false,
+      "where": [
+        "src/shared/monitoring.ts:67"
       ],
       "note": ""
     },
@@ -6892,6 +7881,15 @@
       "plural": false,
       "where": [
         "_site/privacy/index.html:33"
+      ],
+      "note": ""
+    },
+    "The site as a whole": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "src/app/findings-blocks.ts:242"
       ],
       "note": ""
     },
@@ -6934,13 +7932,12 @@
       ],
       "note": ""
     },
-    "Their email address": {
+    "The tool asking for access:": {
       "bundle": "core",
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/pages/settings-team.json:81",
-        "_site/app/settings/team/index.html:62"
+        "_site/oauth/consent/index.html:29"
       ],
       "note": ""
     },
@@ -6950,6 +7947,18 @@
       "plural": false,
       "where": [
         "_site/terms/index.html:74"
+      ],
+      "note": ""
+    },
+    "These texts are in {textLanguage}. The findings are in {findingsLanguage}.": {
+      "bundle": "findings",
+      "vars": [
+        "findingsLanguage",
+        "textLanguage"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/findings-blocks.ts:353"
       ],
       "note": ""
     },
@@ -6991,6 +8000,15 @@
       ],
       "note": ""
     },
+    "This crawl": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "src/app/findings-blocks.ts:532"
+      ],
+      "note": ""
+    },
     "This does not apply to this site.": {
       "bundle": "findings",
       "vars": [],
@@ -7020,12 +8038,30 @@
       ],
       "note": ""
     },
+    "This is for a person to look at. It is not counted as a failure.": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "src/app/findings-blocks.ts:256"
+      ],
+      "note": ""
+    },
     "This is text from your site, shown as it was found. Links in it are not clickable.": {
       "bundle": "core",
       "vars": [],
       "plural": false,
       "where": [
         "_site/app/i/detail/index.html:149"
+      ],
+      "note": ""
+    },
+    "This is the first crawl, so there is nothing to compare it with yet.": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "src/app/findings-blocks.ts:69"
       ],
       "note": ""
     },
@@ -7058,7 +8094,7 @@
       ],
       "note": ""
     },
-    "This page only works when an AI tool sends you here to connect. Add sus.bot in your tool, then follow its sign-in link.": {
+    "This page only works when an AI tool sends you here to connect. Add sus.bot in your tool, then follow its login link.": {
       "bundle": "core",
       "vars": [],
       "plural": false,
@@ -7067,12 +8103,23 @@
       ],
       "note": ""
     },
-    "This page only works when the sus.bot extension opens it. Open sus.bot in Chrome and choose Sign in.": {
+    "This page only works when the sus.bot extension opens it. Open sus.bot in Chrome and choose the button \"Sign in\" in the extension.": {
       "bundle": "core",
       "vars": [],
       "plural": false,
       "where": [
         "_site/extension/connect/index.html:39"
+      ],
+      "note": ""
+    },
+    "This part could not be shown: {reason}": {
+      "bundle": "core",
+      "vars": [
+        "reason"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/app-page.ts:106"
       ],
       "note": ""
     },
@@ -7126,11 +8173,11 @@
       "vars": [],
       "plural": false,
       "where": [
+        "config/app/pages/incidents.json:74",
         "config/app/pages/modules-audits.json:39",
         "config/app/pages/modules-detail.json:50",
-        "config/app/pages/modules-pages.json:47",
-        "config/app/pages/pages.json:64",
-        "config/app/pages/reports-detail.json:58"
+        "config/app/pages/modules-incidents.json:35",
+        "config/app/pages/modules-pages.json:47"
       ],
       "note": ""
     },
@@ -7139,7 +8186,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:367"
+        "src/shared/findings.ts:369"
       ],
       "note": ""
     },
@@ -7149,15 +8196,6 @@
       "plural": false,
       "where": [
         "_site/terms/index.html:66"
-      ],
-      "note": ""
-    },
-    "Tool": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "_site/oauth/consent/index.html:29"
       ],
       "note": ""
     },
@@ -7188,6 +8226,17 @@
       ],
       "note": ""
     },
+    "Type {accountEmail} exactly to confirm.": {
+      "bundle": "core",
+      "vars": [
+        "accountEmail"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/account.ts:239"
+      ],
+      "note": ""
+    },
     "URL contains": {
       "bundle": "findings",
       "vars": [],
@@ -7206,8 +8255,8 @@
         "config/app/pages/incidents.json:237",
         "config/app/pages/modules-incidents.json:168",
         "config/app/pages/modules-pages.json:33",
-        "_site/app/incidents/index.html:122",
-        "_site/app/m/incidents/index.html:100"
+        "src/app/findings-blocks.ts:242",
+        "_site/app/incidents/index.html:122"
       ],
       "note": ""
     },
@@ -7235,7 +8284,18 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:355"
+        "src/shared/findings.ts:357"
+      ],
+      "note": ""
+    },
+    "URLs in the list: {n}.": {
+      "bundle": "core",
+      "vars": [
+        "n"
+      ],
+      "plural": false,
+      "where": [
+        "src/shared/findings.ts:402"
       ],
       "note": ""
     },
@@ -7244,7 +8304,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:387"
+        "src/shared/findings.ts:389"
       ],
       "note": ""
     },
@@ -7274,6 +8334,15 @@
       "plural": false,
       "where": [
         "src/app/decisions.ts:225"
+      ],
+      "note": ""
+    },
+    "Untouched": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "_site/maintenance/index.html:34"
       ],
       "note": ""
     },
@@ -7322,6 +8391,18 @@
       ],
       "note": ""
     },
+    "Use at least {mINPASSWORD} characters. Yours has {length}.": {
+      "bundle": "core",
+      "vars": [
+        "length",
+        "mINPASSWORD"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/ui.ts:193"
+      ],
+      "note": ""
+    },
     "Use at most 500 characters.": {
       "bundle": "core",
       "vars": [],
@@ -7350,16 +8431,7 @@
       ],
       "note": ""
     },
-    "User-agent:": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "_site/403/index.html:33"
-      ],
-      "note": ""
-    },
-    "Validating your link with the sign-in service. This takes a second.": {
+    "Validating your link with the login service. This takes a second.": {
       "bundle": "core",
       "vars": [],
       "plural": false,
@@ -7451,7 +8523,19 @@
       ],
       "plural": false,
       "where": [
-        "src/app/app-page.ts:113"
+        "src/app/app-page.ts:113",
+        "src/app/app-page.ts:298"
+      ],
+      "note": ""
+    },
+    "We couldn't delete the account ({reason}). Nothing was deleted; try again, or contact support.": {
+      "bundle": "core",
+      "vars": [
+        "reason"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/account.ts:248"
       ],
       "note": ""
     },
@@ -7505,6 +8589,37 @@
       ],
       "note": ""
     },
+    "We read every report of a broken link.": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "_site/404.html:45"
+      ],
+      "note": ""
+    },
+    "We sent another email to {trim}.": {
+      "bundle": "core",
+      "vars": [
+        "trim"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/email-link.ts:47"
+      ],
+      "note": ""
+    },
+    "We sent the email again to {trim}.": {
+      "bundle": "core",
+      "vars": [
+        "trim"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/signup.ts:94"
+      ],
+      "note": ""
+    },
     "We sent you a confirmation link. Open it to finish creating your account. It can take a minute to arrive; check your spam folder if it doesn't.": {
       "bundle": "core",
       "vars": [],
@@ -7550,7 +8665,7 @@
       ],
       "note": ""
     },
-    "Week 2 · Growing": {
+    "Week 2: growing": {
       "bundle": "core",
       "vars": [],
       "plural": false,
@@ -7603,7 +8718,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:240"
+        "src/shared/findings.ts:242"
       ],
       "note": ""
     },
@@ -7673,7 +8788,9 @@
       "plural": false,
       "where": [
         "config/app/pages/incidents-detail.json:84",
-        "src/shared/findings.ts:247",
+        "src/app/findings-blocks.ts:262",
+        "src/shared/findings.ts:249",
+        "src/shared/findings.ts:58",
         "_site/app/i/detail/index.html:153"
       ],
       "note": ""
@@ -7704,7 +8821,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:243"
+        "src/shared/findings.ts:245"
       ],
       "note": ""
     },
@@ -7865,6 +8982,25 @@
       ],
       "note": ""
     },
+    "Why it matters": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "src/app/findings-blocks.ts:261",
+        "src/shared/findings.ts:57"
+      ],
+      "note": ""
+    },
+    "Worst first, as published.": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "src/app/table.ts:215"
+      ],
+      "note": ""
+    },
     "Worst result": {
       "bundle": "findings",
       "vars": [],
@@ -7891,7 +9027,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:192"
+        "src/shared/findings.ts:194"
       ],
       "note": ""
     },
@@ -7904,7 +9040,7 @@
       ],
       "note": ""
     },
-    "Written from the check name; no specific guidance yet. This affects {fields}.": {
+    "Written from the check name; no specific guidance yet. The parts written this way: {fields}.": {
       "bundle": "core",
       "vars": [
         "fields"
@@ -7924,12 +9060,34 @@
       ],
       "note": ""
     },
-    "You are signed out. Sign in again. Nothing was saved.": {
+    "You are here: {tag}": {
+      "bundle": "core",
+      "vars": [
+        "tag"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/experience.ts:20"
+      ],
+      "note": ""
+    },
+    "You are logged in as:": {
       "bundle": "core",
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/decisions.ts:69"
+        "_site/extension/connect/index.html:29",
+        "_site/oauth/consent/index.html:30"
+      ],
+      "note": ""
+    },
+    "You are logged out. Log in again. Nothing was saved.": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "src/app/decisions.ts:69",
+        "src/shared/monitoring.ts:48"
       ],
       "note": ""
     },
@@ -7939,6 +9097,17 @@
       "plural": false,
       "where": [
         "_site/privacy/index.html:77"
+      ],
+      "note": ""
+    },
+    "You can send another email in {left} seconds.": {
+      "bundle": "core",
+      "vars": [
+        "left"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/ui.ts:147"
       ],
       "note": ""
     },
@@ -7960,7 +9129,7 @@
       ],
       "note": ""
     },
-    "You press Crawl now": {
+    "You press \"Crawl now\"": {
       "bundle": "core",
       "vars": [],
       "plural": false,
@@ -8040,6 +9209,17 @@
       "plural": false,
       "where": [
         "_site/account/settings/index.html:101"
+      ],
+      "note": ""
+    },
+    "Your data was downloaded as {name}.": {
+      "bundle": "core",
+      "vars": [
+        "name"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/account.ts:200"
       ],
       "note": ""
     },
@@ -8126,7 +9306,7 @@
       ],
       "note": ""
     },
-    "Your domain is saved. Nothing is crawled until you press Crawl now.": {
+    "Your domain is saved. Nothing is crawled until you press \"Crawl now\".": {
       "bundle": "core",
       "vars": [],
       "plural": false,
@@ -8135,7 +9315,7 @@
       ],
       "note": ""
     },
-    "Your email address and password, so you can sign in. The password is stored only as a cryptographic hash, which cannot be read back.": {
+    "Your email address and password, so you can log in. The password is stored only as a cryptographic hash, which cannot be read back.": {
       "bundle": "core",
       "vars": [],
       "plural": false,
@@ -8144,7 +9324,25 @@
       ],
       "note": ""
     },
-    "Your password has been changed and all other sessions were signed out.": {
+    "Your email is confirmed.": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "src/app/confirm.ts:78"
+      ],
+      "note": ""
+    },
+    "Your login is kept in your browser's own storage. If you clear it, or you did not tick \"Remember me\", you are logged out. Reports you have opened are cached in the tab until you close it or log out.": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "_site/privacy/index.html:78"
+      ],
+      "note": ""
+    },
+    "Your password has been changed and all other sessions were logged out.": {
       "bundle": "core",
       "vars": [],
       "plural": false,
@@ -8181,16 +9379,67 @@
       ],
       "note": ""
     },
+    "Your plan does not include scheduled crawls and monitoring. Nothing was saved.": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "src/shared/monitoring.ts:44"
+      ],
+      "note": ""
+    },
+    "Your plan includes scheduled crawls and monitoring. Nothing is scheduled until you choose how often and save for {domain}. You can skip this and set it up later under Settings.": {
+      "bundle": "core",
+      "vars": [
+        "domain"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/onboard-crawling.ts:42"
+      ],
+      "note": ""
+    },
+    "Your plan includes scheduled crawls and monitoring. Nothing is scheduled until you choose how often and save. You can skip this and set it up later under Settings.": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "src/app/onboard-crawling.ts:42"
+      ],
+      "note": ""
+    },
+    "Your plan is {plan}, so this page cannot save a schedule. \"Crawl now\" works on any plan.": {
+      "bundle": "core",
+      "vars": [
+        "plan"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/monitoring.ts:52"
+      ],
+      "note": ""
+    },
+    "Your plan is {plan}. Scheduled crawls and monitoring are part of the Pro plan, so your site is crawled only when you press \"Crawl now\". You can upgrade later.": {
+      "bundle": "core",
+      "vars": [
+        "plan"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/onboard-crawling.ts:34"
+      ],
+      "note": ""
+    },
     "Your projects": {
       "bundle": "core",
       "vars": [],
       "plural": false,
       "where": [
         "src/app/shell.ts:203",
+        "_site/404.html:43",
         "_site/app/audits/detail/index.html:35",
         "_site/app/changes/detail/index.html:35",
-        "_site/app/decisions/index.html:35",
-        "_site/app/i/detail/index.html:35"
+        "_site/app/decisions/index.html:35"
       ],
       "note": ""
     },
@@ -8212,21 +9461,21 @@
       ],
       "note": ""
     },
+    "Your reports": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "_site/maintenance/index.html:34"
+      ],
+      "note": ""
+    },
     "Your reports are paused while we work on the service. Nothing has been lost, and everything you already have is untouched.": {
       "bundle": "core",
       "vars": [],
       "plural": false,
       "where": [
         "_site/maintenance/index.html:28"
-      ],
-      "note": ""
-    },
-    "Your sign-in is kept in your browser's own storage. If you clear it, or you did not tick \"Remember me\", you are signed out. Reports you have opened are cached in the tab until you close it or sign out.": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "_site/privacy/index.html:78"
       ],
       "note": ""
     },
@@ -8240,12 +9489,14 @@
       ],
       "note": ""
     },
-    "back by": {
+    "add_domain answered offline for {host}": {
       "bundle": "core",
-      "vars": [],
+      "vars": [
+        "host"
+      ],
       "plural": false,
       "where": [
-        "_site/maintenance/index.html:33"
+        "src/app/onboard-describe.ts:44"
       ],
       "note": ""
     },
@@ -8326,56 +9577,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/ui.ts:102"
-      ],
-      "note": ""
-    },
-    "home": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "_site/account/settings/index.html:23",
-        "_site/app/audits/detail/index.html:88",
-        "_site/app/changes/detail/index.html:60",
-        "_site/app/decisions/index.html:60",
-        "_site/app/experience/index.html:23"
-      ],
-      "note": ""
-    },
-    "how to verify": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/shared/findings.ts:62"
-      ],
-      "note": ""
-    },
-    "http 403": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "_site/403/index.html:26"
-      ],
-      "note": ""
-    },
-    "http 404": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "_site/404.html:26"
-      ],
-      "note": ""
-    },
-    "just now": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "_site/maintenance/index.html:32"
+        "src/app/ui.ts:104"
       ],
       "note": ""
     },
@@ -8389,34 +9591,16 @@
       ],
       "note": ""
     },
-    "maintenance": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "_site/maintenance/index.html:26"
-      ],
-      "note": ""
-    },
-    "no rule": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "_site/404.html:32"
-      ],
-      "note": ""
-    },
     "none": {
       "bundle": "core",
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:326"
+        "src/shared/findings.ts:328"
       ],
       "note": ""
     },
-    "not signed in": {
+    "not logged in": {
       "bundle": "core",
       "vars": [],
       "plural": false,
@@ -8459,7 +9643,7 @@
         "_site/reset-password/index.html:34",
         "_site/reset-password/index.html:46"
       ],
-      "note": ""
+      "note": "Noun, read by screen readers after show or hide."
     },
     "plan and invoices": {
       "bundle": "core",
@@ -8483,15 +9667,6 @@
       ],
       "note": ""
     },
-    "requested": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "_site/404.html:32"
-      ],
-      "note": ""
-    },
     "results page by page": {
       "bundle": "core",
       "vars": [],
@@ -8505,15 +9680,6 @@
       ],
       "note": ""
     },
-    "rule applied": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "_site/403/index.html:32"
-      ],
-      "note": ""
-    },
     "shop.example.com": {
       "bundle": "core",
       "vars": [],
@@ -8523,36 +9689,18 @@
       ],
       "note": ""
     },
-    "shortly": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "_site/maintenance/index.html:33"
-      ],
-      "note": ""
-    },
     "show": {
       "bundle": "core",
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/ui.ts:102",
+        "src/app/ui.ts:104",
         "_site/account/settings/index.html:115",
         "_site/account/settings/index.html:124",
         "_site/login/index.html:46",
         "_site/reset-password/index.html:34"
       ],
-      "note": ""
-    },
-    "started": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "_site/maintenance/index.html:32"
-      ],
-      "note": ""
+      "note": "Button that shows the typed password. Read together with the next word as show password."
     },
     "sus.bot": {
       "bundle": "core",
@@ -8563,7 +9711,20 @@
       ],
       "note": ""
     },
-    "sus.bot is being rewired": {
+    "sus.bot home page": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "_site/account/settings/index.html:23",
+        "_site/app/audits/detail/index.html:88",
+        "_site/app/changes/detail/index.html:60",
+        "_site/app/decisions/index.html:60",
+        "_site/app/experience/index.html:23"
+      ],
+      "note": "Name of the logo link in the top bar; it leads to the list of projects."
+    },
+    "sus.bot is down for maintenance": {
       "bundle": "core",
       "vars": [],
       "plural": false,
@@ -8572,7 +9733,7 @@
       ],
       "note": ""
     },
-    "sus.bot reports what your robots.txt tells search engines, AI crawlers and anyone else who reads it. This site is where you sign in, see the products your plan includes, and open the reports we prepare for you.": {
+    "sus.bot reports what your robots.txt tells search engines, AI crawlers and anyone else who reads it. This site is where you log in, see the products your plan includes, and open the reports we prepare for you.": {
       "bundle": "core",
       "vars": [],
       "plural": false,
@@ -8590,48 +9751,14 @@
       ],
       "note": ""
     },
-    "the cause": {
+    "the schedule answered {status}": {
       "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/shared/findings.ts:60"
+      "vars": [
+        "status"
       ],
-      "note": ""
-    },
-    "the headline": {
-      "bundle": "core",
-      "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:56"
-      ],
-      "note": ""
-    },
-    "the references": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/shared/findings.ts:63"
-      ],
-      "note": ""
-    },
-    "the steps": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/shared/findings.ts:61"
-      ],
-      "note": ""
-    },
-    "the summary": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/shared/findings.ts:59"
+        "src/app/schedule.ts:107"
       ],
       "note": ""
     },
@@ -8645,21 +9772,24 @@
       ],
       "note": ""
     },
+    "too short ({length} of {mINPASSWORD})": {
+      "bundle": "core",
+      "vars": [
+        "length",
+        "mINPASSWORD"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/ui.ts:129"
+      ],
+      "note": ""
+    },
     "unknown": {
       "bundle": "core",
       "vars": [],
       "plural": false,
       "where": [
         "src/shared/findings.ts:135"
-      ],
-      "note": ""
-    },
-    "untouched": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "_site/maintenance/index.html:34"
       ],
       "note": ""
     },
@@ -8704,15 +9834,6 @@
         "_site/app/changes/detail/index.html:40",
         "_site/app/decisions/index.html:40",
         "_site/app/i/detail/index.html:40"
-      ],
-      "note": ""
-    },
-    "what to do": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/shared/findings.ts:58"
       ],
       "note": ""
     },
@@ -8764,15 +9885,6 @@
       ],
       "note": ""
     },
-    "why it matters": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/shared/findings.ts:57"
-      ],
-      "note": ""
-    },
     "you@company.com": {
       "bundle": "core",
       "vars": [],
@@ -8786,16 +9898,7 @@
       ],
       "note": ""
     },
-    "your reports": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "_site/maintenance/index.html:34"
-      ],
-      "note": ""
-    },
-    "your sign-in and profile": {
+    "your login and profile": {
       "bundle": "core",
       "vars": [],
       "plural": false,
@@ -8804,59 +9907,126 @@
       ],
       "note": ""
     },
-    "{done} of {n} pages.": {
-      "bundle": "core",
+    "{base} The engine keeps at most 2,000 rows per finding, so the rest were not stored.": {
+      "bundle": "findings",
       "vars": [
-        "done",
-        "n"
-      ],
-      "plural": true,
-      "forms": {
-        "one": "{done} of {n} page.",
-        "other": "{done} of {n} pages."
-      },
-      "where": [
-        "src/shared/findings.ts:162"
-      ],
-      "note": ""
-    },
-    "{event} {n} URLs.": {
-      "bundle": "core",
-      "vars": [
-        "event",
-        "n"
-      ],
-      "plural": true,
-      "forms": {
-        "one": "{event} {n} URL.",
-        "other": "{event} {n} URLs."
-      },
-      "where": [
-        "src/shared/findings.ts:400"
-      ],
-      "note": ""
-    },
-    "{event} {phase}.": {
-      "bundle": "core",
-      "vars": [
-        "event",
-        "phase"
+        "base"
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:399"
+        "src/app/findings-blocks.ts:426"
       ],
       "note": ""
     },
-    "{event} {reason}.": {
+    "{domain} does not look like a domain we can check.": {
       "bundle": "core",
       "vars": [
-        "event",
-        "reason"
+        "domain"
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:401"
+        "src/app/domains-manage.ts:53",
+        "src/app/onboard-review.ts:38"
+      ],
+      "note": ""
+    },
+    "{domain} does not look like a domain we can read.": {
+      "bundle": "core",
+      "vars": [
+        "domain"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/domains-manage.ts:128"
+      ],
+      "note": ""
+    },
+    "{domain} had no schedule, so there is nothing to pause.": {
+      "bundle": "core",
+      "vars": [
+        "domain"
+      ],
+      "plural": false,
+      "where": [
+        "src/shared/monitoring.ts:43"
+      ],
+      "note": ""
+    },
+    "{domain} is added. Verify that it is yours with the button in the list, then press \"Crawl now\" on its Overview.": {
+      "bundle": "core",
+      "vars": [
+        "domain"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/domains-manage.ts:124"
+      ],
+      "note": ""
+    },
+    "{domain} is already one of your domains.": {
+      "bundle": "core",
+      "vars": [
+        "domain"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/domains-manage.ts:125"
+      ],
+      "note": ""
+    },
+    "{domain} is not a domain of this account. Nothing was requested.": {
+      "bundle": "core",
+      "vars": [
+        "domain"
+      ],
+      "plural": false,
+      "where": [
+        "src/shared/monitoring.ts:58"
+      ],
+      "note": ""
+    },
+    "{domain} is not a domain of this account. Nothing was saved.": {
+      "bundle": "core",
+      "vars": [
+        "domain"
+      ],
+      "plural": false,
+      "where": [
+        "src/shared/monitoring.ts:47"
+      ],
+      "note": ""
+    },
+    "{domain} is verified.": {
+      "bundle": "core",
+      "vars": [
+        "domain"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/domains-manage.ts:52",
+        "src/app/onboard-review.ts:37"
+      ],
+      "note": ""
+    },
+    "{domain} was crawled or requested in the last 15 minutes. Try again shortly.": {
+      "bundle": "core",
+      "vars": [
+        "domain"
+      ],
+      "plural": false,
+      "where": [
+        "src/shared/monitoring.ts:57"
+      ],
+      "note": ""
+    },
+    "{email} is confirmed.": {
+      "bundle": "core",
+      "vars": [
+        "email"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/confirm.ts:78"
       ],
       "note": ""
     },
@@ -8881,7 +10051,7 @@
       ],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:509"
+        "src/app/findings-blocks.ts:513"
       ],
       "note": ""
     },
@@ -8893,7 +10063,62 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:228"
+        "src/shared/findings.ts:230"
+      ],
+      "note": ""
+    },
+    "{length} things to fix.": {
+      "bundle": "core",
+      "vars": [
+        "length"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/tracker-connect.ts:219"
+      ],
+      "note": ""
+    },
+    "{linkError}. Links work once and expire after an hour.": {
+      "bundle": "core",
+      "vars": [
+        "linkError"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/confirm.ts:88"
+      ],
+      "note": ""
+    },
+    "{message}. If this keeps happening, contact support.": {
+      "bundle": "core",
+      "vars": [
+        "message"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/auth.ts:149"
+      ],
+      "note": ""
+    },
+    "{message}. Links work once and expire after an hour, so ask for a new one.": {
+      "bundle": "core",
+      "vars": [
+        "message"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/confirm.ts:93"
+      ],
+      "note": ""
+    },
+    "{named} is not one of the domains this account watches. The link may be for another account, or the domain may have been removed.": {
+      "bundle": "core",
+      "vars": [
+        "named"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/domains.ts:277"
       ],
       "note": ""
     },
@@ -8927,61 +10152,106 @@
       ],
       "note": ""
     },
-    "{n} failing": {
+    "{n} evidence rows": {
+      "bundle": "findings",
+      "vars": [
+        "n"
+      ],
+      "plural": true,
+      "forms": {
+        "one": "{n} evidence row",
+        "other": "{n} evidence rows"
+      },
+      "where": [
+        "src/app/findings-blocks.ts:231"
+      ],
+      "note": ""
+    },
+    "{n} evidence rows.": {
+      "bundle": "findings",
+      "vars": [
+        "n"
+      ],
+      "plural": true,
+      "forms": {
+        "one": "{n} evidence row.",
+        "other": "{n} evidence rows."
+      },
+      "where": [
+        "src/app/findings-blocks.ts:425"
+      ],
+      "note": ""
+    },
+    "{n} failing incidents": {
       "bundle": "core",
       "vars": [
         "n"
       ],
       "plural": true,
       "forms": {
-        "one": "{n} failing",
-        "other": "{n} failing"
+        "one": "{n} failing incident",
+        "other": "{n} failing incidents"
       },
       "where": [
         "src/app/shell.ts:121"
       ],
       "note": ""
     },
-    "{n} failing incidents, {review} to review.": {
-      "bundle": "core",
+    "{n} incidents ({severities})": {
+      "bundle": "findings",
       "vars": [
         "n",
-        "review"
+        "severities"
       ],
       "plural": true,
       "forms": {
-        "one": "{n} failing incident, {review} to review.",
-        "other": "{n} failing incidents, {review} to review."
+        "one": "{n} incident ({severities})",
+        "other": "{n} incidents ({severities})"
       },
       "where": [
-        "src/shared/findings.ts:210"
+        "src/app/findings-blocks.ts:170"
       ],
       "note": ""
     },
-    "{n} open": {
+    "{n} incidents to review": {
       "bundle": "core",
       "vars": [
         "n"
       ],
       "plural": true,
       "forms": {
-        "one": "{n} open",
-        "other": "{n} open"
+        "one": "{n} incident to review",
+        "other": "{n} incidents to review"
+      },
+      "where": [
+        "src/app/shell.ts:122"
+      ],
+      "note": ""
+    },
+    "{n} open incidents": {
+      "bundle": "core",
+      "vars": [
+        "n"
+      ],
+      "plural": true,
+      "forms": {
+        "one": "{n} open incident",
+        "other": "{n} open incidents"
       },
       "where": [
         "src/app/shell.ts:125"
       ],
       "note": ""
     },
-    "{n} pages": {
+    "{n} pages affected": {
       "bundle": "core",
       "vars": [
         "n"
       ],
       "plural": true,
       "forms": {
-        "one": "{n} page",
-        "other": "{n} pages"
+        "one": "{n} page affected",
+        "other": "{n} pages affected"
       },
       "where": [
         "src/app/shell.ts:124"
@@ -9001,7 +10271,7 @@
         "other": "{n} pages: {fail} failing, {review} to review"
       },
       "where": [
-        "src/app/table.ts:251"
+        "src/app/table.ts:254"
       ],
       "note": ""
     },
@@ -9019,7 +10289,7 @@
         "other": "{n} pages: {fail} failing, {review} to review, worst severity {severity}"
       },
       "where": [
-        "src/app/table.ts:250"
+        "src/app/table.ts:253"
       ],
       "note": ""
     },
@@ -9039,6 +10309,22 @@
       ],
       "note": ""
     },
+    "{n} projects on the {plan} plan.": {
+      "bundle": "core",
+      "vars": [
+        "n",
+        "plan"
+      ],
+      "plural": true,
+      "forms": {
+        "one": "{n} project on the {plan} plan.",
+        "other": "{n} projects on the {plan} plan."
+      },
+      "where": [
+        "src/app/dashboard.ts:135"
+      ],
+      "note": ""
+    },
     "{n} results": {
       "bundle": "findings",
       "vars": [
@@ -9054,41 +10340,43 @@
       ],
       "note": ""
     },
-    "{n} to review": {
-      "bundle": "core",
+    "{n} rules could not be checked. Open the audit for the reason.": {
+      "bundle": "findings",
       "vars": [
         "n"
       ],
       "plural": true,
       "forms": {
-        "one": "{n} to review",
-        "other": "{n} to review"
+        "one": "{n} rule could not be checked. Open the audit for the reason.",
+        "other": "{n} rules could not be checked. Open the audit for the reason."
       },
       "where": [
-        "src/app/shell.ts:122"
+        "src/app/findings-blocks.ts:557"
       ],
       "note": ""
     },
-    "{n} {severity}": {
+    "{reason}. Nothing changed.": {
       "bundle": "core",
       "vars": [
-        "n",
-        "severity"
+        "reason"
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:325"
+        "src/app/alert-channels.ts:53",
+        "src/app/app-page.ts:167",
+        "src/app/domains-manage.ts:46",
+        "src/app/onboard-review.ts:28"
       ],
       "note": ""
     },
-    "{phase}.": {
+    "{reason}. Nothing was added.": {
       "bundle": "core",
       "vars": [
-        "phase"
+        "reason"
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:161"
+        "src/app/domains-manage.ts:98"
       ],
       "note": ""
     },
@@ -9099,7 +10387,30 @@
       ],
       "plural": false,
       "where": [
+        "src/app/app-page.ts:343",
         "src/app/decisions.ts:229"
+      ],
+      "note": ""
+    },
+    "{reason}. Nothing was charged.": {
+      "bundle": "core",
+      "vars": [
+        "reason"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/settings-billing.ts:46"
+      ],
+      "note": ""
+    },
+    "{reason}. Nothing was requested.": {
+      "bundle": "core",
+      "vars": [
+        "reason"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/crawl-now.ts:25"
       ],
       "note": ""
     },
@@ -9110,7 +10421,87 @@
       ],
       "plural": false,
       "where": [
-        "src/app/decisions.ts:174"
+        "src/app/decisions.ts:174",
+        "src/app/monitoring.ts:106"
+      ],
+      "note": ""
+    },
+    "{reason}. Nothing was sent.": {
+      "bundle": "core",
+      "vars": [
+        "reason"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/app-page.ts:247"
+      ],
+      "note": ""
+    },
+    "{reason}. Reload the page to try again.": {
+      "bundle": "core",
+      "vars": [
+        "reason"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/dashboard.ts:140"
+      ],
+      "note": ""
+    },
+    "{reason}. Reload to try again.": {
+      "bundle": "core",
+      "vars": [
+        "reason"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/app-page.ts:140"
+      ],
+      "note": ""
+    },
+    "{reason}. The domain is added; try again to continue.": {
+      "bundle": "core",
+      "vars": [
+        "reason"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/onboard-describe.ts:53"
+      ],
+      "note": ""
+    },
+    "{reason}. Try again, or contact support.": {
+      "bundle": "core",
+      "vars": [
+        "reason"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/account.ts:208",
+        "src/app/settings-billing.ts:59"
+      ],
+      "note": ""
+    },
+    "{reason}. Try again.": {
+      "bundle": "core",
+      "vars": [
+        "reason"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/experience.ts:38"
+      ],
+      "note": ""
+    },
+    "{severity}: {n}": {
+      "bundle": "core",
+      "vars": [
+        "n",
+        "severity"
+      ],
+      "plural": false,
+      "where": [
+        "src/shared/findings.ts:327"
       ],
       "note": ""
     },
@@ -9159,6 +10550,17 @@
       "plural": false,
       "where": [
         "src/shared/findings.ts:120"
+      ],
+      "note": ""
+    },
+    "{wanted} is filled in for you after sign-up. Nothing is crawled until you press \"Crawl now\".": {
+      "bundle": "core",
+      "vars": [
+        "wanted"
+      ],
+      "plural": false,
+      "where": [
+        "src/app/signup.ts:40"
       ],
       "note": ""
     }

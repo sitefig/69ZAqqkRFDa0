@@ -1,6 +1,6 @@
 # Polish (pl) translation notes
 
-Machine draft of 681 core and 232 findings entries. No native speaker has read it.
+Machine draft of 767 core and 272 findings entries (updated 2026-10-22 against source hash fa87591c: 224 keys added, 98 removed). No native speaker has read it.
 
 ## Uncertain terms and choices
 
@@ -28,16 +28,16 @@ Second person singular informal. "Your" is Twój, Twoja or Twoje, lower case mid
 2. "To the extent the law allows, Sitefig SARL-S is not liable ..." (liability): legal wording, needs a lawyer's read.
 3. "These terms are governed by the law of Luxembourg ...": "competent courts" is rendered as właściwe sądy.
 4. "For anything else, write to us ... (CNPD)": the authority name is kept in French.
-5. "Accounts and sign-ins are handled by Supabase ...": processors and data processing agreement are rendered as podmioty przetwarzające and umowa powierzenia przetwarzania danych.
+5. "Accounts and logins are handled by Supabase ...": processors and data processing agreement are rendered as podmioty przetwarzające and umowa powierzenia przetwarzania danych.
 6. "Analytics, if you agree to it, ... EU-US Data Privacy Framework": the Polish official name is Ramy Ochrony Danych UE-USA.
 7. "We keep your email address, your plan, and the reports ...": consent and ad statements in the short privacy summary.
 8. "Controller: Sitefig SARL-S" and the two "version 1.0 ..." lines: controller is administrator, "operated by" is prowadzi.
 9. "A report describes what a file says, not what a crawler does ...": mixes robots.txt as request versus access control.
 10. "Alerts are part of monitoring ... Disallow: /": the menu path "Settings, Schedule and monitoring" uses the translated page names.
-11. "Crawl {crawl}: {n} pages crawled, {results} with results.": {results} is a number, so the sentence became "przeskanowane strony: {n}, z wynikami: {results}".
+11. "Crawl {crawl}. Pages crawled: {crawled}. Pages with results: {results}.": colon forms with the value last, to avoid declension.
 12. "None of the {loaded} loaded match.": rewritten as "Brak dopasowań wśród wczytanych: {loaded}."
 13. "{event} {n} URLs.": {event} is a words.json value, so it is followed by a colon.
-14. "Written from the check name; no specific guidance yet. This affects {fields}.": the value list is placed after a colon.
+14. "Written from the check name; no specific guidance yet. The parts written this way: {fields}.": the value list is placed after a colon.
 15. "Not connected yet: sending decisions to the rule engine ...": "rule engine" is silnik reguł, used in several strings.
 
 ## Ambiguities in the English source
@@ -45,11 +45,22 @@ Second person singular informal. "Your" is Twój, Twoja or Twoje, lower case mid
 - "back by" has no object. It looks like a time on the maintenance page; rendered as "wróci do".
 - "home" (lower case) could be a nav label or a breadcrumb; rendered as "start".
 - "Their email address" does not say whose; rendered as "Adres e-mail tej osoby".
-- "Continue with" is followed by a provider name added by the app; rendered as "Kontynuuj przez".
+- "Continue with GitHub/Google/LinkedIn" are now whole strings: "Kontynuuj przez ...".
 - "Running" and "Done" have no context beyond words.json; they could be states of a crawl or of a step.
 - "Review" as a lone word could be a verb (button) or a status; rendered as the status Do przeglądu.
 - "Case" has no context in words.json.
 
+## Added 2026-10-22 (second round)
+
+- Long legal and data paragraphs need legal review: the Supabase and Cloudflare processors sentence (umowa powierzenia przetwarzania danych), "Reports travel between our servers ...", the data export and account deletion texts, and the login records lines.
+- Gender: "Devices that are still logged in ..." and "You are logged in as:" use "zalogowany lub zalogowana", and "so you can log in" uses "abyś mógł lub mogła". A reviewer may prefer an impersonal rewrite.
+- "Headline" is W skrócie; it is a label for a one-line summary of an incident and could be Nagłówek.
+- "Check" (findings column) is Sprawdzenie, as in the glossary; "Reach" is Zasięg; "Confidence" is Pewność.
+- "Search Console property" keeps usługa. "Search" (noteChanged) stays Wyszukiwanie and "Dark" became Ciemny motyw.
+- "Every {n} days/hours/minutes": the one form drops {n} (Codziennie, Co godzinę, Co minutę).
+- "{n} rules could not be checked ..." uses a colon form in all four categories.
+- "Maintenance started" is Początek prac serwisowych and "Expected back by" is Powrót przewidziany do.
+
 ## Count of uncertain items
 
-About 34 items: the 15 riskiest keys above plus the term choices and ambiguities.
+About 45 items: the 15 riskiest keys above plus the term choices and ambiguities.

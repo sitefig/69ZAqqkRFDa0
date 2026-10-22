@@ -57,3 +57,15 @@ Status: unreviewed machine draft. 681 core and 232 findings entries, no native r
 - "This is the site we audit": rendered as "site-ul pe care îl auditează sus.bot" because "we" is the service.
 - "Required for risk accepted and false positive" refers to status names; they are inflected here as plain nouns.
 - Hash "Content hash" and "Case" lack a note on meaning.
+
+## Update 2026-10-22 (source strings rewritten as whole sentences)
+
+Machine draft, not reviewed. 227 keys added, 101 orphans removed, no existing key changed in meaning. The six keys with new notes (Dark, Language, Menu, Search, password, show) were re-read against the notes and kept.
+
+- "Log in" and "Sign in" are both "Autentificare"; "Log out" is "Deconectare". The new source says "log in" where the old one said "sign in"; the Romanian is the same.
+- Quotes around "Crawl now" in sentences are rendered as „Scanați acum”.
+- Interval labels: "În fiecare zi", "La fiecare {n} zile", "La fiecare {n} de zile" (same for hours and minutes). "Hourly" is "Din oră în oră".
+- "Court case" is "Caz în instanță"; "EU directive" is "Directivă UE". Native check needed.
+- Doubts: "Reach" as "Acoperire" (no note on meaning); "Untouched" as "Neatins"; "Maintenance started" as "Mentenanța a început"; "Expected back by" as "Revenire estimată până la" (what follows is unknown); "Not handled yet" as "Netratat încă"; "Confidence" as "Încredere".
+- Legal paragraphs again needing a lawyer-level read: the Supabase/Cloudflare processors paragraph, "Reports travel between our servers...", and the login-records and "Your login is kept in your browser's own storage" paragraphs.
+- Placeholder names like {mINPASSWORD}, {trim} and {accountEmail} are kept as in the source.

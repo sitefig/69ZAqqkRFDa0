@@ -39,6 +39,26 @@ Formal "vy" (vykání) throughout, imperatives in the plural-polite form ("Zvolt
 14. "Choose the property" (Search Console term "Prostředek" versus "Vlastnost").
 15. "Written from the check name; no specific guidance yet. This affects {fields}." (the placeholder is a list, so I put it after a colon).
 
+## Second round (source hash fa87591c)
+
+Removed 98 orphan keys, added 224 translations, moved 3 keys between bundles (Running to findings, Crawl runs and Summary to core). The source now says "log in / log out" and "login" instead of "sign in"; Czech keeps "Přihlásit se", "Odhlásit se", "přihlášení". The notes of Dark, Language, Menu, Search, password and show were re-read; the existing "Tmavý", "Jazyk", "Nabídka", "Hledání", "heslo", "zobrazit" still fit.
+
+New risky keys:
+
+1. "Accounts and logins are handled by Supabase ... data processing agreement ..." (privacy text, needs legal review).
+2. "Deletes your account ... right away" and "Download a copy of everything in your account ..." (data protection wording).
+3. "Reports travel between our servers and your browser over an encrypted connection ..." (security claim wording).
+4. "Login records: ..." (the data kept about sessions; legal review).
+5. "Every {n} days / hours / minutes": the genitive forms in "many" (Každých 1,5 dne) are a guess for fractions.
+6. "Hourly" and "Every {n} hours" one form are both "Každou hodinu".
+7. "Saved. Schedule for {domain}: {period}. The first crawl starts one period from now ..." ("za jedno takové období" is clumsy).
+8. "{n} pages affected" and "{n} rules could not be checked": "many" forms are for fractional numbers only.
+9. "Written from the check name ... {fields}": list after a colon.
+10. "Expected back by", "Untouched", "Shortly", "Just now": now whole labels, capitalised; frame unknown.
+11. "Court case" and "EU directive" are labels for standards entries; "Soudní případ" and "Směrnice EU" assumed.
+12. "Reach" is "Dosah"; the meaning (audience reach of an incident) is unclear.
+13. "Worst first, as published." is "Nejhorší první, tak jak jsou zveřejněny."
+
 ## Ambiguities in the English source
 
 - "Fix" / "Fixed" / "Fixed failing": noun, adjective and status share forms; Czech needs gender and number.

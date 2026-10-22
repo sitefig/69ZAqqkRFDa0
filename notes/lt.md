@@ -50,3 +50,17 @@ Uncertain items counted: about 30 (the terms above plus these 15 keys).
 - "Case" (findings) -> "Atvejis"; unclear if a legal case or a support case.
 - "Items" -> "Elementai".
 - The description text "Nothing was saved" is repeated in many sentences; kept literal.
+
+## Update 2026-10-22 (source hash fa87591c)
+
+224 keys added, 98 removed (orphans deleted), 3 keys moved between bundles with their translations kept (Running, Crawl runs, Summary). Dark, Language, Menu, Search, show and password were re-read against their new notes. "password" changed from "slaptažodis" to "slaptažodį" (accusative) so that "rodyti slaptažodį" is grammatical when read together.
+
+New risky keys: "Accounts and logins are handled by Supabase..." (privacy, legal, needs legal review), "Reports travel between our servers and your browser over an encrypted connection..." (privacy), "Your email address and password, so you can log in..." and "Your login is kept in your browser's own storage..." (privacy, legal review), "Deletes your account, profile, plan, purchases and dashboards right away..." (account deletion), "Written from the check name; no specific guidance yet. The parts written this way: {fields}.", "Rules that could not be decided: {undecided}. Rules that do not apply to this site: {notApplicable}...", "Saved. Schedule for {domain}: {period}. The first crawl starts one period from now...".
+Not translated on purpose: the identifier add_domain and the DNS name _sus-bot.{domain}.
+Nothing in this update is reviewed. Legal paragraphs need legal review.
+
+- Button names in quotes use Lithuanian quotation marks („Skenuoti dabar“) as in the existing "Prisiminti mane" text.
+- "Every {n} days/hours/minutes" has four real forms (one, few, many, other), for example "Kas {n} dieną / dienas / dienos / dienų". Other plural labels use the "Noun: {n}" shape in all four forms.
+- "Confidence" is "Patikimumas", "Reach" is "Aprėptis" (guesses from usage).
+- "Search Console property" changed from "Nuosavybė" to "savybė" in the glossary only; the key "Search Console property" is "Search Console savybė".
+- "Nothing was charged." is "Pinigai nenurašyti."

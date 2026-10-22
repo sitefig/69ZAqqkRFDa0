@@ -44,3 +44,19 @@ Unreviewed machine draft. No native reviewer has checked it.
 - "Kind", "State", "Tool", "Property" have no context; translated as "Typ", "Tillstånd", "Verktyg", "Egenskap" (Search Console property).
 - "Fail" as result is "Underkänt" but "Failed" (a run) is "Misslyckades".
 - "Case" has no context.
+
+## Update 2026-10-22 (source hash fa87591c)
+
+224 keys added, 98 removed (orphans deleted), 3 keys moved between bundles with their translations kept (Running, Crawl runs, Summary). Dark, Language, Menu, Search, password and show were re-read against their new notes and kept.
+
+New risky keys: "Accounts and logins are handled by Supabase..." (privacy, legal, needs legal review), "Reports travel between our servers and your browser over an encrypted connection..." (privacy), "Your email address and password, so you can log in..." and "Your login is kept in your browser's own storage..." (privacy, legal review), "Deletes your account, profile, plan, purchases and dashboards right away..." (account deletion), "Written from the check name; no specific guidance yet. The parts written this way: {fields}.", "Rules that could not be decided: {undecided}. Rules that do not apply to this site: {notApplicable}...", "Saved. Schedule for {domain}: {period}. The first crawl starts one period from now...".
+Not translated on purpose: the identifier add_domain and the DNS name _sus-bot.{domain}.
+Nothing in this update is reviewed. Legal paragraphs need legal review.
+
+- "Audit: {name}" is "Granskning: {name}" to match the existing "Audit" = "Granskning". Elsewhere "audit" may read as "revision" to a Swedish accountant.
+- "Confidence" is "Konfidens"; "Säkerhet" is ambiguous.
+- "Reach" is "Omfattning"; the meaning is a guess from the usage.
+- "Every {n} days" is "Var {n}:e dag"; the one form is "Varje dag".
+- "Log out" in the extension text uses the same word as the "Log out" key ("Logga ut").
+- "Text language / findings language" sentence is written as two labels so the language name needs no inflection.
+- "{length} things to fix." is "Saker att åtgärda: {length}." (not a plural key).

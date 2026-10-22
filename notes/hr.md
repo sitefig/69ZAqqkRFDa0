@@ -1,6 +1,6 @@
 # Croatian (hr) translation notes
 
-Machine draft, not reviewed by a native speaker. 681 core and 232 findings entries.
+Machine draft, not reviewed by a native speaker. 767 core and 272 findings entries (source hash fa87591c, round 2 on 2026-10-22: 90 core and 8 findings orphans removed, 177 core and 50 findings keys added).
 
 ## Terms I was unsure about
 
@@ -56,3 +56,11 @@ Croatian counts and values force case agreement, so strings with {n}, {event}, {
 ## Uncertain items
 
 About 25: the 15 above plus the stage names, "Breadcrumb", "Forbidden", "Healthy" ("Ispravno"), "Kind" ("Vrsta") and "Basis" ("Osnova").
+
+## Round 2 (source fa87591c)
+
+- "Sign in" and "Log in" are now separate English words, both rendered as "Prijava"; "Log out" and "Sign out" as "Odjava". Whole sentences that used the old wording were retranslated.
+- Note changes: "Dark" is now "Tamna tema", "Search" is "Traži" (button), "password" is "lozinku" (accusative, so "prikaži lozinku" reads right), "Language" and "Menu" unchanged.
+- Plurals use colon forms with the same text in one, few and other ("Neuspjeli incidenti: {n}"). "Every {n} days/hours/minutes" use "Svakih {n} dan/dana", "h", "min".
+- New risky keys: "Court case" ("Sudski slučaj"), "EU directive" ("Direktiva EU-a"), the processor sentence with Supabase and Cloudflare, "Reports travel between our servers and your browser over an encrypted connection..." and the account deletion and data download sentences. These are privacy and legal wording and need legal review.
+- Doubtful: "Failing" as "Neuspjeli" (gender), "Reach" as "Doseg", "Showing what {name} needs." (unknown {name}), "Search Console property" as "Svojstvo (Search Console)", "Daily" and "Hourly" as "Svaki dan" and "Svaki sat", "Connected to a channel in {team}" (team may need a different case), "add_domain answered offline for {host}" (technical message, partly translated).

@@ -1,6 +1,6 @@
 # Bulgarian (bg) machine draft notes
 
-Machine draft, not reviewed by a native speaker. 681 core and 232 findings entries.
+Machine draft, not reviewed by a native speaker. 767 core and 272 findings entries (updated 2026-10-22 against source hash fa87591c: 227 keys added, 98 orphans removed, three keys moved between bundles).
 
 ## Terms I was unsure about
 
@@ -50,3 +50,15 @@ Formal "Вие" with capital "В" for the second person (Вашият, Ви), as
 ## Uncertain items
 
 About 25: the 15 above plus the glossary-gap choices (account, name, new, password, standard, jurisdiction, law, regulation, history, invitation, open, to review, severity words in glossary were taken from the filled cells; the empty cells were chosen here: акаунт, име, нов, парола, стандарт, юрисдикция, закон, регламент, история, покана, отворен, за преглед).
+
+## Update 2026-10-22 (second round, new source strings)
+
+- Source now says "log in / log out" instead of "sign in / sign out". Bg keeps Вход and Изход; "Log out everywhere" is Изход отвсякъде. Glossary row "log out / sign out" filled with Изход.
+- Quoted button labels ("Crawl now", "Sign in", "Remember me") now use the bg quotes „ “ and must equal the button translations (Обходи сега, Вход, Запомни ме).
+- Counted nouns use the bg count form after a number: "{n} неуспешни инцидента", "{n} реда с доказателства".
+- "Confidence" is Увереност, "Reach" is Обхват (no note in the source; both are guesses). "Court case" is Съдебно дело, "EU directive" is Директива на ЕС.
+- "Expected back by" is "Очаква се отново до"; the context (maintenance page) is only guessed.
+- "Active." and "Active, renews on {date}." use the masculine Активен; the subject (plan or subscription) is not in the string.
+- Strings with {state}, {what}, {result}, {where}, {status}: grammar after the placeholder is unknown; colon forms were used where possible.
+- Legal wording needing a lawyer's read: the Supabase and Cloudflare processors paragraph, "Deletes your account ...", the encrypted-reports paragraph, "Download a copy of everything ..." (data export).
+- "The engine keeps at most 2,000 rows" uses "Механизмът"; "2,000" is written 2000.

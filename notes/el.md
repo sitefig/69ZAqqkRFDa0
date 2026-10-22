@@ -1,6 +1,6 @@
 # Greek (el) draft notes
 
-Status: unreviewed machine draft. 681 core and 232 findings entries. No native reviewer has read it.
+Status: unreviewed machine draft. 767 core and 272 findings entries (see the update at the end). No native reviewer has read it.
 
 ## Decisions
 
@@ -50,3 +50,24 @@ Status: unreviewed machine draft. 681 core and 232 findings entries. No native r
 - "Rules" and "Rule" appear as column and page labels without context.
 - "{n} {severity}" is not a plural key, so the number cannot change the word form.
 - Words such as "Done", "Open", "New" have no gender context and use neuter forms.
+
+## Update 2026-10-22 (source strings rewritten)
+
+Status: still an unreviewed machine draft. 767 core and 272 findings entries, all source keys present. 224 keys added (plus 3 re-filed between bundles: "Running" now findings, "Crawl runs" and "Summary" now core), 98 orphan keys removed, "password" changed to the genitive "κωδικού πρόσβασης" because it is read after "εμφάνιση"/"απόκρυψη" (show password), "Your tracker" shortened to "Το σύστημα αιτημάτων σας" (length warning).
+
+Risky new keys, needs native review (legal paragraphs need legal review):
+
+- "Accounts and logins are handled by Supabase ..." (processor wording, kept from the earlier draft).
+- "Reports travel between our servers and your browser over an encrypted connection ..." and "Your login is kept in your browser's own storage ..." (privacy text).
+- "Deletes your account, profile, plan ..." and "Download a copy of everything in your account ..." (account deletion and data export).
+- "{n} projects on the {plan} plan." and "Every {n} days/hours/minutes": the "one" form drops {n} ("Κάθε ώρα"), as allowed.
+- "Resend in {left}s": "δ" is used as the abbreviation of seconds; check it reads well.
+- "Connected to a channel ..." uses the neuter "Συνδεδεμένο"; "{name}" and "{channel}" get the article "το" and may need another case if the value is a Greek word.
+- "Showing what {name} needs." assumes {name} is a tracker name (Jira, GitHub); "Το {name}" article may not fit every name.
+- "{length} things to fix." is literal ("πράγματα προς διόρθωση"); the source is a count of problems.
+- "too short ({length} of {mINPASSWORD})" is "πολύ μικρό μήκος (...)".
+- "Reach" is "Έκταση", "Confidence" is "Βεβαιότητα", "Headline" is "Τίτλος": single words without context.
+- "Court case" is "Δικαστική υπόθεση" (the older "Case" stays "Υπόθεση").
+- Time words "Hourly/Daily" are adverbs "Ωριαία/Ημερησίως" and are used in {period}, so a native reviewer should check the sentences "Schedule for {domain}: {period}."
+- "These texts are in {textLanguage}. The findings are in {findingsLanguage}." uses "στα" before the language names; correct only when the names are plural neuter forms such as "Αγγλικά", so check how the language names are written.
+- "log in" and "sign in" are both "σύνδεση"; "log out" and "sign out" both "αποσύνδεση".

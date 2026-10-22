@@ -45,3 +45,19 @@ Unreviewed machine draft. No native reviewer has read it.
 - "Review" is a noun status in some places and an adjective phrase "to review" in others; both are "til gennemgang".
 - Core 22/638 ("stage") means onboarding stage; "trin" used.
 - The validator in app/scripts/i18n-check.ts expects the wrapped dict format; the flat files here pass tools/check.mjs.
+
+## Update 2026-10-22 (source hash fa87591c)
+
+224 keys added, 98 removed (orphans deleted), 3 keys moved between bundles with their translations kept (Running, Crawl runs, Summary). Dark, Language, Menu, Search, password and show were re-read against their new notes and kept.
+
+New risky keys: "Accounts and logins are handled by Supabase..." (privacy, legal, needs legal review), "Reports travel between our servers and your browser over an encrypted connection..." (privacy), "Your email address and password, so you can log in..." and "Your login is kept in your browser's own storage..." (privacy, legal review), "Deletes your account, profile, plan, purchases and dashboards right away..." (account deletion), "Written from the check name; no specific guidance yet. The parts written this way: {fields}.", "Rules that could not be decided: {undecided}. Rules that do not apply to this site: {notApplicable}...", "Saved. Schedule for {domain}: {period}. The first crawl starts one period from now...".
+Not translated on purpose: the identifier add_domain and the DNS name _sus-bot.{domain}.
+Nothing in this update is reviewed. Legal paragraphs need legal review.
+
+- "Confidence" is "Konfidens"; "Sikkerhed" could be read as security. A reviewer may know a better word.
+- "Reach" (audit card column) is "Omfang"; the meaning of the English word is a guess from the usage in findings-blocks.ts.
+- "Every {n} days/hours/minutes" is "Hver {n}. dag/time/minut"; the one form is "Hver dag" (the English one form has no number).
+- "A person has to look at these. They are not failures." is "Disse skal gennemgås af et menneske. De er ikke fejl."
+- "These texts are in X. The findings are in Y." is written as "Tekstsprog: X. Fundenes sprog: Y." so the language name does not need a preposition.
+- "{length} things to fix." is "Ting at rette: {length}." because the key is not a plural key.
+- "Search Console property" is "ejendom", the word Google uses in its Danish interface; not checked.

@@ -52,3 +52,17 @@ Categories are zero, one, other. Forms use the genitive plural in zero ("0 lapu"
 - "Written from the check name; no specific guidance yet." could mean the text was generated from the check name.
 - Two near-duplicate version strings (647, 648) differ only by "controller" and "operated by".
 - "Disallow:", "User-agent:", "GET", "http 403", "http 404" kept as code terms.
+
+## Update 2026-10-22 (source hash fa87591c)
+
+224 keys added, 98 removed (orphans deleted), 3 keys moved between bundles with their translations kept (Running, Crawl runs, Summary). Dark, Language, Menu, Search, show and password were re-read against their new notes. "password" changed from "parole" to "paroli" (accusative) so that "rādīt paroli" is grammatical when read together.
+
+New risky keys: "Accounts and logins are handled by Supabase..." (privacy, legal, needs legal review), "Reports travel between our servers and your browser over an encrypted connection..." (privacy), "Your email address and password, so you can log in..." and "Your login is kept in your browser's own storage..." (privacy, legal review), "Deletes your account, profile, plan, purchases and dashboards right away..." (account deletion), "Written from the check name; no specific guidance yet. The parts written this way: {fields}.", "Rules that could not be decided: {undecided}. Rules that do not apply to this site: {notApplicable}...", "Saved. Schedule for {domain}: {period}. The first crawl starts one period from now...".
+Not translated on purpose: the identifier add_domain and the DNS name _sus-bot.{domain}.
+Nothing in this update is reviewed. Legal paragraphs need legal review.
+
+- Plural labels use the colon shape ("Neizturētie incidenti: {n}") in all three categories, as before. "Every {n} days" has real forms: "Reizi {n} dienā" (one), "Reizi {n} dienās" (zero, other). The one category also covers 21, 31, so no word for "every day" is possible.
+- "Confidence" is "Pārliecība", "Reach" is "Aptvērums" (guesses from usage).
+- "Crawler" in the sentence about a crawl request is "rāpulis" as in the existing privacy text.
+- "Search Console property" stays "īpašums"; Google's Latvian interface may use "resurss".
+- "Day 1: getting started" is "1. diena: sākums".

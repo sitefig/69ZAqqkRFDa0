@@ -2,7 +2,7 @@
 
 Status: unreviewed machine draft. No native reviewer has seen it. The manifest status must stay `drafted`. Maltese has the fewest reviewers, so every item below needs an expert.
 
-Coverage: 681 core entries and 232 findings entries, all present. Validator (`scripts/i18n-check.ts`): 0 errors, 0 missing for both bundles. Plural entries (22) use the five categories one, two, few, many, other.
+Coverage: 767 core entries and 272 findings entries, all present (updated 2026-10-22 to the rewritten source strings: 177 core and 50 findings keys added, 101 orphan keys deleted). `node tools/check.mjs --strict`: 0 errors, 0 missing for mt. Plural entries use the five categories one, two, few, many, other.
 
 ## Register
 
@@ -77,3 +77,30 @@ Intl.PluralRules('mt'): one = 1, two = 2, few = 3 to 10, many = 11 to 19, other 
 - The keys "Disallow:" and "User-agent:" are robots.txt directives and are left in English.
 - "A new version ... at least 14 days beforehand" uses the Maltese numeral form "14-il jum".
 - "{n} {severity}" is kept as is; the position of the severity word relative to the count may need agreement in context.
+
+## Round 2 (2026-10-22): new and doubtful items
+
+Still an unreviewed machine draft. Moved between bundles: "Crawl runs" and "Summary" (now core), "Running" (now findings). "Sign in" and "Sign out" keys became "Log in" and "Log out" (Idħol, Oħroġ); the notes above that say "Sign in" apply to "Log in".
+
+Doubtful terms and phrases:
+
+35. "Fiduċja" for the finding column "Confidence"; "Firxa" for "Reach" (meaning is a guess, maybe "Kopertura").
+36. "Kawża tal-qorti" for "Court case" and "Direttiva tal-UE" for "EU directive".
+37. "Dalwaqt" (Shortly), "Għadu kif" (Just now), "Mhux mibdul" (Untouched), "Mistenni lura sa" (Expected back by), "Titlu ewlieni" (Headline), "Passi" (Steps): stand-alone words without grammatical context.
+38. "Tħaddim tal-iskan" for "Crawl runs"; "Is-sistema tal-iskan" for "the crawler" (descriptive, no loanword).
+39. Date and name placeholders are written after a colon ("Imqabbad: {date}", "Imqabbad ma' {channel}, tim: {team}") because Maltese prepositions (fi, f', fid-) and articles change with the inserted value.
+40. Counts without a plural form are written as "label: {n}" ("Affarijiet li jridu jissewwew: {length}", "Sekondi biex tkun tista' tibgħat email oħra: {left}", "Għadd minimu ta' karattri: {mINPASSWORD}") to avoid numeral agreement.
+41. "Ordnat skont {column}, mill-iżgħar għall-akbar" (ascending) and "mill-akbar għall-iżgħar" (descending) assume the column holds numbers; for text or dates the wording is loose.
+42. Plural agreement of "miftuħin / miftuħ", "ma setgħux jiġu vverifikati" with "{n} regola" (11 and above) is a guess; "Kull {n} ijiem / jum", "{n} sigħat / siegħa" follow the usual Maltese numeral rules but need a native check.
+43. "Kompli bi GitHub / Google / LinkedIn" (preposition bi before a brand name).
+44. "Ma ttieħed l-ebda ħlas" for "Nothing was charged"; "Il-bażi tad-dejta" for "database".
+45. "Kont" is used for account; "kontijiet" in the plural (existing).
+46. "Manutenzjoni" for maintenance (alternative: "tiswija" or "manteniment").
+47. "Tneħħi l-konnessjoni ma' {name}?" uses the question form of "disconnect".
+48. noteChanged keys rechecked and kept: Dark "Skur", Language "Lingwa", Menu "Menu", Search "Fittex", password "password", show "uri".
+
+Legal paragraphs needing review (new wording): the Supabase and Cloudflare processors paragraph, the login records text, the account deletion and data download texts, "Reports travel between our servers and your browser..." (encryption and signing). "mingħajr ma jidher" for "unnoticed" is a loose rendering.
+
+New risky keys: "{n} projects on the {plan} plan.", "{n} rules could not be checked...", "Every {n} days/hours/minutes", "Rules that could not be decided: {undecided}...", the "Crawl {crawl}..." family, "{domain}" sentences rewritten with the domain after a colon.
+
+`node tools/build.mjs` stops while other languages still have errors (808 at the last run), so no mt build output was produced.
