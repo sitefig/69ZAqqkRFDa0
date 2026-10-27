@@ -107,3 +107,31 @@ Gender and case follow the sentence; the forms below are the dictionary form use
 | URL pattern |  | URL-minta |  |  |  |  |  |  |  |  |  | URL-Muster | URL-patroon | Modèle d'URL | Patrón de URL | Schema di URL | Padrão de URL |  |  |  |  |  |  |
 | verified | verificat | ellenőrizve | επαληθευμένο | fíoraithe | ivverifikat |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | verify ownership |  |  |  |  | ivverifika s-sjieda | потвърдете собствеността | ověřit vlastnictví | overiť vlastníctvo | preverite lastništvo | potvrdite vlasništvo | zweryfikuj własność | Inhaberschaft bestätigen | Eigendom verifiëren | Vérifier la propriété | Verificar la titularidad | Verifica la proprietà | Verificar a propriedade |  |  |  |  |  |  |
+
+## Changes decided by the review of 2026-10-27
+
+These supersede the table cells above where they differ. Details per language in `reviews/2026-10-27/<lang>.md`.
+
+- de: failing = Nicht bestanden (not Fehlgeschlagen, which stays for a failed run); worst severity = Höchster Schweregrad.
+- fr: support = support (not assistance); stage = niveau (not étape); confidence = Fiabilité; pages crawled = Pages crawlées.
+- it: support = supporto; stage = livello; page source = sorgente; citation = Riferimento normativo.
+- cs: schedule = plán; latest = nejnovější; dashboard = nástěnka; optional = volitelné.
+- sk: schedule = časový plán; guideline = usmernenie (smernica stays for an EU directive); optional = voliteľné.
+- lv: overview = Apskats (Pārskats stays for reports); Search Console property = resurss.
+- lt: crawler = skeneris; role = vaidmuo; maintenance = Techninė priežiūra; Search Console property = nuosavybė (unverified).
+- hr: Search Console property = resurs; citation = Navod.
+- sl: pause = začasno ustavi; terms and conditions = Pogoji uporabe.
+- pl: revoke = Unieważnij; schedule = harmonogram.
+- nl: connect = koppelen; sign in = Inloggen; press a button = Klik op.
+- da: connect = Tilslut.
+- sv: false positive = Falsklarm; business = Verksamhet; reload = Ladda om.
+- el: schedule = Προγραμματισμός; disconnect = Διακοπή σύνδεσης; download = Λήψη; billing = Τιμολόγηση.
+- bg: Search Console property = ресурс; optional = по избор.
+- et: crawler = Skanner; Desktop (device) = Lauaarvuti.
+- fi: exclusions = Rajaukset; breadcrumb = Murupolku.
+- hu: results = Eredmények.
+- pt: e-mail (not email); support = suporte; every n days = De {n} em {n} dias.
+- es: replays = reproducciones; status words masculine singular.
+- ga: fixed = deisithe; affected = a bhfuil tionchar orthu.
+- mt: connected = imqabbad; save = aħżen; support = assistenza.
+- ro: healthy = În regulă.

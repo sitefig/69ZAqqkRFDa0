@@ -1,0 +1,100 @@
+# Slovak (sk): review of 2026-10-27
+
+61 strings corrected out of 1349 reviewed. Format: English | was | now | why.
+
+- 'Cancelled. You are back on the Free plan.' | Zrušené. Vraciate sa na plán Zadarmo. | Zrušené. Ste späť na pláne Zadarmo. | "Vraciate sa" reads as an action in progress.
+- 'Checkout cancelled. Nothing was charged.' | Platba bola zrušená. Nič nebolo odpísané. | Platba bola zrušená. Nič sa neúčtovalo. | Matches "Nič sa neúčtovalo" used elsewhere; "odpísané" is wrong.
+- 'Failing, low or info' | Neprešlé, nízka alebo info | Neprešlé, nízka závažnosť alebo info | Parallel to the high and medium rows.
+- 'Full crawl, the latest' | Úplné prehľadávanie, posledné | Úplné prehľadávanie, najnovšie | "latest" is "najnovšie"; "posledné" is "last" and ambiguous.
+- 'Sample crawl, the latest' | Ukážkové prehľadávanie, posledné | Ukážkové prehľadávanie, najnovšie | "latest" is "najnovšie"; "posledné" is "last" and ambiguous.
+- 'Not the latest' | Nie je posledné | Nie je najnovšie | "latest" is "najnovšie"; "posledné" is "last" and ambiguous.
+- 'Open the latest crawl' | Otvoriť posledné prehľadávanie | Otvoriť najnovšie prehľadávanie | "latest" is "najnovšie"; "posledné" is "last" and ambiguous.
+- 'Know what the last crawl found' | Vedzte, čo našlo posledné prehľadávanie | Zistite, čo našlo posledné prehľadávanie | "Vedzte" is archaic.
+- 'Nothing listed.' | Nič nie je uvedené. | Nič na zobrazenie. | "Nič nie je uvedené" is literal.
+- 'Nothing was changed. Try again with Connect Slack.' | Nič sa nezmenilo. Skúste to znova cez Pripojiť Slack. | Nič sa nezmenilo. Skúste to znova cez „Pripojiť Slack“. | A button label used inside a sentence needs quote marks like the other quoted labels.
+- 'Pages fetched: {done} of {total}.' | Načítané stránky: {done} z {total}. | Stiahnuté stránky: {done} z {total}. | Same word as "Pages fetched" (Stiahnuté).
+- 'Pause schedule' | Pozastaviť rozvrh | Pozastaviť časový plán | "rozvrh" is a timetable; "plán" is taken by the subscription plan, so "časový plán" (WordPress: naplánovať).
+- 'Save schedule' | Uložiť rozvrh | Uložiť časový plán | "rozvrh" is a timetable; "plán" is taken by the subscription plan, so "časový plán" (WordPress: naplánovať).
+- 'Saving a schedule needs JavaScript.' | Uloženie rozvrhu vyžaduje JavaScript. | Uloženie časového plánu vyžaduje JavaScript. | "rozvrh" is a timetable; "plán" is taken by the subscription plan, so "časový plán" (WordPress: naplánovať).
+- 'Schedule and monitoring' | Rozvrh a monitoring | Časový plán a monitoring | "rozvrh" is a timetable; "plán" is taken by the subscription plan, so "časový plán" (WordPress: naplánovať).
+- 'Schedule and monitoring · sus.bot' | Rozvrh a monitoring · sus.bot | Časový plán a monitoring · sus.bot | "rozvrh" is a timetable; "plán" is taken by the subscription plan, so "časový plán" (WordPress: naplánovať).
+- 'Schedule for {domain}: {period}.' | Rozvrh pre {domain}: {period}. | Časový plán pre {domain}: {period}. | "rozvrh" is a timetable; "plán" is taken by the subscription plan, so "časový plán" (WordPress: naplánovať).
+- 'Open a domain to set up its schedule.' | Otvorte doménu, aby ste nastavili jej rozvrh. | Otvorte doménu, aby ste nastavili jej časový plán. | "rozvrh" is a timetable; "plán" is taken by the subscription plan, so "časový plán" (WordPress: naplánovať).
+- 'Set up schedule and monitoring' | Nastaviť rozvrh a monitoring | Nastaviť časový plán a monitoring | "rozvrh" is a timetable; "plán" is taken by the subscription plan, so "časový plán" (WordPress: naplánovať).
+- 'project, schedule, alerts' | projekt, rozvrh, upozornenia | projekt, časový plán, upozornenia | "rozvrh" is a timetable; "plán" is taken by the subscription plan, so "časový plán" (WordPress: naplánovať).
+- 'the schedule answered {status}' | rozvrh odpovedal {status} | časový plán odpovedal {status} | "rozvrh" is a timetable; "plán" is taken by the subscription plan, so "časový plán" (WordPress: naplánovať).
+- 'Send to IT: {title}' | Odoslať IT: {title} | Poslať do IT: {title} | Same verb and form as "Send to IT" (Poslať do IT).
+- 'To (optional)' | Komu (nepovinné) | Komu (voliteľné) | WordPress "voliteľné"; same as "Monitoring (optional)".
+- 'Why it matters to the business (optional)' | Prečo je to pre firmu dôležité (nepovinné) | Prečo je to pre firmu dôležité (voliteľné) | WordPress "voliteľné"; same as "Monitoring (optional)".
+- 'This link cannot be used' | Tento odkaz sa nedá použiť | Tento odkaz nemožno použiť | Same as the identical string with a full stop.
+- 'Engine decision: {decision} ({by}).' | Rozhodnutie enginu: {decision} ({by}). | Rozhodnutie rule engine: {decision} ({by}). | "rule engine" is kept in English in running text; the label said "enginu".
+- 'Engine decision: {decision}.' | Rozhodnutie enginu: {decision}. | Rozhodnutie rule engine: {decision}. | "rule engine" is kept in English in running text; the label said "enginu".
+- 'Engine decision' | Rozhodnutie enginu | Rozhodnutie rule engine | "rule engine" is kept in English in running text; the label said "enginu".
+- 'Guideline' | Smernica | Usmernenie | "Smernica" is the EU directive (Smernica EÚ); a guideline is "usmernenie".
+- 'Laws, standards and guidelines' | Zákony, štandardy a smernice | Zákony, štandardy a usmernenia | "Smernica" is the EU directive (Smernica EÚ); a guideline is "usmernenie".
+- 'Legal and standards basis' | Právny a normatívny základ | Právny základ a štandardy | "normatívny základ" is stiff; same words as "Právny základ".
+- 'Worst first, as published.' | Najhoršie prvé, tak ako boli zverejnené. | Najhoršie prvé, tak, ako boli zverejnené. | Missing comma in "tak, ako".
+- 'A feature you open before its stage simply unlocks. Your stage never goes down.' | Funkcia, ktorú otvoríte pred jej etapou, sa jednoducho odomkne. Vaša etapa sa nikdy nevráti späť. | Funkcia, ktorú otvoríte pred jej etapou, sa jednoducho odomkne. Vaša etapa sa nikdy nezníži. | "Never goes down" is "nezníži".
+- 'Accounts and logins are handled by Supabase. Reports and the files that make up this site are stored and serve' | Účty a prihlasovanie spravuje Supabase. Reporty a súbory, z ktorých pozostáva tento web, ukladá a poskytuje Cloudflare.  | Účty a prihlasovanie spravuje Supabase. Reporty a súbory, z ktorých pozostáva tento web, ukladá a poskytuje Cloudflare.  | Standard GDPR term.
+- 'Alerts are part of monitoring, a paid feature. After a scheduled crawl finds a critical change, we tell you. A' | Upozornenia sú súčasťou monitoringu, platenej funkcie. Keď plánované prehľadávanie nájde kritickú zmenu, dáme vám vedieť | Upozornenia sú súčasťou monitoringu, platenej funkcie. Keď plánované prehľadávanie nájde kritickú zmenu, dáme vám vedieť | "rozvrh" is a timetable; "plán" is taken by the subscription plan, so "časový plán" (WordPress: naplánovať).
+- 'Change alerts are not connected to the audits yet. A saved schedule runs crawls; alerts about what changed bet' | Upozornenia na zmeny zatiaľ nie sú prepojené s auditmi. Uložený rozvrh spúšťa prehľadávania; upozornenia na to, čo sa me | Upozornenia na zmeny zatiaľ nie sú prepojené s auditmi. Uložený časový plán spúšťa prehľadávania; upozornenia na to, čo  | "rozvrh" is a timetable; "plán" is taken by the subscription plan, so "časový plán" (WordPress: naplánovať).
+- 'Deletes your account, profile, plan, purchases and dashboards right away. Devices that are still logged in los' | Okamžite vymaže váš účet, profil, plán, nákupy a dashboardy. Zariadenia, ktoré sú ešte prihlásené, stratia prístup do ho | Okamžite vymaže váš účet, profil, plán, nákupy a nástenky. Zariadenia, ktoré sú ešte prihlásené, stratia prístup do hodi | WordPress uses "nástenka" for dashboard; the app already says nástenka elsewhere.
+- 'Download a copy of everything in your account as one JSON file: your profile, plan, purchases and license keys' | Stiahnite si kópiu všetkého vo svojom účte ako jeden súbor JSON: profil, plán, nákupy a licenčné kľúče, históriu prihlás | Stiahnite si kópiu všetkého vo svojom účte ako jeden súbor JSON: profil, plán, nákupy a licenčné kľúče, históriu prihlás | WordPress uses "nástenka" for dashboard; the app already says nástenka elsewhere.
+- 'Logging in still works, and so does your account page. Only your products and dashboards are unavailable.' | Prihlasovanie stále funguje a váš účet tiež. Nedostupné sú iba vaše produkty a dashboardy. | Prihlasovanie stále funguje a váš účet tiež. Nedostupné sú iba vaše produkty a nástenky. | WordPress uses "nástenka" for dashboard; the app already says nástenka elsewhere.
+- 'Reports and dashboards: while your account exists, and they are removed when you delete it.' | Reporty a dashboardy: kým existuje váš účet, a po jeho vymazaní sa odstránia. | Reporty a nástenky: kým existuje váš účet, a po jeho vymazaní sa odstránia. | WordPress uses "nástenka" for dashboard; the app already says nástenka elsewhere.
+- 'The reports and dashboards we prepare for your account.' | Reporty a dashboardy, ktoré pre váš účet pripravujeme. | Reporty a nástenky, ktoré pre váš účet pripravujeme. | WordPress uses "nástenka" for dashboard; the app already says nástenka elsewhere.
+- 'For teams that monitor their site on a schedule.' | Pre tímy, ktoré monitorujú svoj web podľa rozvrhu. | Pre tímy, ktoré monitorujú svoj web podľa časového plánu. | "rozvrh" is a timetable; "plán" is taken by the subscription plan, so "časový plán" (WordPress: naplánovať).
+- 'Google did not give us long-term access, so nothing was saved. Choose Connect Search Console again and leave t' | Google nám nedal dlhodobý prístup, preto sa nič neuložilo. Zvoľte znova Pripojiť Search Console a nechajte zaškrtnuté po | Google nám nedal dlhodobý prístup, preto sa nič neuložilo. Zvoľte znova „Pripojiť Search Console“ a nechajte zaškrtnuté  | A button label used inside a sentence needs quote marks like the other quoted labels.
+- 'Google no longer lets us read your Search Console, so the numbers have stopped. Reconnect to start them again.' | Google nám už nedovoľuje čítať váš Search Console, preto sa čísla zastavili. Pripojte ho znova a čísla sa opäť rozbehnú. | Google nám už nedovoľuje čítať vašu Search Console, preto sa čísla zastavili. Pripojte ju znova a čísla sa opäť rozbehnú | Search Console is feminine (konzola), as in "Search Console pripojená"; made the same everywhere.
+- 'Search Console is connected. The first numbers arrive within a day.' | Search Console je pripojený. Prvé čísla dorazia do jedného dňa. | Search Console je pripojená. Prvé čísla dorazia do jedného dňa. | Search Console is feminine (konzola), as in "Search Console pripojená"; made the same everywhere.
+- 'No schedule is saved for {domain}. Nothing runs on a timer until you save one.' | Pre doménu {domain} nie je uložený žiadny rozvrh. Nič nebeží podľa časovača, kým ho neuložíte. | Pre doménu {domain} nie je uložený žiadny časový plán. Nič nebeží podľa časovača, kým ho neuložíte. | "rozvrh" is a timetable; "plán" is taken by the subscription plan, so "časový plán" (WordPress: naplánovať).
+- 'Part of monitoring. Once a schedule is saved, critical changes are emailed to the address you signed up with. ' | Súčasť monitoringu. Keď sa uloží rozvrh, kritické zmeny sa posielajú e-mailom na adresu, s ktorou ste sa zaregistrovali. | Súčasť monitoringu. Keď sa uloží časový plán, kritické zmeny sa posielajú e-mailom na adresu, s ktorou ste sa zaregistro | "rozvrh" is a timetable; "plán" is taken by the subscription plan, so "časový plán" (WordPress: naplánovať).
+- 'Reports are prepared from the sites you ask us to watch. We read what those sites serve publicly and nothing e' | Reporty sa pripravujú z webov, ktoré nás požiadate sledovať. Čítame to, čo tieto weby verejne poskytujú, a nič iné. | Reporty sa pripravujú z webov, ktoré nám zadáte na sledovanie. Čítame to, čo tieto weby verejne poskytujú, a nič iné. | Ungrammatical construction.
+- 'Saved. Schedule for {domain}: {period}. The first crawl starts one period from now. Nothing else on this accou' | Uložené. Rozvrh pre {domain}: {period}. Prvé prehľadávanie sa začne o jedno obdobie. Na tomto účte nie je naplánované ni | Uložené. Časový plán pre {domain}: {period}. Prvé prehľadávanie sa začne po uplynutí jedného takého obdobia. Na tomto úč | Clumsy phrase; schedule term.
+- 'Scheduled crawls, change comparison and alerts are a paid feature (the Pro plan). Every account crawls by pres' | Plánované prehľadávania, porovnanie zmien a upozornenia sú platená funkcia (plán Pro). Každý účet prehľadáva stlačením „ | Plánované prehľadávania, porovnanie zmien a upozornenia sú platená funkcia (plán Pro). Každý účet prehľadáva stlačením „ | "rozvrh" is a timetable; "plán" is taken by the subscription plan, so "časový plán" (WordPress: naplánovať).
+- 'The crawl has finished. Reload the page to see its results.' | Prehľadávanie skončilo. Načítajte stránku znova, uvidíte výsledky. | Prehľadávanie skončilo. Načítajte stránku znova a uvidíte výsledky. | Missing conjunction.
+- 'The schedule for {domain} is kept and paused, because your plan no longer includes monitoring. Schedule: {peri' | Rozvrh pre {domain} je zachovaný a pozastavený, pretože váš plán už monitoring neobsahuje. Rozvrh: {period}. | Časový plán pre {domain} je zachovaný a pozastavený, pretože váš plán už monitoring neobsahuje. Časový plán: {period}. | "rozvrh" is a timetable; "plán" is taken by the subscription plan, so "časový plán" (WordPress: naplánovať).
+- 'The schedule for {domain} is paused. Nothing runs on a timer. Schedule: {period}.' | Rozvrh pre {domain} je pozastavený. Nič nebeží podľa časovača. Rozvrh: {period}. | Časový plán pre {domain} je pozastavený. Nič nebeží podľa časovača. Časový plán: {period}. | "rozvrh" is a timetable; "plán" is taken by the subscription plan, so "časový plán" (WordPress: naplánovať).
+- 'This crawl is not available. The latest crawl is one link away.' | Toto prehľadávanie nie je k dispozícii. Posledné prehľadávanie je o jeden odkaz ďalej. | Toto prehľadávanie nie je k dispozícii. Najnovšie prehľadávanie je o jeden odkaz ďalej. | "latest" is "najnovšie"; "posledné" is "last" and ambiguous.
+- "We couldn't read this domain's schedule. Reload to try again." | Rozvrh tejto domény sa nepodarilo prečítať. Načítajte stránku znova. | Časový plán tejto domény sa nepodarilo prečítať. Načítajte stránku znova. | "rozvrh" is a timetable; "plán" is taken by the subscription plan, so "časový plán" (WordPress: naplánovať).
+- 'You are viewing the crawl of {date} (not the latest).' | Pozeráte si prehľadávanie z {date} (nie je posledné). | Pozeráte si prehľadávanie z {date} (nie je najnovšie). | "latest" is "najnovšie"; "posledné" is "last" and ambiguous.
+- 'Your plan includes scheduled crawls and monitoring. Nothing is scheduled until you choose how often and save f' | Váš plán obsahuje plánované prehľadávania a monitoring. Nič nie je naplánované, kým nezvolíte frekvenciu a neuložíte roz | Váš plán obsahuje plánované prehľadávania a monitoring. Nič nie je naplánované, kým nezvolíte frekvenciu a neuložíte čas | "rozvrh" is a timetable; "plán" is taken by the subscription plan, so "časový plán" (WordPress: naplánovať).
+- 'Your plan is {plan}, so this page cannot save a schedule. "Crawl now" works on any plan.' | Váš plán je {plan}, preto na tejto stránke nemožno uložiť rozvrh. „Prehľadať teraz“ funguje v každom pláne. | Váš plán je {plan}, preto na tejto stránke nemožno uložiť časový plán. „Prehľadať teraz“ funguje v každom pláne. | "rozvrh" is a timetable; "plán" is taken by the subscription plan, so "časový plán" (WordPress: naplánovať).
+- '{domain} had no schedule, so there is nothing to pause.' | Doména {domain} nemala rozvrh, takže nie je čo pozastaviť. | Doména {domain} nemala časový plán, takže nie je čo pozastaviť. | "rozvrh" is a timetable; "plán" is taken by the subscription plan, so "časový plán" (WordPress: naplánovať).
+- 'Showing results from {loaded} of {total} incidents. Keep typing to narrow.' | Výsledky z {loaded} incidentov z {total}. Píšte ďalej a zúžite ich. | Výsledky z {loaded} incidentov, spolu {total}. Píšte ďalej a zúžite ich. | Double "z" was clumsy.
+- 'This is a list of the laws, standards and guidelines the audits relate to. It is not legal advice. Each line s' | Toto je zoznam zákonov, štandardov a smerníc, na ktoré sa audity vzťahujú. Nie je to právne poradenstvo. Každý riadok uv | Toto je zoznam zákonov, štandardov a usmernení, na ktoré sa audity vzťahujú. Nie je to právne poradenstvo. Každý riadok  | "Smernica" is the EU directive (Smernica EÚ); a guideline is "usmernenie".
+
+## Second pass: adopt WordPress and Mozilla wording (2026-10-27)
+
+30 labels differed from the references for the identical English: 5 adopted, 25 kept with a reason (a: different sense, b: register, c: consistency with the file, d: grammar or gender).
+
+- 'Confirm new password' | Potvrďte nové heslo | Potvrďte nové heslo | kept: (c) infinitive in reference, file uses formal imperative
+- 'Create your account' | Vytvorte si účet | Vytvorte si účet | kept: (c) infinitive in reference, file uses formal imperative
+- 'Dark' | Tmavá | Tmavá | kept: (d) reference is masculine, our label needs the form it has
+- 'Dismiss' | Zavrieť | Zavrieť | kept: (a) reference means cancel
+- 'Display name' | Zobrazované meno | Zobrazované meno | kept: (a) reference is the verb show name
+- 'Email sent' | E-mail odoslaný | E-mail odoslaný | kept: (b) same vocabulary, reference is a full sentence
+- 'Free' | Zadarmo | Zadarmo | kept: (a) reference is a different sense (rate)
+- 'Log out everywhere' | Odhlásiť sa všade | Odhlásiť sa zo všetkých zariadení | adopted wp-admin vocabulary, kept our infinitive button form
+- 'Menu' | Ponuka | Ponuka | kept: (c) note keeps Ponuka
+- 'Normal' | Normálne | Normálne | kept: (d) gender form of the label
+- 'Please log in again' | Prihláste sa prosím znova | Prihláste sa prosím znovu | adopted wp-core/moz
+- 'Privacy Policy' | Zásady ochrany súkromia | Zásady ochrany súkromia | kept: (c) rest of file says zasady ochrany sukromia
+- 'References' | Zdroje | Zdroje | kept: (c) note: Odkazy is links, Zdroje chosen
+- 'Remember me' | Zapamätať si ma | Zapamätať si ma | kept: (a) reference is a truncated verb
+- 'Security' | Bezpečnosť | Zabezpečenie | adopted wp-admin
+- 'Send reset link' | Poslať odkaz na obnovenie | Poslať odkaz na obnovenie | kept: (c) file says odkaz na obnovenie hesla
+- 'Terms' | Podmienky používania | Podmienky používania | kept: (c) file says Podmienky pouzivania for Terms & Conditions
+- 'Type the new password again.' | Zadajte nové heslo znova. | Zopakujte nové heslo. | adopted wp-admin vocabulary, kept formal register
+- 'Undo' | Vrátiť späť | Vrátiť späť | kept: (a) reference Spat means back
+- 'Wrap long lines' | Zalamovať dlhé riadky | Zalomiť dlhé riadky | adopted moz
+- 'You' | Vy | Vy | kept: (b) reference is informal ty
+- 'legal' | právne | právne | kept: (a) moz leaves the English word
+- 'not logged in' | neprihlásený | neprihlásený | kept: (d) reference is a gendered sentence
+- 'Check' | Kontrola | Kontrola | kept: (a) reference is checkbox tick
+- 'Desktop' | Počítač | Počítač | kept: (a) reference is the screen desktop, Pocitac is the device word
+- 'Failed' | Zlyhalo | Zlyhalo | kept: (d) reference masculine, label neuter
+- 'Fixed' | Opravené | Opravené | kept: (a) reference means fixed position
+- 'New' | Nové | Nové | kept: (d) reference masculine adjective or add
+- 'Resolved' | Vyriešené | Vyriešené | kept: (d) reference masculine, label neuter
+- 'Standard' | Štandard | Štandard | kept: (a) reference is the adjective, here a kind of document

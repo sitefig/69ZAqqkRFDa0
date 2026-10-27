@@ -1,0 +1,98 @@
+# Latvian (lv): review of 2026-10-27
+
+58 strings corrected out of 1349 reviewed. Format: English | was | now | why.
+
+- 'Overview' | Pārskats | Apskats | WordPress core: "pārskats" is overview, but "Pārskats" is also our word for report (nav item Reports), so the two collide; "apskats" keeps them apart.
+- 'Overview · sus.bot' | Pārskats · sus.bot | Apskats · sus.bot | WordPress core: "pārskats" is overview, but "Pārskats" is also our word for report (nav item Reports), so the two collide; "apskats" keeps them apart.
+- 'Go to the overview' | Uz pārskatu | Uz apskatu | WordPress core: "pārskats" is overview, but "Pārskats" is also our word for report (nav item Reports), so the two collide; "apskats" keeps them apart.
+- 'Go to your dashboard' | Doties uz pārskatu | Doties uz paneli | WordPress: dashboard = "panelis"; the old text said "pārskats" (overview/report).
+- 'Adding a project does not start a crawl. Press "Crawl now" on its Overview when you want one.' | Projekta pievienošana neuzsāk skenēšanu. Nospiediet "Skenēt tagad" projekta pārskatā, kad vēlaties skenēšanu. | Projekta pievienošana neuzsāk skenēšanu. Nospiediet „Skenēt tagad“ projekta apskatā, kad vēlaties skenēšanu. | WordPress core: "pārskats" is overview, but "Pārskats" is also our word for report (nav item Reports), so the two collide; "apskats" keeps them apart. Quotes changed to Latvian „…“.
+- 'Crawl requested for {domain}. The crawler picks it up shortly, and results appear on the Overview page when it' | Domēna {domain} skenēšana pieprasīta. Rāpulis to drīz uzsāks, un rezultāti parādīsies pārskata lapā, kad tā būs pabeigta | Domēna {domain} skenēšana pieprasīta. Rāpulis to drīz uzsāks, un rezultāti parādīsies apskata lapā, kad tā būs pabeigta. | WordPress core: "pārskats" is overview, but "Pārskats" is also our word for report (nav item Reports), so the two collide; "apskats" keeps them apart.
+- 'Scheduled crawls, change comparison and alerts are a paid feature (the Pro plan). Every account crawls by pres' | Ieplānotās skenēšanas, izmaiņu salīdzināšana un brīdinājumi ir maksas funkcija (plāns Pro). Katrs konts skenē, nospiežot | Ieplānotās skenēšanas, izmaiņu salīdzināšana un brīdinājumi ir maksas funkcija (plāns Pro). Katrs konts skenē, nospiežot | WordPress core: "pārskats" is overview, but "Pārskats" is also our word for report (nav item Reports), so the two collide; "apskats" keeps them apart. Quotes changed to Latvian „…“.
+- 'The button "Crawl now" needs JavaScript. You can also press it on the Overview page.' | Pogai "Skenēt tagad" nepieciešams JavaScript. To var nospiest arī pārskata lapā. | Pogai „Skenēt tagad“ nepieciešams JavaScript. To var nospiest arī apskata lapā. | WordPress core: "pārskats" is overview, but "Pārskats" is also our word for report (nav item Reports), so the two collide; "apskats" keeps them apart. Quotes changed to Latvian „…“.
+- 'The overview, every incident with the fix for each, one page for each module, the pages with results, and the ' | Pārskats, katrs incidents ar labojumu, viena lapa katram modulim, lapas ar rezultātiem un poga "Skenēt tagad". Neizturēt | Apskats, katrs incidents ar labojumu, viena lapa katram modulim, lapas ar rezultātiem un poga „Skenēt tagad“. Neizturēti | WordPress core: "pārskats" is overview, but "Pārskats" is also our word for report (nav item Reports), so the two collide; "apskats" keeps them apart. Quotes changed to Latvian „…“.
+- '{domain} is added. Verify that it is yours with the button in the list, then press "Crawl now" on its Overview' | {domain} ir pievienots. Ar pogu sarakstā apstipriniet, ka tas ir jūsu, un pēc tam tā pārskatā nospiediet "Skenēt tagad". | {domain} ir pievienots. Ar pogu sarakstā apstipriniet, ka tas ir jūsu, un pēc tam tā apskatā nospiediet „Skenēt tagad“. | WordPress core: "pārskats" is overview, but "Pārskats" is also our word for report (nav item Reports), so the two collide; "apskats" keeps them apart. Quotes changed to Latvian „…“.
+- 'Choose the property' | Izvēlieties īpašumu | Izvēlieties resursu | Search Console calls a property "resurss"; "īpašums" also reads as ownership.
+- 'Search Console property' | Search Console īpašums | Search Console resurss | Search Console calls a property "resurss"; "īpašums" also reads as ownership.
+- 'Offline' | Bezsaistē | Nepieejams | Status badge of the service on the maintenance page; "bezsaistē" means offline mode of an app.
+- 'Paused for maintenance · sus.bot' | Apturēts uzturēšanas darbu dēļ · sus.bot | Apturēts apkopes dēļ · sus.bot | WordPress core: "apkope"; the same page title uses "apkope" elsewhere.
+- 'The service is provided as it stands. We plan maintenance where we can, and we may change or retire features. ' | Pakalpojums tiek sniegts tāds, kāds tas ir. Uzturēšanas darbus plānojam, kur vien iespējams, un varam mainīt vai pārtrau | Pakalpojums tiek sniegts tāds, kāds tas ir. Apkopi plānojam, kur vien iespējams, un varam mainīt vai pārtraukt funkcijas | Same word for maintenance as the rest ("apkope").
+- 'Logging in…' | Pieteicas… | Notiek pieteikšanās… | Matches the "Notiek ..." pattern used for other progress texts.
+- 'Logging out…' | Atsakās… | Notiek atteikšanās… | "Atsakās…" reads as "is refusing".
+- 'Needs attention' | Vajag uzmanību | Nepieciešama uzmanība | "Vajag uzmanību" is colloquial.
+- 'Failing, low or info' | Neizturēti, zems vai informācija | Neizturēti, zems vai informatīvs | "informācija" is a noun; severity info is an adjective.
+- 'Link expired' | Saite beigusies | Saites derīgums beidzies | Same wording as the sibling key "This link has expired".
+- 'Live progress is not available right now.' | Tiešraides gaita pašlaik nav pieejama. | Reāllaika norise pašlaik nav pieejama. | Sibling key already says "Reāllaika norise"; "tiešraide" means broadcast.
+- 'That did not work' | Tas nesanāca | Neizdevās | "Tas nesanāca" is colloquial.
+- 'That login option is not available yet' | Šīs pieteikšanās iespējas vēl nav | Šī pieteikšanās iespēja vēl nav pieejama | Original lacked the verb agreement ("iespējas vēl nav").
+- 'The data lights up' | Dati ieslēdzas | Dati atdzīvojas | "ieslēdzas" means "switches on" like a device.
+- 'View for' | Skats priekš | Skats lomai | "priekš" is a discouraged barbarism.
+- 'Zoom in' | Pietuvināt | Tuvināt | WordPress: "tuvināt"; pairs with "Tālināt".
+- 'New since the crawl before' | Jauns kopš iepriekšējās skenēšanas | Jauni kopš iepriekšējās skenēšanas | Counts incidents, plural like the sibling labels.
+- 'Fixed since the crawl before' | Labots kopš iepriekšējās skenēšanas | Labotie kopš iepriekšējās skenēšanas | Counts incidents, plural like the sibling labels.
+- 'Read this for a role' | Lasiet to kādai lomai | Lasiet atbilstoši lomai | Original "kādai lomai" reads as "for some role".
+- 'The secure connection failed.' | Drošais savienojums neizdevās. | Drošā savienojuma izveide neizdevās. | A connection cannot "fail" itself; its setup does.
+- 'Already have an account with this address? Then no email is sent. Log in instead.' | Vai jums jau ir konts ar šo adresi? Tad e-pasts netiek sūtīts. Pieteikties. | Vai jums jau ir konts ar šo adresi? Tad e-pasts netiek sūtīts. Tā vietā piesakieties. | Last sentence was an infinitive instead of an imperative.
+- 'Log in to see the findings of your latest crawl.' | Pieteikties, lai redzētu pēdējās skenēšanas konstatējumus. | Piesakieties, lai redzētu pēdējās skenēšanas konstatējumus. | Infinitive replaced by the imperative used elsewhere.
+- 'You are logged out. Log in again. Nothing was saved.' | Jūs esat atteicies. Pieteikties vēlreiz. Nekas netika saglabāts. | Jūs esat atteicies. Piesakieties vēlreiz. Nekas netika saglabāts. | Infinitive replaced by the imperative.
+- 'The database gave an answer we do not know. Nothing was saved.' | Datubāze atbildēja nezināmi. Nekas netika saglabāts. | Datubāze atbildēja ar mums nezināmu atbildi. Nekas netika saglabāts. | "atbildēja nezināmi" is an adverb in place of an object; same as the sibling string.
+- 'This page only works when an AI tool sends you here to connect. Add sus.bot in your tool, then follow its logi' | Šī lapa darbojas tikai tad, ja MI rīks jūs sūta šurp pieslēgšanai. Pievienojiet sus.bot savā rīkā un izpildiet tā pietei | Šī lapa darbojas tikai tad, ja MI rīks jūs sūta šurp pieslēgšanai. Pievienojiet sus.bot savā rīkā un atveriet tā pieteik | "izpildīt saiti" is wrong; one opens a link.
+- 'It cannot change anything in your account, and it never sees your password. If it is the wrong tool, choose De' | Tas neko nevar mainīt jūsu kontā un nekad neredz jūsu paroli. Ja tas ir nepareizs rīks, izvēlieties Noraidīt. Piekļuvi v | Tas neko nevar mainīt jūsu kontā un nekad neredz jūsu paroli. Ja tas ir nepareizs rīks, izvēlieties Noraidīt. Piekļuvi v | "atsakoties no rīka" means renouncing the tool.
+- 'This project already has 5,000 decisions, which is the most it keeps. Nothing was saved.' | Šajā projektā jau ir 5000 lēmumu, un tas ir maksimums. Nekas netika saglabāts. | Šajā projektā jau ir 5 000 lēmumu, un tas ir maksimums. Nekas netika saglabāts. | Thousands separator is a space in Latvian.
+- '{base} The engine keeps at most 2,000 rows per finding, so the rest were not stored.' | {base} Dzinējs katram konstatējumam glabā ne vairāk kā 2000 rindu, tāpēc pārējās netika saglabātas. | {base} Dzinējs katram konstatējumam glabā ne vairāk kā 2 000 rindu, tāpēc pārējās netika saglabātas. | Thousands separator is a space in Latvian.
+- 'Failing and to-review incidents are counted apart. Content is a view across SEO, QA and AI, so its incidents a' | Neizturētie un jāpārskata incidenti tiek skaitīti atsevišķi. Saturs ir skats pāri SEO, QA un AI, tāpēc tā incidenti tiek | Neizturētie un jāpārskata incidenti tiek skaitīti atsevišķi. Saturs ir skats pāri SEO, QA un MI, tāpēc tā incidenti tiek | AI is "MI" everywhere else.
+- 'No failing incident is open. Items to review are listed on the Incidents page.' | Neviens neizturēts incidents nav atvērts. Pārskatāmie elementi ir lapā Incidenti. | Neviens neizturēts incidents nav atvērts. Jāpārskata elementi ir lapā Incidenti. | "Pārskatāmie" means "viewable"; the term is "jāpārskata".
+- 'Rules that could not be decided: {undecided}. Rules that do not apply to this site: {notApplicable}. Rules tha' | Noteikumi, par kuriem nevarēja lemt: {undecided}. Noteikumi, kas šai vietnei neattiecas: {notApplicable}. Noteikumi, kas | Noteikumi, par kuriem nevarēja lemt: {undecided}. Noteikumi, kas neattiecas uz šo vietni: {notApplicable}. Noteikumi, ka | "kas šai vietnei neattiecas" has the wrong case; "attiekties" takes "uz".
+- 'Showing results from {loaded} of {total} incidents. Keep typing to narrow.' | Rādīti rezultāti no {loaded} incidentiem no {total}. Turpiniet rakstīt, lai sašaurinātu. | Rādīti {loaded} no {total} incidentiem. Turpiniet rakstīt, lai sašaurinātu. | Doubled "no" was clumsy.
+- 'You press "Crawl now"' | Jūs nospiežat "Skenēt tagad" | Jūs nospiežat „Skenēt tagad“ | Latvian quotation marks „…“ instead of straight quotes.
+- '"{label}" needs the part of sus.bot that makes changes, which isn\'t connected to this app yet. Nothing was cha' | "{label}" ir nepieciešama sus.bot daļa, kas veic izmaiņas, un tā vēl nav pieslēgta šai lietotnei. Nekas netika mainīts. | „{label}“ ir nepieciešama sus.bot daļa, kas veic izmaiņas, un tā vēl nav pieslēgta šai lietotnei. Nekas netika mainīts. | Latvian quotation marks „…“ instead of straight quotes.
+- 'Decision undone for "{title}". The incident is open again.' | Lēmums atcelts: "{title}". Incidents atkal ir atvērts. | Lēmums atcelts: „{title}“. Incidents atkal ir atvērts. | Latvian quotation marks „…“ instead of straight quotes.
+- 'It uses your account to check robots.txt files and to show your plan. It never sees your password. It stays co' | Tas izmanto jūsu kontu, lai pārbaudītu robots.txt failus un parādītu jūsu plānu. Tas nekad neredz jūsu paroli. Tas palie | Tas izmanto jūsu kontu, lai pārbaudītu robots.txt failus un parādītu jūsu plānu. Tas nekad neredz jūsu paroli. Tas palie | Latvian quotation marks „…“ instead of straight quotes.
+- 'Log in again, then choose the button "Sign in" in the extension.' | Piesakieties vēlreiz un paplašinājumā nospiediet pogu "Pieteikties". | Piesakieties vēlreiz un paplašinājumā nospiediet pogu „Pieteikties“. | Latvian quotation marks „…“ instead of straight quotes.
+- 'Scheduled crawls and monitoring are a paid feature (the Pro plan). Without it, your site is crawled when you p' | Ieplānotās skenēšanas un uzraudzība ir maksas funkcija (plāns Pro). Bez tās jūsu vietne tiek skenēta, kad nospiežat "Ske | Ieplānotās skenēšanas un uzraudzība ir maksas funkcija (plāns Pro). Bez tās jūsu vietne tiek skenēta, kad nospiežat „Ske | Latvian quotation marks „…“ instead of straight quotes.
+- 'That email and password don\'t match. Passwords are case-sensitive: check Caps Lock, or use "Forgot your passwo' | Šis e-pasts un parole nesakrīt. Parolēs svarīgi lielie un mazie burti: pārbaudiet Caps Lock vai izmantojiet "Aizmirsāt p | Šis e-pasts un parole nesakrīt. Parolēs svarīgi lielie un mazie burti: pārbaudiet Caps Lock vai izmantojiet „Aizmirsāt p | Latvian quotation marks „…“ instead of straight quotes.
+- 'This page only works when the sus.bot extension opens it. Open sus.bot in Chrome and choose the button "Sign i' | Šī lapa darbojas tikai tad, ja to atver sus.bot paplašinājums. Atveriet sus.bot pārlūkā Chrome un paplašinājumā izvēliet | Šī lapa darbojas tikai tad, ja to atver sus.bot paplašinājums. Atveriet sus.bot pārlūkā Chrome un paplašinājumā izvēliet | Latvian quotation marks „…“ instead of straight quotes.
+- 'Two of those you can exercise yourself, at once: "Download my data" gives you everything we hold about you in ' | Divas no tām varat izmantot paši, nekavējoties: "Lejupielādēt manus datus" dod visu, kas mums par jums ir, vienā failā,  | Divas no tām varat izmantot paši, nekavējoties: „Lejupielādēt manus datus“ dod visu, kas mums par jums ir, vienā failā,  | Latvian quotation marks „…“ instead of straight quotes.
+- 'Your domain is saved. Nothing is crawled until you press "Crawl now".' | Jūsu domēns ir saglabāts. Nekas netiek skenēts, kamēr nenospiežat "Skenēt tagad". | Jūsu domēns ir saglabāts. Nekas netiek skenēts, kamēr nenospiežat „Skenēt tagad“. | Latvian quotation marks „…“ instead of straight quotes.
+- 'Your login is kept in your browser\'s own storage. If you clear it, or you did not tick "Remember me", you are ' | Jūsu pieteikšanās tiek glabāta paša pārlūka krātuvē. Ja to notīrāt vai neatzīmējāt "Atcerēties mani", jūs tiekat atteikt | Jūsu pieteikšanās tiek glabāta paša pārlūka krātuvē. Ja to notīrāt vai neatzīmējāt „Atcerēties mani“, jūs tiekat atteikt | Latvian quotation marks „…“ instead of straight quotes.
+- 'Your plan is {plan}, so this page cannot save a schedule. "Crawl now" works on any plan.' | Jūsu plāns ir {plan}, tāpēc šī lapa nevar saglabāt grafiku. "Skenēt tagad" darbojas jebkurā plānā. | Jūsu plāns ir {plan}, tāpēc šī lapa nevar saglabāt grafiku. „Skenēt tagad“ darbojas jebkurā plānā. | Latvian quotation marks „…“ instead of straight quotes.
+- 'Your plan is {plan}. Scheduled crawls and monitoring are part of the Pro plan, so your site is crawled only wh' | Jūsu plāns ir {plan}. Ieplānotās skenēšanas un uzraudzība ir plāna Pro daļa, tāpēc jūsu vietne tiek skenēta tikai tad, k | Jūsu plāns ir {plan}. Ieplānotās skenēšanas un uzraudzība ir plāna Pro daļa, tāpēc jūsu vietne tiek skenēta tikai tad, k | Latvian quotation marks „…“ instead of straight quotes.
+- '{wanted} is filled in for you after sign-up. Nothing is crawled until you press "Crawl now".' | {wanted} tiek aizpildīts jūsu vietā pēc reģistrēšanās. Nekas netiek skenēts, kamēr nenospiežat "Skenēt tagad". | {wanted} tiek aizpildīts jūsu vietā pēc reģistrēšanās. Nekas netiek skenēts, kamēr nenospiežat „Skenēt tagad“. | Latvian quotation marks „…“ instead of straight quotes.
+- 'No crawl has finished yet. Press "Crawl now" to start the first.' | Neviena skenēšana vēl nav pabeigta. Nospiediet "Skenēt tagad", lai sāktu pirmo. | Neviena skenēšana vēl nav pabeigta. Nospiediet „Skenēt tagad“, lai sāktu pirmo. | Latvian quotation marks „…“ instead of straight quotes.
+- 'The last 24, newest first. "Open this crawl in the project" shows the whole project as it was in that crawl.' | Pēdējās 24, jaunākās pirmās. "Atvērt šo skenēšanu projektā" parāda visu projektu tādu, kāds tas bija šajā skenēšanā. | Pēdējās 24, jaunākās pirmās. „Atvērt šo skenēšanu projektā“ parāda visu projektu tādu, kāds tas bija šajā skenēšanā. | Latvian quotation marks „…“ instead of straight quotes.
+
+## Second pass: adopt WordPress and Mozilla wording (2026-10-27)
+
+31 labels differed from the references for the identical English: 6 adopted, 25 kept with a reason (a: different sense, b: register, c: consistency with the file, d: grammar or gender).
+
+- 'Accessibility' | Piekļūstamība | Piekļūstamība | kept: c pieejamība is availability in this file ("6. Availability")
+- 'Connected' | Pieslēgts | Pieslēgts | kept: c file uses pieslēgts in 19 strings
+- 'Create your account' | Izveidojiet savu kontu | Izveidojiet savu kontu | kept: b formal imperative kept, vocabulary already the same
+- 'Dismiss' | Aizvērt | Aizvērt | kept: a Nerādīt reads as do not show again; this only closes a toast
+- 'Free' | Bezmaksas | Bezmaksas | kept: a brīvs is free as in unrestricted, not a free plan
+- 'Latest' | Jaunākā | Jaunākā | kept: d number and gender, sibling "Nav jaunākā"
+- 'Loading…' | Ielādē… | Notiek ielāde… | adopted wp-core
+- 'Logging in…' | Notiek pieteikšanās… | Notiek pieteikšanās… | kept: c Log in is Pieteikties
+- 'Normal' | Parasts | Normāls | adopted wp-core
+- 'Not connected.' | Nav pieslēgts. | Nav pieslēgts. | kept: c file uses pieslēgts
+- 'Overview' | Apskats | Apskats | kept: c Pārskats is Report in this file
+- 'Skip to main content' | Pāriet uz galveno saturu | Pāriet uz galveno saturu | kept: b already the same vocabulary, reference is conditional
+- 'Terms' | Noteikumi | Noteikumi | kept: a termini is glossary terms
+- 'Type the new password again.' | Vēlreiz ievadiet jauno paroli. | Ievadiet jauno paroli vēlreiz. | adopted wp-admin
+- 'Unchanged' | Nemainīts | Nemainīts | kept: d reference is plural/different gender
+- 'Updated' | Atjaunināts | Atjaunināts | kept: a jaunināts is upgrade
+- 'Wrap long lines' | Lauzt garās rindas | Aplauzt garas rindas | adopted moz
+- 'Your domain' | Jūsu domēns | Jūsu domēns | kept: b formal Jūsu kept
+- 'legal' | juridiskais | juridiskie teksti | adopted moz
+- 'not logged in' | nav pieteicies | nav pieteicies | kept: c Log in is Pieteikties
+- 'password' | paroli | paroli | kept: d accusative needed in "show password"
+- 'Check' | Pārbaude | Pārbaude | kept: a reference is checkbox sense
+- 'Citation' | Atsauce | Atsauce | kept: a reference is the act of citing
+- 'Desktop' | Dators | Dators | kept: a reference is the OS desktop
+- 'Done' | Pabeigts | Pabeigts | kept: a gatavs means ready, darīts is not a status word here
+- 'Failed' | Neizdevās | Neizdevās | kept: d neizdevies is not the form needed
+- 'Fixed' | Labots | Labots | kept: a reference is a different sense, c Labotie incidenti
+- 'Kind' | Veids | Veids | kept: a laipns is kind as in friendly
+- 'Medium' | Vidēja | Vidēja | kept: d feminine like Augsta and Zema
+- 'Standard' | Standarts | Standarts | kept: a reference is the adjective standard
+- 'Tablet' | Planšete | Planšetdators | adopted wp-core

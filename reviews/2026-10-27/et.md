@@ -1,0 +1,97 @@
+# Estonian (et): review of 2026-10-27
+
+54 strings corrected out of 1349 reviewed. Format: English | was | now | why.
+
+- 'Email me a magic link instead' | Saada mulle hoopis võluink | Saada mulle hoopis võlulink | 'Võluink' means magic ink; the word is link (WP: link).
+- 'Send magic link' | Saada võluink | Saada võlulink | 'Võluink' means magic ink; the word is link.
+- 'If an account exists for this address, we sent it a magic link. Open it on this device to finish logging in.' | Kui sellele aadressile on konto olemas, saatsime sellele võluingi. Avage see sellel seadmel, et sisselogimine lõpule vii | Kui sellele aadressile on konto olemas, saatsime sellele võlulingi. Avage see sellel seadmel, et sisselogimine lõpule vi | Typo võluingi (magic ink) fixed to võlulingi.
+- 'Fetching data…' | Andmete toomine… | Andmete laadimine… | Natural UI wording; WP uses laadimine for loading.
+- 'Checkout cancelled. Nothing was charged.' | Ostuvormistus tühistati. Midagi ei arvestatud. | Ostuvormistus tühistati. Tasu ei võetud. | 'Midagi ei arvestatud' means nothing was counted; now matches 'Nothing was charged' elsewhere.
+- 'Pages fetched' | Toodud lehed | Hangitud lehed | Same verb as 'Pages fetched: ...' (hangima), not 'tooma'.
+- 'Fetch errors' | Toomisvead | Hankimisvead | Consistent with hangima for fetch.
+- 'Fetching files' | Failide toomine | Failide hankimine | Consistent with hangima for fetch.
+- 'Fetching pages' | Lehtede toomine | Lehtede hankimine | Consistent with hangima for fetch.
+- 'The page could not be fetched.' | Lehte ei saanud tuua. | Lehte ei saanud hankida. | Consistent with hangima for fetch.
+- 'Just now' | Just praegu | Äsja | Natural Estonian for 'just now'.
+- 'The database had nothing to say. Nothing changed.' | Andmebaas ei vastanud midagi. Midagi ei muutunud. | Andmebaas ei andnud vastust. Midagi ei muutunud. | 'Ei vastanud midagi' is ungrammatical.
+- 'Showing the Business view.' | Kuvatakse äri vaadet. | Kuvatakse ärivaadet. | Compound noun and correct case.
+- 'Showing the IT view.' | Kuvatakse IT vaadet. | Kuvatakse IT-vaadet. | Compound noun and correct case.
+- '{reason}. Reload the page to try again.' | {reason}. Laadige leht uuesti, et proovida uuesti. | {reason}. Proovimiseks laadige leht uuesti. | Avoids 'uuesti ... uuesti'.
+- '{reason}. Reload to try again.' | {reason}. Laadige uuesti, et proovida uuesti. | {reason}. Proovimiseks laadige leht uuesti. | Avoids 'uuesti ... uuesti'.
+- 'Desktop' | Töölaud | Lauaarvuti | As a device type 'lauaarvuti' is the established term (WP lists it next to töölaud; Tablet is tahvelarvuti).
+- 'Changes since the crawl before' | Muutused võrreldes eelmise skannimisega | Muudatused võrreldes eelmise skannimisega | 'Changes' is Muudatused elsewhere; Muutused was inconsistent.
+- 'Low vision: blur' | Nõrk nägemine: hägu | Nõrk nägemine: hägusus | 'hägu' is not a normal word for blur.
+- 'Open the live page' | Ava reaalajas leht | Ava leht veebis | 'reaalajas leht' is not meaningful for the live web page.
+- 'Confirmation emails sent. Your address changes to {trim} once you confirm.' | Kinnitusmeilid saadetud. Teie aadress muutub aadressiks {trim}, kui kinnitate. | Kinnituskirjad saadetud. Teie aadress muutub aadressiks {trim}, kui kinnitate. | 'meil' is colloquial; the rest of the UI uses e-kiri.
+- 'Crawl requested for {domain}. The crawler picks it up shortly, and results appear on the Overview page when it' | Domeeni {domain} skannimine on taotletud. Robot võtab selle peagi ette ja tulemused ilmuvad lehele Ülevaade, kui see on  | Domeeni {domain} skannimine on taotletud. Skanner võtab selle peagi ette ja tulemused ilmuvad lehele Ülevaade, kui see o | Crawler is 'skanner' in the UI ('Skanner töötab korralikult'), not 'robot'.
+- 'Download a copy of everything in your account as one JSON file: your profile, plan, purchases and license keys' | Laadige alla koopia kõigest oma kontol ühe JSON-failina: profiil, pakett, ostud ja litsentsivõtmed, sisselogimisajalugu  | Laadige alla koopia kõigest, mis teie kontol on, ühe JSON-failina: profiil, pakett, ostud ja litsentsivõtmed, sisselogim | 'kõigest oma kontol' is ambiguous.
+- 'Email opens your own email app. If nothing happens, copy the message instead.' | E-kiri avab teie enda e-posti rakenduse. Kui midagi ei juhtu, kopeerige sõnum hoopis. | E-kiri avab teie enda e-posti rakenduse. Kui midagi ei juhtu, kopeerige hoopis sõnum. | Word order.
+- 'Alerts are part of monitoring, a paid feature. After a scheduled crawl finds a critical change, we tell you. A' | Teavitused kuuluvad seire juurde, mis on tasuline funktsioon. Kui ajastatud skannimine leiab kriitilise muutuse, anname  | Teavitused kuuluvad seire juurde, mis on tasuline funktsioon. Kui ajastatud skannimine leiab kriitilise muutuse, anname  | 'uutes auditites muutunu kohta' is unclear.
+- 'New accounts start on the Free plan. A paid plan or an individual product unlocks more; what each one includes' | Uued kontod algavad Tasuta paketiga. Tasuline pakett või üksiktoode avab rohkem. Mida iga neist sisaldab, on loetletud a | Uued kontod algavad tasuta paketiga. Tasuline pakett või üksiktoode avab rohkem. Mida iga neist sisaldab, on loetletud a | Plan name Free is lower case in running text (see 'tasuta paketil').
+- 'Start on the Free plan. Run your first crawl when you are ready.' | Alustage Tasuta paketiga. Tehke oma esimene skannimine, kui olete valmis. | Alustage tasuta paketiga. Tehke oma esimene skannimine, kui olete valmis. | Lower case in running text.
+- "You're on the Free plan. Everything your plan includes is below." | Kasutate Tasuta paketti. Kõik, mida teie pakett sisaldab, on allpool. | Kasutate tasuta paketti. Kõik, mida teie pakett sisaldab, on allpool. | Lower case in running text.
+- 'They join this account and see what you see. Whoever pays for this account covers them; their own plan stays f' | Nad liituvad selle kontoga ja näevad seda, mida teie. Selle konto eest maksja katab nad; nende enda pakett jääb tasuta. | Nad liituvad selle kontoga ja näevad seda, mida teie. Nende eest tasub see, kes selle konto eest maksab; nende enda pake | 'Selle konto eest maksja katab nad' is clumsy.
+- 'We sent you a confirmation link. Open it to finish creating your account. It can take a minute to arrive; chec' | Saatsime teile kinnituslingi. Avage see konto loomise lõpetamiseks. Kohaleminek võib võtta minuti; kui seda pole, vaadak | Saatsime teile kinnituslingi. Avage see konto loomise lõpetamiseks. Kohalejõudmine võib võtta minuti; kui seda pole, vaa | 'Kohaleminek' is wrong word.
+- 'You go to Google to approve read-only access. If you decline, nothing changes.' | Suunatakse Google'isse lugemisjuurdepääsu kinnitama. Kui keeldute, ei muutu midagi. | Teid suunatakse Google'isse lugemisjuurdepääsu kinnitama. Kui keeldute, ei muutu midagi. | Missing subject.
+- 'Scheduled crawls, change comparison and alerts are a paid feature (the Pro plan). Every account crawls by pres' | Ajastatud skannimised, muutuste võrdlus ja teavitused on tasuline funktsioon (pakett Pro). Iga konto skannib, kui vajuta | Ajastatud skannimised, muutuste võrdlus ja teavitused on tasuline funktsioon (pakett Pro). Iga konto käivitab skannimise | 'Iga konto skannib, kui vajutada' is ungrammatical.
+- 'Showing results from {loaded} of {total} incidents. Keep typing to narrow.' | Näidatud on tulemused {loaded} vahejuhtumist {total}-st. Kitsendamiseks jätkake trükkimist. | Vahejuhtumeid kokku {total}, tulemused näidatud {loaded} kohta. Kitsendamiseks jätkake trükkimist. | Avoids a case ending on the number {total}-st.
+- 'This check is not part of the current plan.' | See kontroll ei kuulu praegusesse pakki. | See kontroll ei kuulu praegusesse paketti. | 'pakk' (pack) was used; plan is pakett.
+- 'You press "Crawl now"' | Vajutate "Skanni kohe" | Vajutate „Skanni kohe“ | Straight quotes replaced by the language quote marks.
+- '"{label}" needs the part of sus.bot that makes changes, which isn\'t connected to this app yet. Nothing was cha' | "{label}" vajab sus.boti osa, mis teeb muudatusi, ja see pole veel selle rakendusega ühendatud. Midagi ei muudetud. | „{label}“ vajab sus.boti osa, mis teeb muudatusi, ja see pole veel selle rakendusega ühendatud. Midagi ei muudetud. | Straight quotes replaced by the language quote marks.
+- 'Adding a project does not start a crawl. Press "Crawl now" on its Overview when you want one.' | Projekti lisamine ei käivita skannimist. Vajutage projekti ülevaates nuppu "Skanni kohe", kui soovite skannida. | Projekti lisamine ei käivita skannimist. Vajutage projekti ülevaates nuppu „Skanni kohe“, kui soovite skannida. | Straight quotes replaced by the language quote marks.
+- 'Decision undone for "{title}". The incident is open again.' | Otsus tühistatud: "{title}". Vahejuhtum on taas avatud. | Otsus tühistatud: „{title}“. Vahejuhtum on taas avatud. | Straight quotes replaced by the language quote marks.
+- 'It uses your account to check robots.txt files and to show your plan. It never sees your password. It stays co' | See kasutab teie kontot robots.txt failide kontrollimiseks ja teie paketi näitamiseks. See ei näe kunagi teie parooli. S | See kasutab teie kontot robots.txt failide kontrollimiseks ja teie paketi näitamiseks. See ei näe kunagi teie parooli. S | Straight quotes replaced by the language quote marks.
+- 'Log in again, then choose the button "Sign in" in the extension.' | Logige uuesti sisse ja valige seejärel laienduses nupp "Logi sisse". | Logige uuesti sisse ja valige seejärel laienduses nupp „Logi sisse“. | Straight quotes replaced by the language quote marks.
+- 'Scheduled crawls and monitoring are a paid feature (the Pro plan). Without it, your site is crawled when you p' | Ajastatud skannimised ja seire on tasuline funktsioon (pakett Pro). Ilma selleta skannitakse teie saiti siis, kui vajuta | Ajastatud skannimised ja seire on tasuline funktsioon (pakett Pro). Ilma selleta skannitakse teie saiti siis, kui vajuta | Straight quotes replaced by the language quote marks.
+- 'That email and password don\'t match. Passwords are case-sensitive: check Caps Lock, or use "Forgot your passwo' | See e-post ja parool ei sobi kokku. Paroolides on tähtedel suur- ja väiketähe vahe: kontrollige Caps Locki või kasutage  | See e-post ja parool ei sobi kokku. Paroolides on tähtedel suur- ja väiketähe vahe: kontrollige Caps Locki või kasutage  | Straight quotes replaced by the language quote marks.
+- 'The button "Crawl now" needs JavaScript. You can also press it on the Overview page.' | Nupp "Skanni kohe" vajab JavaScripti. Võite selle vajutada ka lehel Ülevaade. | Nupp „Skanni kohe“ vajab JavaScripti. Võite selle vajutada ka lehel Ülevaade. | Straight quotes replaced by the language quote marks.
+- 'The overview, every incident with the fix for each, one page for each module, the pages with results, and the ' | Ülevaade, iga vahejuhtum koos parandusega, üks leht iga mooduli kohta, tulemusega lehed ja nupp "Skanni kohe". Ebaõnnest | Ülevaade, iga vahejuhtum koos parandusega, üks leht iga mooduli kohta, tulemusega lehed ja nupp „Skanni kohe“. Ebaõnnest | Straight quotes replaced by the language quote marks.
+- 'This page only works when the sus.bot extension opens it. Open sus.bot in Chrome and choose the button "Sign i' | See leht töötab ainult siis, kui laiendus sus.bot selle avab. Avage sus.bot Chrome'is ja valige laienduses nupp "Logi si | See leht töötab ainult siis, kui laiendus sus.bot selle avab. Avage sus.bot Chrome'is ja valige laienduses nupp „Logi si | Straight quotes replaced by the language quote marks.
+- 'Two of those you can exercise yourself, at once: "Download my data" gives you everything we hold about you in ' | Kaks neist saate kohe ise ellu viia: "Laadi minu andmed alla" annab teile kõik, mis teie kohta hoiame, ühe failina, ja " | Kaks neist saate kohe ise ellu viia: „Laadi minu andmed alla“ annab teile kõik, mis teie kohta hoiame, ühe failina, ja „ | Straight quotes replaced by the language quote marks.
+- 'Your domain is saved. Nothing is crawled until you press "Crawl now".' | Teie domeen on salvestatud. Midagi ei skannita enne, kui vajutate "Skanni kohe". | Teie domeen on salvestatud. Midagi ei skannita enne, kui vajutate „Skanni kohe“. | Straight quotes replaced by the language quote marks.
+- 'Your login is kept in your browser\'s own storage. If you clear it, or you did not tick "Remember me", you are ' | Teie sisselogimist hoitakse brauseri enda salvestuses. Kui selle kustutate või ei märkinud "Jäta mind meelde", logitakse | Teie sisselogimist hoitakse brauseri enda salvestuses. Kui selle kustutate või ei märkinud „Jäta mind meelde“, logitakse | Straight quotes replaced by the language quote marks.
+- 'Your plan is {plan}, so this page cannot save a schedule. "Crawl now" works on any plan.' | Teie pakett on {plan}, seega ei saa see leht ajakava salvestada. "Skanni kohe" töötab igas paketis. | Teie pakett on {plan}, seega ei saa see leht ajakava salvestada. „Skanni kohe“ töötab igas paketis. | Straight quotes replaced by the language quote marks.
+- 'Your plan is {plan}. Scheduled crawls and monitoring are part of the Pro plan, so your site is crawled only wh' | Teie pakett on {plan}. Ajastatud skannimised ja seire kuuluvad paketti Pro, seega skannitakse teie saiti ainult siis, ku | Teie pakett on {plan}. Ajastatud skannimised ja seire kuuluvad paketti Pro, seega skannitakse teie saiti ainult siis, ku | Straight quotes replaced by the language quote marks.
+- '{domain} is added. Verify that it is yours with the button in the list, then press "Crawl now" on its Overview' | {domain} on lisatud. Kinnitage nupuga loendis, et see on teie oma, ja vajutage siis selle ülevaates "Skanni kohe". | {domain} on lisatud. Kinnitage nupuga loendis, et see on teie oma, ja vajutage siis selle ülevaates „Skanni kohe“. | Straight quotes replaced by the language quote marks.
+- '{wanted} is filled in for you after sign-up. Nothing is crawled until you press "Crawl now".' | {wanted} täidetakse teie eest pärast registreerumist. Midagi ei skannita enne, kui vajutate "Skanni kohe". | {wanted} täidetakse teie eest pärast registreerumist. Midagi ei skannita enne, kui vajutate „Skanni kohe“. | Straight quotes replaced by the language quote marks.
+- 'No crawl has finished yet. Press "Crawl now" to start the first.' | Ühtegi skannimist pole veel lõpetatud. Esimese alustamiseks vajutage "Skanni kohe". | Ühtegi skannimist pole veel lõpetatud. Esimese alustamiseks vajutage „Skanni kohe“. | Straight quotes replaced by the language quote marks.
+- 'The last 24, newest first. "Open this crawl in the project" shows the whole project as it was in that crawl.' | Viimased 24, uuemad ees. "Ava see skannimine projektis" näitab kogu projekti sellisena, nagu see selles skannimises oli. | Viimased 24, uuemad ees. „Ava see skannimine projektis“ näitab kogu projekti sellisena, nagu see selles skannimises oli. | Straight quotes replaced by the language quote marks.
+
+## Second pass: adopt WordPress and Mozilla wording (2026-10-27)
+
+34 labels differed from the references for the identical English: 9 adopted, 25 kept with a reason (a: different sense, b: register, c: consistency with the file, d: grammar or gender).
+
+- 'Accessibility' | Juurdepääsetavus | Ligipääsetavus | adopted wp-core
+- 'Already have an account?' | Konto on juba olemas? | Konto on juba olemas? | kept: (b) informal sina register
+- 'Change password' | Muuda parooli | Muuda parooli | kept: (d) reference muuda parool lacks the partitive that Estonian grammar needs
+- 'Confirm new password' | Kinnitage uus parool | Kinnitage uus parool | kept: (a)/(b) reference is an informal sentence about re-entering
+- 'Create your account' | Looge oma konto | Looge oma konto | kept: (b) informal imperative, drops "your"
+- 'Dismiss' | Sulge | Sulge | kept: (a) loobu means cancel/give up
+- 'Enter your email address.' | Sisestage oma e-posti aadress. | Sisestage oma e-posti aadress. | kept: (b) informal sina
+- 'Enter your password.' | Sisestage oma parool. | Sisestage oma parool. | kept: (b) informal sina
+- 'Items' | Kirjed | Üksused | adopted mw (nominative for a row label)
+- 'Latest' | Viimane | Viimane | kept: (d) reference is plural; singular needed, same stem viimane/uusim
+- 'Maintenance' | Hooldus | Hooldus | kept: (c) Hooldus in 5 strings
+- 'Please log in again' | Logige uuesti sisse | Logige uuesti sisse | kept: (b) informal sina
+- 'References' | Viited | Allikaviited | adopted wp-core
+- 'Send reset link' | Saada lähtestuslink | Saada lähtestuslink | kept: (c) lähtesta used in "Lähtestage oma parool"; reference means password change
+- 'Sessions' | Seansid | Seansid | kept: (c) Seansid in 9 strings
+- 'Skip to main content' | Liigu põhisisu juurde | Liigu põhilise sisu juurde | adopted wp-admin (verb kept)
+- 'Status' | Staatus | Olek | adopted wp (file uses olek elsewhere)
+- 'Team' | Meeskond | Meeskond | kept: (a) tegijad means credits
+- 'Terms' | Tingimused | Tingimused | kept: (a) terminid means glossary terms; Tingimused used in titles
+- 'Type the new password again.' | Sisestage uus parool uuesti. | Sisestage uus parool uuesti. | kept: (b) informal; different wording
+- 'Unchanged' | Muutumatu | Muutmata | adopted wp-core
+- 'Wrap long lines' | Murra pikad read | Pikad read murtakse | adopted moz
+- 'You' | Teie | Teie | kept: (b) sina vs project formal Teie
+- 'Your domain' | Teie domeen | Teie domeen | kept: (b) informal sinu
+- 'legal' | õigus | õigus | kept: (a) reference is the paper size
+- 'not logged in' | pole sisse logitud | sisse logimata | adopted mw
+- 'password' | parooli | parooli | kept: (d) genitive needed after show/hide (näita parooli)
+- 'Check' | Kontroll | Kontroll | kept: (a) reference is a verb or select; here a noun label
+- 'Citation' | Viide | Viide | kept: (a) tsitaat means a quotation
+- 'Failed' | Ebaõnnestus | Ebaõnnestunud | adopted wp-core (as in "Ebaõnnestunud auditid")
+- 'Fixed' | Parandatud | Parandatud | kept: (a) fikseeritud means static
+- 'Kind' | Liik | Liik | kept: (c) Liik in "Skannimise liik"
+- 'Mobile' | Mobiil | Mobiil | kept: (d) noun in device set Lauaarvuti/Mobiil/Tahvelarvuti
+- 'Standard' | Standard | Standard | kept: (a) standardne is an adjective, here a document kind

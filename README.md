@@ -37,6 +37,8 @@ node tools/check.mjs            validate; missing keys are warnings
 node tools/check.mjs --strict   missing keys and missing languages fail too
 node tools/build.mjs            check, then write dist/
 node tools/sync-source.mjs      refresh source/ from ../app
+node tools/missing.mjs [dir]    list every key some language lacks (writes <dir>/missing.json, default .work/)
+node tools/merge-patch.mjs [dir]  merge <dir>/patch.<lang>.json into src/<lang>/ after checking it
 node --test tests/*.test.mjs
 ```
 
@@ -54,7 +56,19 @@ A new language outside the 24 is a change in the app first, then `node tools/syn
 
 ## When the English source changes
 
-The app regenerates `i18n/source-strings.json`. Run `node tools/sync-source.mjs`, then `node tools/check.mjs`. Removed English strings show as orphans (errors). New ones show as missing keys (warnings). Changed English wording keeps the old key as an orphan and adds a new missing key.
+Always: a change to text in the app is not finished until all 23 languages have it (owner, 2026-10-27; `app/CLAUDE.md`, "Translations").
+
+1. In `../app`: `npm run build && npm run i18n:extract`.
+2. Here: `node tools/sync-source.mjs`. Removed English strings show as orphans (errors): delete them from every `src/<lang>/*.json`. New ones show as missing keys.
+3. `node tools/missing.mjs`, then write `.work/patch.<lang>.json` for every language: all missing keys, plural forms as the language needs them, placeholders unchanged, the glossary and `notes/<lang>.md` followed.
+4. `node tools/merge-patch.mjs`, then `node tools/check.mjs --strict` (CI runs the strict form, so a push with missing keys does not deploy) and `node --test tests/*.test.mjs`.
+5. Push to `main`; Pages serves the new `manifest.json`. Then deploy the app.
+
+Changed English wording keeps its key only if the meaning is the same; a changed sentence is a new key and the old one is an orphan.
+
+## Check the wording against other software
+
+`sh tools/reference/download.sh` fetches WordPress, Mozilla and MediaWiki translations into `.reference/` (git-ignored); `python3 -I tools/reference/build_index.py` indexes them; `python3 -I tools/reference/compare.py` lists labels where ours differs from the reference for the identical English; `python3 -I tools/reference/lookup.py <lang> "<word>"` shows how those projects translate a term. A difference is not an error: judge it, and write corrections as a patch (`tools/merge-patch.mjs`). The 2026-10-27 review and what it changed is in `reviews/`. Do this for a language before a native reviewer is asked to sign it off.
 
 ## Review status
 

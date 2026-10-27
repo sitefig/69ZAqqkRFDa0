@@ -1,0 +1,93 @@
+# Czech (cs): review of 2026-10-27
+
+54 strings corrected out of 1349 reviewed. Format: English | was | now | why.
+
+- 'No invitations waiting.' | Žádné nové incidenty od předchozího procházení. | Žádné čekající pozvánky. | Text was the translation of a different string (new incidents).
+- 'No new incident since the crawl before.' | Žádné čekající pozvánky. | Od předchozího procházení žádný nový incident. | Text was the translation of "No invitations waiting".
+- 'Email address of the person to invite' | E-mailová adresa zvaného člověka | E-mailová adresa zvané osoby | "zvaného člověka" is stiff; "osoby" is natural.
+- 'Cancelled. You are back on the Free plan.' | Zrušeno. Vracíte se na tarif Zdarma. | Zrušeno. Jste zpět na tarifu Zdarma. | "Vracíte se" reads as an action in progress; the state is "Jste zpět".
+- 'Know what the last crawl found' | Vězte, co poslední procházení našlo | Zjistěte, co našlo poslední procházení | "Vězte" is archaic.
+- 'Full crawl, the latest' | Úplné procházení, poslední | Úplné procházení, nejnovější | "latest" is "nejnovější" (WordPress); "poslední" is "last" and is ambiguous.
+- 'Sample crawl, the latest' | Ukázkové procházení, poslední | Ukázkové procházení, nejnovější | "latest" is "nejnovější" (WordPress); "poslední" is "last" and is ambiguous.
+- 'Not the latest' | Není poslední | Není nejnovější | "latest" is "nejnovější" (WordPress); "poslední" is "last" and is ambiguous.
+- 'Open the latest crawl' | Otevřít poslední procházení | Otevřít nejnovější procházení | "latest" is "nejnovější" (WordPress); "poslední" is "last" and is ambiguous.
+- 'Revoke' | Zrušit | Odvolat | "Zrušit" duplicates Cancel; revoke access is "odvolat".
+- 'Why it matters to the business (optional)' | Proč je to pro firmu důležité (nepovinné) | Proč je to pro firmu důležité (volitelné) | Same word as "(optional)" elsewhere; WordPress "(volitelné)".
+- 'To (optional)' | Komu (nepovinné) | Komu (volitelné) | Same word as "(optional)" elsewhere; WordPress "(volitelné)".
+- 'Pause schedule' | Pozastavit rozvrh | Pozastavit plán | Glossary "rozvrh" is a school timetable; WordPress uses "plán" for schedule (plán událostí).
+- 'Save schedule' | Uložit rozvrh | Uložit plán | Glossary "rozvrh" is a school timetable; WordPress uses "plán" for schedule (plán událostí).
+- 'Saving a schedule needs JavaScript.' | Uložení rozvrhu vyžaduje JavaScript. | Uložení plánu vyžaduje JavaScript. | Glossary "rozvrh" is a school timetable; WordPress uses "plán" for schedule (plán událostí).
+- 'Schedule and monitoring' | Rozvrh a monitoring | Plán a monitoring | Glossary "rozvrh" is a school timetable; WordPress uses "plán" for schedule (plán událostí).
+- 'Schedule and monitoring · sus.bot' | Rozvrh a monitoring · sus.bot | Plán a monitoring · sus.bot | Glossary "rozvrh" is a school timetable; WordPress uses "plán" for schedule (plán událostí).
+- 'Schedule for {domain}: {period}.' | Rozvrh pro {domain}: {period}. | Plán pro {domain}: {period}. | Glossary "rozvrh" is a school timetable; WordPress uses "plán" for schedule (plán událostí).
+- 'Open a domain to set up its schedule.' | Otevřete doménu, abyste nastavili její rozvrh. | Otevřete doménu, abyste nastavili její plán. | Glossary "rozvrh" is a school timetable; WordPress uses "plán" for schedule (plán událostí).
+- 'project, schedule, alerts' | projekt, rozvrh, upozornění | projekt, plán, upozornění | Glossary "rozvrh" is a school timetable; WordPress uses "plán" for schedule (plán událostí).
+- 'the schedule answered {status}' | rozvrh odpověděl: {status} | plán odpověděl: {status} | Glossary "rozvrh" is a school timetable; WordPress uses "plán" for schedule (plán událostí).
+- 'Accounts and logins are handled by Supabase. Reports and the files that make up this site are stored and serve' | Účty a přihlašování zajišťuje Supabase. Reporty a soubory, ze kterých se tento web skládá, ukládá a doručuje Cloudflare. | Účty a přihlašování zajišťuje Supabase. Reporty a soubory, ze kterých se tento web skládá, ukládá a doručuje Cloudflare. | Standard GDPR term.
+- 'Alerts are part of monitoring, a paid feature. After a scheduled crawl finds a critical change, we tell you. A' | Upozornění jsou součástí monitoringu, placené funkce. Když plánované procházení najde kritickou změnu, dáme vám vědět. K | Upozornění jsou součástí monitoringu, placené funkce. Když plánované procházení najde kritickou změnu, dáme vám vědět. K | Glossary "rozvrh" is a school timetable; WordPress uses "plán" for schedule (plán událostí).
+- 'All fields are required unless marked optional. We check the address and the credential with one read-only req' | Všechna pole jsou povinná, pokud nejsou označena jako nepovinná. Před uložením ověříme adresu a přihlašovací údaje jední | Všechna pole jsou povinná, pokud nejsou označena jako volitelná. Před uložením ověříme adresu a přihlašovací údaje jední | Consistent with "(volitelné)".
+- 'Change alerts are not connected to the audits yet. A saved schedule runs crawls; alerts about what changed bet' | Upozornění na změny zatím nejsou propojena s audity. Uložený rozvrh spouští procházení; upozornění na to, co se mezi dvě | Upozornění na změny zatím nejsou propojena s audity. Uložený plán spouští procházení; upozornění na to, co se mezi dvěma | Glossary "rozvrh" is a school timetable; WordPress uses "plán" for schedule (plán událostí).
+- 'Deletes your account, profile, plan, purchases and dashboards right away. Devices that are still logged in los' | Okamžitě smaže váš účet, profil, tarif, nákupy a dashboardy. Zařízení, která jsou stále přihlášená, ztratí přístup do ho | Okamžitě smaže váš účet, profil, tarif, nákupy a nástěnky. Zařízení, která jsou stále přihlášená, ztratí přístup do hodi | WordPress uses "nástěnka" for dashboard; the app already says nástěnka elsewhere.
+- 'Download a copy of everything in your account as one JSON file: your profile, plan, purchases and license keys' | Stáhněte si kopii všeho ve svém účtu jako jeden soubor JSON: profil, tarif, nákupy a licenční klíče, historii přihlášení | Stáhněte si kopii všeho ve svém účtu jako jeden soubor JSON: profil, tarif, nákupy a licenční klíče, historii přihlášení | WordPress uses "nástěnka" for dashboard; the app already says nástěnka elsewhere.
+- 'Logging in still works, and so does your account page. Only your products and dashboards are unavailable.' | Přihlášení stále funguje, stejně jako stránka účtu. Nedostupné jsou jen vaše produkty a dashboardy. | Přihlášení stále funguje, stejně jako stránka účtu. Nedostupné jsou jen vaše produkty a nástěnky. | WordPress uses "nástěnka" for dashboard; the app already says nástěnka elsewhere.
+- 'Reports and dashboards: while your account exists, and they are removed when you delete it.' | Reporty a dashboardy: po dobu existence účtu, po jeho smazání se odstraní. | Reporty a nástěnky: po dobu existence účtu, po jeho smazání se odstraní. | WordPress uses "nástěnka" for dashboard; the app already says nástěnka elsewhere.
+- 'The reports and dashboards we prepare for your account.' | Reporty a dashboardy, které pro váš účet připravujeme. | Reporty a nástěnky, které pro váš účet připravujeme. | WordPress uses "nástěnka" for dashboard; the app already says nástěnka elsewhere.
+- 'Disconnect {name}? Nobody in this account can send tickets until a tracker is connected again. Tickets already' | Odpojit {name}? Nikdo v tomto účtu nebude moci posílat tikety, dokud se znovu nepřipojí nějaký systém pro sledování úkol | Odpojit {name}? Nikdo v tomto účtu nebude moci posílat tikety, dokud se znovu nepřipojí nějaký systém pro tikety. Již vy | Same term as everywhere else for tracker.
+- 'For teams that monitor their site on a schedule.' | Pro týmy, které svůj web monitorují podle rozvrhu. | Pro týmy, které svůj web monitorují podle plánu. | Glossary "rozvrh" is a school timetable; WordPress uses "plán" for schedule (plán událostí).
+- 'Google no longer lets us read your Search Console, so the numbers have stopped. Reconnect to start them again.' | Google nám už nedovoluje číst váš Search Console, proto se čísla zastavila. Připojte ho znovu a čísla se opět rozběhnou. | Google nám už nedovoluje číst vaši Search Console, proto se čísla zastavila. Připojte ji znovu a čísla se opět rozběhnou | Search Console is feminine (konzole), as in "Search Console připojena".
+- 'No schedule is saved for {domain}. Nothing runs on a timer until you save one.' | Pro {domain} není uložen žádný rozvrh. Nic neběží podle časovače, dokud ho neuložíte. | Pro {domain} není uložen žádný plán. Nic neběží podle časovače, dokud ho neuložíte. | Glossary "rozvrh" is a school timetable; WordPress uses "plán" for schedule (plán událostí).
+- 'Part of monitoring. Once a schedule is saved, critical changes are emailed to the address you signed up with. ' | Součást monitoringu. Po uložení rozvrhu se kritické změny posílají e-mailem na adresu, kterou jste se zaregistrovali. Vy | Součást monitoringu. Po uložení plánu se kritické změny posílají e-mailem na adresu, kterou jste se zaregistrovali. Vypn | Glossary "rozvrh" is a school timetable; WordPress uses "plán" for schedule (plán událostí).
+- 'Saved. Schedule for {domain}: {period}. The first crawl starts one period from now. Nothing else on this accou' | Uloženo. Rozvrh pro {domain}: {period}. První procházení začne za jedno takové období. Nic jiného v tomto účtu není napl | Uloženo. Plán pro {domain}: {period}. První procházení začne po uplynutí jednoho intervalu. Nic jiného v tomto účtu není | Clumsy phrase replaced; schedule term.
+- 'Scheduled crawls, change comparison and alerts are a paid feature (the Pro plan). Every account crawls by pres' | Plánovaná procházení, porovnání změn a upozornění jsou placená funkce (tarif Pro). Každý účet prochází stisknutím „Proch | Plánovaná procházení, porovnání změn a upozornění jsou placená funkce (tarif Pro). Každý účet prochází stisknutím „Proch | Glossary "rozvrh" is a school timetable; WordPress uses "plán" for schedule (plán událostí).
+- 'The schedule for {domain} is kept and paused, because your plan no longer includes monitoring. Schedule: {peri' | Rozvrh pro {domain} je zachován a pozastaven, protože váš tarif už monitoring nezahrnuje. Rozvrh: {period}. | Plán pro {domain} je zachován a pozastaven, protože váš tarif už monitoring nezahrnuje. Plán: {period}. | Glossary "rozvrh" is a school timetable; WordPress uses "plán" for schedule (plán událostí).
+- 'The schedule for {domain} is paused. Nothing runs on a timer. Schedule: {period}.' | Rozvrh pro {domain} je pozastaven. Nic neběží podle časovače. Rozvrh: {period}. | Plán pro {domain} je pozastaven. Nic neběží podle časovače. Plán: {period}. | Glossary "rozvrh" is a school timetable; WordPress uses "plán" for schedule (plán událostí).
+- "We couldn't read this domain's schedule. Reload to try again." | Rozvrh této domény se nepodařilo přečíst. Načtěte stránku znovu. | Plán této domény se nepodařilo přečíst. Načtěte stránku znovu. | Glossary "rozvrh" is a school timetable; WordPress uses "plán" for schedule (plán událostí).
+- 'Your plan is {plan}, so this page cannot save a schedule. "Crawl now" works on any plan.' | Váš tarif je {plan}, proto na této stránce nelze uložit rozvrh. „Procházet teď“ funguje v každém tarifu. | Váš tarif je {plan}, proto na této stránce nelze uložit plán. „Procházet teď“ funguje v každém tarifu. | Glossary "rozvrh" is a school timetable; WordPress uses "plán" for schedule (plán událostí).
+- '{domain} had no schedule, so there is nothing to pause.' | Doména {domain} neměla žádný rozvrh, takže není co pozastavit. | Doména {domain} neměla žádný plán, takže není co pozastavit. | Glossary "rozvrh" is a school timetable; WordPress uses "plán" for schedule (plán událostí).
+- 'Reports are prepared from the sites you ask us to watch. We read what those sites serve publicly and nothing e' | Reporty vznikají z webů, které nás požádáte sledovat. Čteme to, co tyto weby veřejně poskytují, a nic jiného. | Reporty vznikají z webů, které nám zadáte ke sledování. Čteme to, co tyto weby veřejně poskytují, a nic jiného. | Ungrammatical construction.
+- 'The crawl has finished. Reload the page to see its results.' | Procházení skončilo. Načtěte stránku znovu, uvidíte výsledky. | Procházení skončilo. Načtěte stránku znovu a uvidíte výsledky. | Missing conjunction.
+- 'This crawl is not available. The latest crawl is one link away.' | Toto procházení není k dispozici. Poslední procházení je o jeden odkaz dál. | Toto procházení není k dispozici. Nejnovější procházení je o jeden odkaz dál. | "latest" is "nejnovější" (WordPress); "poslední" is "last" and is ambiguous.
+- 'You are viewing the crawl of {date} (not the latest).' | Prohlížíte si procházení ze dne {date} (není poslední). | Prohlížíte si procházení ze dne {date} (není nejnovější). | "latest" is "nejnovější" (WordPress); "poslední" is "last" and is ambiguous.
+- 'Log in to see the findings of your latest crawl.' | Přihlaste se a uvidíte zjištění posledního procházení. | Přihlaste se a uvidíte zjištění nejnovějšího procházení. | "latest" is "nejnovější" (WordPress); "poslední" is "last" and is ambiguous.
+- 'Unpaid, so the plan has stopped. Update your card to start it again.' | Neplaceno, proto byl tarif zastaven. Aktualizujte kartu, aby se znovu spustil. | Nezaplaceno, proto byl tarif zastaven. Aktualizujte kartu, aby se znovu spustil. | Correct negated participle.
+- "We couldn't load your sessions. Reload the page to try again." | Relace se nepodařilo načíst. Načtěte stránku znovu a zkuste to znovu. | Relace se nepodařilo načíst. Zkuste stránku načíst znovu. | Repeated "znovu".
+- "We couldn't remove your stored reports automatically. They can no longer be opened. Contact support and we'll " | Vaše uložené reporty se nepodařilo automaticky odstranit. Nelze je už otevřít. Obraťte se na podporu a my je smažeme. | Vaše uložené reporty se nepodařilo automaticky odstranit. Už je nelze otevřít. Obraťte se na podporu a my je smažeme. | Word order.
+- 'This is text from your site, shown as it was found. Links in it are not clickable.' | Toto je text z vašeho webu, zobrazený tak, jak byl nalezen. Odkazy v něm nejsou klikací. | Toto je text z vašeho webu, zobrazený tak, jak byl nalezen. Odkazy v něm nejsou aktivní. | "klikací" is not natural for links.
+- 'Crawl {crawl}. Pages crawled: {crawled}. Pages with results: {results}.' | Procházení {crawl}. Prošlé stránky: {crawled}. Stránky s výsledky: {results}. | Procházení {crawl}. Projité stránky: {crawled}. Stránky s výsledky: {results}. | "Prošlé" reads as "passed" (Prošlo); "Projité" matches "Pages crawled".
+- 'Showing results from {loaded} of {total} incidents. Keep typing to narrow.' | Zobrazeny výsledky z {loaded} z {total} incidentů. Pište dál a zúžíte je. | Zobrazeny výsledky z {loaded} incidentů z celkových {total}. Pište dál a zúžíte je. | Double "z" was clumsy.
+- 'Sorted by worst severity. Audits that found nothing are in the panel below.' | Seřazeno od nejhorší závažnosti. Audity bez zjištění jsou v panelu níže. | Seřazeno podle nejhorší závažnosti. Audity bez zjištění jsou v panelu níže. | "Seřazeno podle".
+
+## Second pass: adopt WordPress and Mozilla wording (2026-10-27)
+
+30 labels differed from the references for the identical English: 14 adopted, 16 kept with a reason (a: different sense, b: register, c: consistency with the file, d: grammar or gender).
+
+- 'Already have an account?' | Už máte účet? | Už máte účet? | kept: (b) same word, only již vs už
+- 'Confirm new password' | Potvrďte nové heslo | Potvrdit nové heslo | adopted wp-core (infinitive as on our buttons)
+- 'Create your account' | Vytvořte si účet | Vytvořte si účet | kept: (b) same verb, heading form
+- 'Display name' | Zobrazované jméno | Zobrazované jméno | kept: (c) person name field, jméno used for names in the file
+- 'Group by' | Seskupit podle | Seskupit podle | kept: (d) reference is a noun, ours is the verb a select label needs
+- 'Loading…' | Načítá se… | Načítání… | adopted wp-core
+- 'Log out everywhere' | Odhlásit se všude | Odhlásit všechny aktivní relace | adopted wp-admin
+- 'Maintenance' | Údržba | Údržba | kept: (a) reference is the maintenance mode of a site, ours is the page title
+- 'Remember me' | Zapamatovat si mě | Zapamatovat si mě | kept: (c) the privacy text quotes Zapamatovat si mě
+- 'Result' | Výsledek | Výsledek | kept: (a) reference means output
+- 'Revoke' | Odvolat | Odvolat | kept: (a) reference means reset
+- 'Role' | Role | Role | kept: (a) wp-admin uses Úroveň for its role scale; Role is the usual word for a team member role
+- 'Saving…' | Ukládá se… | Ukládání… | adopted moz/wp-core
+- 'Security' | Zabezpečení | Bezpečnost | adopted wp-admin
+- 'Send reset link' | Poslat odkaz pro obnovení | Odeslat resetovací odkaz | adopted wp-admin
+- 'Sessions' | Relace | Přihlašovací relace | adopted wp-admin
+- 'Skip to main content' | Přeskočit na hlavní obsah | Přejít k hlavnímu obsahu webu | adopted wp-admin
+- 'Type the new password again.' | Zadejte nové heslo znovu. | Zadejte ještě jednou nové heslo. | adopted wp-admin (polite imperative already our register)
+- 'Unchanged' | Beze změny | Nezměněno | adopted wp-core
+- 'Undo' | Vrátit zpět | Zpět | adopted moz/mw/wp-core
+- 'You' | Vy | Vy | kept: (b) reference is informal ty, project uses vy
+- 'Zoom in' | Přiblížit | Přiblížit | kept: (c) pairs with Oddálit (Zoom out), which matches the reference
+- 'good' | dobré | dobré | kept: (d) agrees with heslo (neuter); reference is masculine
+- 'legal' | právní | právní dokument | adopted moz
+- 'not logged in' | nepřihlášeno | nepřihlášeno | kept: (d) reference carries a gender suffix (a), ours is a neutral status in a code sample
+- 'strong' | silné | bezpečné | adopted wp-core (password strength scale)
+- 'weak' | slabé | nedostatečné | adopted wp-core (password strength scale)
+- 'Check' | Kontrola | Kontrola | kept: (a) reference is the verb or a tick box
+- 'Fixed' | Opraveno | Opraveno | kept: (a) reference means fixed position
+- 'Standard' | Standard | Standard | kept: (a) reference means default

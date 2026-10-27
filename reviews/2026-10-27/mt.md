@@ -1,0 +1,99 @@
+# Maltese (mt): review of 2026-10-27
+
+72 strings corrected out of 1349 reviewed. Format: English | was | now | why.
+
+- '1. What we keep' | 1. X'inżommu | 1. X'nżommu | After x' no epenthetic i; 1st plural of żamm is nżommu.
+- '4. How long we keep it' | 4. Kemm iddum inżommu | 4. Għal kemm żmien inżommuh | 'Kemm iddum inżommu' is 2nd person and has no object.
+- 'About {n} hours left.' | {"few": "Fadal madwar {n} sigħat.", "many": "Fadal madwar {n} siegħa.", "one": "Fadal madwar siegħa.", "other": "Fadal m | {"one": "Fadal madwar siegħa.", "two": "Fadal madwar sagħtejn.", "few": "Fadal madwar {n} sigħat.", "many": "Fadal madwa | Dual 'sagħtejn' as in 'Every {n} hours'.
+- 'Checking the connection…' | Qed jiġi vverifikat il-kollegament… | Qed tiġi vverifikata l-konnessjoni… | 'kollegament' differs from 'konnessjoni' used everywhere else; konnessjoni is feminine.
+- 'Checkout cancelled. Nothing was charged.' | Il-ħlas ġie kkanċellat. Ma ġie ċċarġjat xejn. | Il-ħlas ġie kkanċellat. Ma ttieħed l-ebda ħlas. | Same wording as 'Nothing was charged' elsewhere; 'ċċarġjat' is slang.
+- 'Close this tab and try connecting again.' | Agħlaq dan it-tab u erġa' pprova qabbad. | Agħlaq dan it-tab u erġa' pprova tqabbad. | 'pprova' needs 'tqabbad', not a bare imperative.
+- 'Close this tab and try connecting again from your tool.' | Agħlaq dan it-tab u erġa' pprova qabbad mill-għodda tiegħek. | Agħlaq dan it-tab u erġa' pprova tqabbad mill-għodda tiegħek. | Same.
+- 'Connected' | Magħqud | Imqabbad | 'Magħqud' means joined; every other 'connected' string uses 'imqabbad'.
+- 'Decisions on incidents: who decided what, and why' | Deċiżjonijiet dwar l-inċidenti: min iddeċieda x'inhu, u għaliex | Deċiżjonijiet dwar l-inċidenti: min għamel liema deċiżjoni, u għaliex | 'min iddeċieda x'inhu' means 'who decided what it is'.
+- 'who decided what, and why' | min iddeċieda x'inhu, u għaliex | min għamel liema deċiżjoni, u għaliex | Same.
+- 'Display name' | Isem murija | Isem muri | Isem is masculine; 'murija' is feminine. 'L-isem muri' is used in 'The name shown instead of the domain'.
+- 'Anything you type into your profile, such as a display name and a company site.' | Kull ma tikteb fil-profil tiegħek, bħal isem murija u sit tal-kumpanija. | Kull ma tikteb fil-profil tiegħek, bħal isem muri u sit tal-kumpanija. | Same.
+- 'Keep this access until you disconnect the tool.' | Żomm dan l-aċċess sakemm tiskonnettja l-għodda. | Żomm dan l-aċċess sakemm tneħħi l-konnessjoni mal-għodda. | 'tiskonnettja' is not used elsewhere; 'Neħħi l-konnessjoni' is.
+- 'Fetching data…' | Qed jinġabru d-data… | Qed tinġabar id-data… | 'id-data' is singular; 'jinġabru' was plural.
+- 'Just now' | Għadu kif | Issa stess | 'Għadu kif' needs a verb and is not a complete phrase.
+- 'Logging in…' | Qed nidħlu… | Qed tidħol… | 'Qed nidħlu' is first person plural.
+- 'Logging out…' | Qed noħorġu… | Qed toħroġ… | 'Qed noħorġu' is first person plural.
+- 'Not available yet' | Mhux disponibbli għadu | Għadu mhux disponibbli | Word order.
+- 'Not yet' | Mhux għadu | Għadu le | 'Mhux għadu' is not Maltese.
+- 'Nothing connected yet.' | Għad m'hemm xejn konness. | Għad m'hemm xejn imqabbad. | 'konness' vs 'imqabbad' used for connected elsewhere.
+- 'Returning to the extension.' | Qed nerġgħu lura lejn l-estensjoni. | Qed terġa' lura lejn l-estensjoni. | Second person like 'Returning to the extension…'.
+- 'Save as text file' | Ħazen bħala fajl tat-test | Aħżen bħala fajl tat-test | Imperative of ħażen is 'aħżen', as in 'Save'.
+- 'Save schedule' | Ħazen l-iskeda | Aħżen l-iskeda | Same.
+- 'Slack is set up under Alerting' | Slack jissettja taħt Twissijiet | Slack jiġi ssettjat taħt Twissijiet | 'jissettja' is active; passive needed.
+- 'There is nothing to show here yet.' | M'hemm xejn x'jintwera hawn għadu. | Għad m'hemm xejn x'jintwera hawn. | Word order of 'għad'.
+- 'There is nothing to show on this page yet.' | M'hemm xejn x'jintwera f'din il-paġna għadu. | Għad m'hemm xejn x'jintwera f'din il-paġna. | Word order of 'għad'.
+- 'Monitoring (optional)' | Monitoraġġ (mhux obbligatorju) | Monitoraġġ (fakultattiv) | Other 'optional' strings use 'fakultattiv'.
+- "We couldn't load this page" | Ma stajniex inthaddlu din il-paġna | Ma stajniex ngħabbu din il-paġna | 'tħaddel' means run; load is 'għabba' (jitgħabba).
+- "We couldn't load your projects" | Ma stajniex inthaddlu l-proġetti tiegħek | Ma stajniex ngħabbu l-proġetti tiegħek | Same.
+- "We couldn't load your sessions. Reload the page to try again." | Ma stajniex inthaddlu s-sessjonijiet tiegħek. Erġa' laddja l-paġna biex tipprova mill-ġdid. | Ma stajniex ngħabbu s-sessjonijiet tiegħek. Erġa' laddja l-paġna biex tipprova mill-ġdid. | Same.
+- "We couldn't save that" | Ma stajniex inħażnu dan | Ma stajniex naħżnu dan | Imperfect of ħażen is jaħżen, so 1st plural is naħżnu.
+- "We couldn't save the decision" | Ma stajniex inżommu d-deċiżjoni | Ma stajniex naħżnu d-deċiżjoni | 'inżommu' means keep; same verb as the save strings.
+- "We couldn't save the schedule" | Ma stajniex inħażnu l-iskeda | Ma stajniex naħżnu l-iskeda | 1st plural of jaħżen.
+- "We couldn't save your setup" | Ma stajniex inħażnu s-setup tiegħek | Ma stajniex naħżnu s-setup tiegħek | 1st plural of jaħżen.
+- "We couldn't sign you in" | Ma stajniex indaħħlukom | Ma stajniex indaħħluk | 'indaħħlukom' addresses several people; the UI uses singular.
+- 'Your data was downloaded as {name}.' | Id-dejta tiegħek ġiet imniżżla bħala {name}. | Id-data tiegħek ġiet imniżżla bħala {name}. | 'data' is used elsewhere, not 'dejta'.
+- 'The source is downloaded as a text file.' | Is-sors ġie niżżel bħala fajl tat-test. | Is-sors ġie mniżżel bħala fajl tat-test. | Passive participle is 'mniżżel', not 'niżżel'.
+- 'Evidence rows' | Linji ta' evidenza | Ringieli ta' evidenza | Every other 'evidence rows' string uses 'ringieli'.
+- 'Email confirmed' | Email ikkonfermat | Email ikkonfermata | Gender of 'email' follows 'L-email intbagħtet' and 'ġiet ikkonfermata'.
+- "Your email is probably confirmed already, but this browser can't finish logging in (the link may have been ope" | Probabbilment l-email tiegħek diġà ġie kkonfermat, imma dan il-brawżer ma jistax itemm id-dħul (il-link jista' jkun infe | Probabbilment l-email tiegħek diġà ġiet ikkonfermata, imma dan il-brawżer ma jistax itemm id-dħul (il-link jista' jkun i | Same gender of 'email'.
+- 'Email opens your own email app. If nothing happens, copy the message instead.' | L-email jiftaħ l-app tal-email tiegħek. Jekk ma jiġri xejn, ikkopja l-messaġġ minflok. | L-email tiftaħ l-app tal-email tiegħek. Jekk ma jiġri xejn, ikkopja l-messaġġ minflok. | Same gender of 'email'.
+- 'Open the confirmation email we sent when you signed up, then log in. You can also create the account again to ' | Iftaħ l-email ta' konferma li bgħatna meta rreġistrajt, imbagħad idħol. Tista' wkoll toħloq il-kont mill-ġdid biex tieħu | Iftaħ l-email ta' konferma li bgħatna meta rreġistrajt, imbagħad idħol. Tista' wkoll toħloq il-kont mill-ġdid biex tieħu | Same gender of 'email'.
+- 'Ask support' | Staqsi lis-sapport | Staqsi lill-assistenza | 'sapport' is a loan; 'assistenza' is used in 'contact support' strings.
+- 'Contact support' | Ikkuntattja s-sapport | Ikkuntattja l-assistenza | Same.
+- 'Please contact support.' | Jekk jogħġbok ikkuntattja s-sapport. | Jekk jogħġbok ikkuntattja l-assistenza. | Same.
+- 'Include the two lines above if you contact support.' | Inkludi ż-żewġ linji ta' hawn fuq jekk tikkuntattja s-sapport. | Inkludi ż-żewġ linji ta' hawn fuq jekk tikkuntattja l-assistenza. | Same.
+- "We couldn't remove your stored reports automatically. They can no longer be opened. Contact support and we'll " | Ma stajniex innaddfu r-rapporti maħżuna tiegħek awtomatikament. Ma jistgħux jinfetħu aktar. Ikkuntattja s-sapport u aħna | Ma stajniex inneħħu r-rapporti maħżuna tiegħek awtomatikament. Ma jistgħux jinfetħu aktar. Ikkuntattja l-assistenza u aħ | 'innaddfu' means clean; 'sapport' replaced.
+- 'Viewing the screenshot as: {view}.' | Qed tara s-screenshot bħala: {view}. | Qed tara l-iscreenshot bħala: {view}. | Article before sc- cluster is 'l-is', as in 'l-iscreenshots'.
+- 'The screenshot of this page was removed after the time screenshots are kept.' | Is-screenshot ta' din il-paġna tneħħa wara l-ħin li fih jinżammu l-iscreenshots. | L-iscreenshot ta' din il-paġna tneħħa wara l-ħin li fih jinżammu l-iscreenshots. | Same article form.
+- 'A feature you open before its stage simply unlocks. Your stage never goes down.' | Funzjoni li tiftaħ qabel il-fażi tagħha tinfetaħ biss. Il-fażi tiegħek qatt ma tinżel. | Funzjoni li tiftaħ qabel il-fażi tagħha tkun disponibbli minnufih. Il-fażi tiegħek qatt ma tinżel. | 'tinfetaħ biss' means 'is opened only'.
+- 'A report describes what a file says, not what a crawler does. robots.txt is a request, not an access control. ' | Rapport jiddeskrivi dak li jgħid fajl, mhux dak li jagħmel crawler. robots.txt huwa talba, mhux kontroll tal-aċċess. Itt | Rapport jiddeskrivi dak li jgħid fajl, mhux dak li jagħmel crawler. robots.txt huwa talba, mhux kontroll tal-aċċess. Itt | protezzjoni is feminine: 'l-unika'.
+- 'Crawl this domain on a timer and tell you what changed. Off until you save it here.' | Skennja dan id-dominju fi skeda u ngħidulek dak li nbidel. Mitfi sakemm tiħżnu hawn. | Skennja dan id-dominju fi skeda u ngħidulek dak li nbidel. Mitfi sakemm taħżnu hawn. | 'tiħżnu' is not a form of jaħżen.
+- 'Enter it as visitors see it. shop.example.com and www.shop.example.com are different domains, and each is audi' | Daħħlu kif jarawh iż-żjara. shop.example.com u www.shop.example.com huma dominji differenti, u kull wieħed jiġi awditjat | Daħħlu kif jarawh il-viżitaturi. shop.example.com u www.shop.example.com huma dominji differenti, u kull wieħed jiġi awd | 'iż-żjara' means the visit, not visitors.
+- 'What visitors and search engines see, and which part of the customer journey suffers.' | Dak li jaraw iż-żjarat u l-magni tat-tiftix, u liema parti mill-vjaġġ tal-klijent issofri. | Dak li jaraw il-viżitaturi u l-magni tat-tiftix, u liema parti mill-vjaġġ tal-klijent issofri. | Same.
+- 'Google and Microsoft may also use the analytics data they collect for their own purposes, including advertisin' | Google u Microsoft jistgħu wkoll jużaw id-data tal-analitika li jiġbru għall-finijiet tagħhom stess, inkluża r-reklamar, | Google u Microsoft jistgħu wkoll jużaw id-data tal-analitika li jiġbru għall-finijiet tagħhom stess, inkluż ir-reklamar, | 'reklamar' is masculine.
+- 'If an account exists for this address, we sent it a magic link. Open it on this device to finish logging in.' | Jekk jeżisti kont b'dan l-indirizz, bgħatnielu link maġiku. Iftaħ f'dan l-apparat biex tlesti d-dħul. | Jekk jeżisti kont b'dan l-indirizz, bgħatnielu link maġiku. Iftaħu f'dan l-apparat biex tlesti d-dħul. | Object pronoun missing.
+- 'If you agree to analytics: which pages you open, what you click and how far you scroll, together with your bro' | Jekk taqbel mal-analitika: liema paġni tiftaħ, fuq xiex tikklikkja u kemm tiskrollja, flimkien mal-brawżer, l-apparat, i | Jekk taqbel mal-analitika: liema paġni tiftaħ, fuq xiex tikklikkja u kemm tiskrollja, flimkien mal-brawżer, l-apparat, i | Spelling: ripetizzjoni.
+- 'It carries what was found, how many pages it affects and the exact fix, with your urgency and note.' | Ibgħat dak li nstab, kemm paġni jaffettwa u s-soluzzjoni eżatta, bl-urġenza u n-nota tiegħek. | Jinkludi dak li nstab, kemm paġni jaffettwa u s-soluzzjoni eżatta, bl-urġenza u n-nota tiegħek. | 'Ibgħat' is an imperative; the English is a statement.
+- 'No schedule is saved for {domain}. Nothing runs on a timer until you save one.' | Għal {domain} ma nżammet l-ebda skeda. Xejn ma jaħdem fuq skeda sakemm tħażen waħda. | Għal {domain} ma nħażnet l-ebda skeda. Xejn ma jaħdem fuq skeda sakemm taħżen waħda. | 'tħażen' is not a 2nd person form of jaħżen.
+- 'Not found in crawl {crawl}, so it counts as fixed.' | Ma nstabx fl-iskan {crawl}, u għalhekk jitqies bħala ssewwa. | Ma nstabx fl-iskan {crawl}, u għalhekk jitqies bħala msewwi. | 'bħala ssewwa' is a verb form, a participle is needed.
+- 'Our legitimate interest in keeping the service available and preventing abuse.' | L-interess leġittimu tagħna li żżomm is-servizz disponibbli u li nipprevjenu l-abbuż. | L-interess leġittimu tagħna li nżommu s-servizz disponibbli u li nipprevjenu l-abbuż. | 'żżomm' is 2nd person; the subject is 'we'.
+- 'Payments, cards and invoices are handled by Stripe. We never see your card details.' | Il-pagamenti, il-kards u l-fatturi huma mmaniġġjati minn Stripe. Qatt ma narawa d-dettalji tal-kard tiegħek. | Il-pagamenti, il-kards u l-fatturi huma mmaniġġjati minn Stripe. Qatt ma naraw id-dettalji tal-kard tiegħek. | 'narawa' is not a valid form.
+- 'Reports travel between our servers and your browser over an encrypted connection. They are signed so they cann' | Ir-rapporti jivvjaġġaw bejn is-servers tagħna u l-brawżer tiegħek permezz ta' konnessjoni kriptata. Huma ffirmati sabiex | Ir-rapporti jivvjaġġaw bejn is-servers tagħna u l-brawżer tiegħek permezz ta' konnessjoni kriptata. Huma ffirmati sabiex | Plural agreement: reports are plural.
+- 'That is as many invitations as one account sends in a day. Try again tomorrow.' | Dak huwa l-għadd kemm jistgħu jibagħtu stediniet kont wieħed f'ġurnata. Erġa' pprova għada. | Dan huwa l-massimu ta' stediniet li kont wieħed jista' jibgħat f'ġurnata. Erġa' pprova għada. | Original phrasing was ungrammatical.
+- 'The crawl tried to take a screenshot of this page and could not. The findings and the source are not affected.' | L-iskan ippruvah jieħu screenshot ta' din il-paġna u ma rnexxiex. Is-sejbiet u s-sors mhumiex affettwati. | L-iskan pprova jieħu screenshot ta' din il-paġna u ma rnexxilux. Is-sejbiet u s-sors mhumiex affettwati. | 'ippruvah' is not a verb form; 'rnexxiex' lacks the dative suffix.
+- 'The database gave an answer we do not know. Nothing was requested.' | Il-bażi tad-dejta tat risposta li ma nagħrfux. Ma ntalab xejn. | Id-database tat tweġiba li ma nafuhiex. Ma ntalab xejn. | Same wording as the sibling string; 'database' is used in the other three.
+- "We couldn't disconnect. Something went wrong on our side. Nothing was changed. Try again." | Ma stajniex innaqqsu l-konnessjoni. Ġara xi ħaġa żbaljata min-naħa tagħna. Ma nbidel xejn. Erġa' pprova. | Ma stajniex inneħħu l-konnessjoni. Ġara xi ħaġa żbaljata min-naħa tagħna. Ma nbidel xejn. Erġa' pprova. | 'innaqqsu' means reduce.
+- 'We could not save the connection. Nothing was stored. Try again in a minute.' | Ma stajniex inħażnu l-konnessjoni. Ma nħażen xejn. Erġa' pprova wara minuta. | Ma stajniex naħżnu l-konnessjoni. Ma nħażen xejn. Erġa' pprova wara minuta. | 1st plural of jaħżen.
+- 'We work to keep reports correct and current, but we do not promise that a report is complete or free of error.' | Naħdmu biex iżżomm ir-rapporti korretti u aġġornati, imma ma nwiegħdux li rapport huwa komplut jew bla żbalji. | Naħdmu biex inżommu r-rapporti korretti u aġġornati, imma ma nwiegħdux li rapport huwa komplut jew bla żbalji. | 'iżżomm' is 2nd person.
+- 'Your login is kept in your browser\'s own storage. If you clear it, or you did not tick "Remember me", you are ' | Id-dħul tiegħek jinżamm fil-ħażna proprja tal-brawżer tiegħek. Jekk tnaddafha, jew ma għażiltx "Ftakarni", toħroġ. Ir-ra | Id-dħul tiegħek jinżamm fil-ħażna proprja tal-brawżer tiegħek. Jekk tnaddafha, jew ma għażiltx "Ftakarni", toħroġ. Ir-ra | 'fethet' is 3rd person; 'li ftaħt' is you opened.
+- 'Your reports are paused while we work on the service. Nothing has been lost, and everything you already have i' | Ir-rapporti tiegħek huma sospiżi waqt li naħdmu fuq is-servizz. Ma intilef xejn, u dak kollu li diġà għandek ma ġie mman | Ir-rapporti tiegħek huma sospiżi waqt li naħdmu fuq is-servizz. Ma intilef xejn, u dak kollu li diġà għandek baqa' kif i | 'ma ġie mmaniġġjat' does not say 'untouched'.
+- 'sus.bot starts with what matters on day one and offers more as you go. Nothing is locked: opening something fr' | sus.bot jibda b'dak li hu importanti fl-ewwel jum u joffri aktar hekk kif tipprogressa. Xejn mhu mkeċċi: jekk tiftaħ xi  | sus.bot jibda b'dak li hu importanti fl-ewwel jum u joffri aktar hekk kif tipprogressa. Xejn mhu msakkar: jekk tiftaħ xi | 'mkeċċi' means expelled; 'msakkar' means locked.
+
+## Second pass: adopt WordPress and Mozilla wording (2026-10-27)
+
+18 labels differed from the references for the identical English: 0 adopted, 18 kept with a reason (a: different sense, b: register, c: consistency with the file, d: grammar or gender).
+
+- 'Create your account' | Oħloq il-kont tiegħek | Oħloq il-kont tiegħek | kept: b same wording as ours plus tiegħek
+- 'Email' | Email | Email | kept: c project keeps email loan word
+- 'Email address' | Indirizz tal-email | Indirizz tal-email | kept: c project keeps email
+- 'Email sent' | Email intbagħtet | Email intbagħtet | kept: a reference is "the message was sent"
+- 'Enter your email address.' | Daħħal l-indirizz tal-email tiegħek. | Daħħal l-indirizz tal-email tiegħek. | kept: c project keeps email, reference has a typo-like "ittre"
+- 'Enter your password.' | Daħħal il-password tiegħek. | Daħħal il-password tiegħek. | kept: c password is used in all other strings
+- 'Log in' | Idħol | Idħol | kept: a reference is a different phrase (log into your account)
+- 'Logging in…' | Qed tidħol… | Qed tidħol… | kept: c Idħol family used in 21 strings
+- 'Password' | Password | Password | kept: c password kept project wide
+- 'Save' | Aħżen | Aħżen | kept: not clearly a standard UI term; Aħżen is the standard Maltese word
+- 'Save changes' | Aħżen il-bidliet | Aħżen il-bidliet | kept: not clearly a standard UI term; salva is an Italianism
+- 'Summary' | Sommarju | Sommarju | kept: a reference is the edit summary sense
+- 'Undo' | Irreġġa' lura | Irreġġa' lura | kept: ours is the same verb family, not clearly better
+- 'current' | preżenti | preżenti | kept: two references disagree (kurrenti, attwali), not clearly standard
+- 'not logged in' | mhux dieħel | mhux dieħel | kept: c Idħol family used in 21 strings
+- 'password' | password | password | kept: c password kept project wide
+- 'Check' | Kontroll | Kontroll | kept: a reference is select (checkbox sense)
+- 'History' | Storja | Storja | kept: a reference is timeline; Storja is standard

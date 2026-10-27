@@ -1,0 +1,96 @@
+# Italian (it): review of 2026-10-27
+
+52 strings corrected out of 1349 reviewed. Format: English | was | now | why.
+
+- 'Be told when it matters' | Venga avvisato quando conta | Resti informato quando è importante | Venga avvisato quando conta is stiff; heading in Lei form.
+- 'Account data: until you delete the account.' | Dati dell'account: fino a quando elimina l'account. | Dati dell'account: fino all'eliminazione dell'account. | fino a quando elimina is ungrammatical.
+- 'Cancelled. You are back on the Free plan.' | Annullato. È tornato al piano Gratuito. | Annullato. Ora ha di nuovo il piano Gratuito. | Avoids the gendered È tornato; matches Ha il piano elsewhere.
+- 'No subscription. You are on the Free plan.' | Nessun abbonamento. Lei è sul piano Gratuito. | Nessun abbonamento. Ha il piano Gratuito. | Lei è sul piano is a calque.
+- "You're on the Free plan. Everything your plan includes is below." | È nel piano Gratuito. Qui sotto c'è tutto ciò che include il suo piano. | Ha il piano Gratuito. Qui sotto c'è tutto ciò che include il suo piano. | Same.
+- 'Crawler healthy' | Crawler in buona salute | Crawler operativo | A service is operativo, not in buona salute.
+- 'No projects yet, on the {plan} plan.' | Nessun progetto ancora, con il piano {plan}. | Ancora nessun progetto, con il piano {plan}. | Word order; matches Ancora nessun prodotto.
+- 'Please contact support.' | Contatti l'assistenza. | Contatti il supporto. | Support is supporto everywhere else (Contatta il supporto), not assistenza.
+- '{message}. If this keeps happening, contact support.' | {message}. Se il problema persiste, contatti l'assistenza. | {message}. Se il problema persiste, contatti il supporto. | Same.
+- '{reason}. Try again, or contact support.' | {reason}. Riprovi o contatti l'assistenza. | {reason}. Riprovi o contatti il supporto. | Same.
+- "We couldn't delete the account ({reason}). Nothing was deleted; try again, or contact support." | Non è stato possibile eliminare l'account ({reason}). Non è stato eliminato nulla; riprovi o contatti l'assistenza. | Non è stato possibile eliminare l'account ({reason}). Non è stato eliminato nulla; riprovi o contatti il supporto. | Same.
+- 'Source' | Fonte | Sorgente | Page source is sorgente everywhere (Mostra il sorgente; wp-core, mw).
+- 'The ticket stays with it' | Il ticket resta con esso | Il ticket resta associato | resta con esso is a calque.
+- 'Untouched' | Intatto | Non gestito | Intatto is odd for a decision state; matches Non ancora gestito.
+- 'Updated' | Aggiornata | Aggiornato | Standalone label, masculine default as in wp-admin.
+- "You're not on the allow list" | Non è nella lista consentita | Non è nell'elenco degli utenti autorizzati | lista consentita is a calque of allow list.
+- 'Citation' | Citazione | Riferimento normativo | Citazione means a quote; the column is the legal reference.
+- 'Search name or citation' | Cerca per nome o citazione | Cerca per nome o riferimento normativo | Same.
+- 'Not yet verified against the official source' | Non ancora verificato rispetto alla fonte ufficiale | Non ancora verificato sulla fonte ufficiale | rispetto a is stiff.
+- 'Verified against the official source' | Verificato rispetto alla fonte ufficiale | Verificato sulla fonte ufficiale | Same.
+- 'This is a list of the laws, standards and guidelines the audits relate to. It is not legal advice. Each line s' | Questo è un elenco delle leggi, degli standard e delle linee guida a cui si riferiscono gli audit. Non è una consulenza  | Questo è un elenco delle leggi, degli standard e delle linee guida a cui si riferiscono gli audit. Non è una consulenza  | Same.
+- 'Check failed to run' | Il controllo non ha potuto essere eseguito | Impossibile eseguire il controllo | Il controllo non ha potuto essere eseguito is stiff; matches Impossibile ... used elsewhere.
+- 'The check could not be run because a condition could not be evaluated.' | Il controllo non ha potuto essere eseguito perché una condizione non ha potuto essere valutata. | Impossibile eseguire il controllo perché non è stato possibile valutare una condizione. | Same.
+- 'The check could not be run because its query failed.' | Il controllo non ha potuto essere eseguito perché la sua query è fallita. | Impossibile eseguire il controllo perché la sua query non è riuscita. | Same.
+- 'The check could not be run because the data it needs could not be read.' | Il controllo non ha potuto essere eseguito perché i dati di cui ha bisogno non hanno potuto essere letti. | Impossibile eseguire il controllo perché non è stato possibile leggere i dati di cui ha bisogno. | Same.
+- 'The check could not be run. The reason is recorded with the crawl.' | Il controllo non ha potuto essere eseguito. Il motivo è registrato con la scansione. | Impossibile eseguire il controllo. Il motivo è registrato con la scansione. | Same.
+- 'This does not apply to this site.' | Questo non si applica a questo sito. | Non si applica a questo sito. | Questo ... questo repeated.
+- 'Show more evidence rows' | Mostra altre righe di evidenze | Mostra altre righe di evidenza | Singular evidenza like the other evidence rows strings.
+- 'This incident stored no evidence rows.' | Questo incidente non ha righe di evidenze salvate. | Per questo incidente non sono state salvate righe di evidenza. | Original was ungrammatical-sounding and used evidenze.
+- 'Worst severity' | Gravità peggiore | Gravità massima | A severity is high or low, not bad.
+- '{n} pages: {fail} failing, {review} to review, worst severity {severity}' | {"many": "{n} di pagine: {fail} non superati, {review} da rivedere, gravità peggiore {severity}", "one": "{n} pagina: {f | {"many": "{n} di pagine: {fail} non superati, {review} da rivedere, gravità massima {severity}", "one": "{n} pagina: {fa | Same.
+- 'Sorted by worst severity. Audits that found nothing are in the panel below.' | Ordinato per gravità peggiore. Gli audit senza rilievi sono nel pannello qui sotto. | Ordinato per gravità decrescente. Gli audit senza rilievi sono nel pannello qui sotto. | Same.
+- 'The crawl failed.' | La scansione è fallita. | La scansione non è riuscita. | Matches La connessione sicura non è riuscita.
+- 'Connect the analytics you already have, and every incident gets a number next to it. Connect your tracker, and' | Colleghi le analisi che ha già e ogni incidente riceve un numero. Colleghi il suo tracker e chiunque in azienda può invi | Colleghi gli strumenti di analisi che già usa e ogni incidente riceve un numero. Colleghi il suo tracker e chiunque in a | Le analisi that you have is unclear.
+- 'Crawl on a timer and compare crawls. A paid feature, off until you set it up.' | Esegua scansioni con un timer e confronti le scansioni. Una funzione a pagamento, disattivata finché non la configura. | Esegua scansioni a intervalli regolari e le confronti. Una funzione a pagamento, disattivata finché non la configura. | con un timer is a calque; other strings say a intervalli.
+- 'Crawl this domain on a timer and tell you what changed. Off until you save it here.' | Scansiona questo dominio con un timer e la avvisa di cosa è cambiato. Disattivato finché non lo salva qui. | Scansiona questo dominio a intervalli regolari e la avvisa di cosa è cambiato. Disattivato finché non lo salva qui. | Same.
+- 'If you agree to analytics: which pages you open, what you click and how far you scroll, together with your bro' | Se accetta le analisi: quali pagine apre, su cosa fa clic e fin dove scorre, insieme a browser, dispositivo, posizione a | Se accetta le analisi: quali pagine apre, su cosa fa clic e fin dove scorre, insieme a browser, dispositivo, posizione a | Session replays are registrazioni.
+- 'Logging in still works, and so does your account page. Only your products and dashboards are unavailable.' | L'accesso funziona ancora, così come la pagina del suo account. Sono non disponibili solo i suoi prodotti e le dashboard | L'accesso funziona ancora, così come la pagina del suo account. Solo i suoi prodotti e le dashboard non sono disponibili | Sono non disponibili is ungrammatical.
+- 'Login records: as long as the session exists. Logging out everywhere ends them.' | Registro degli accessi: finché la sessione esiste. Uscendo ovunque vengono terminati. | Registro degli accessi: finché la sessione esiste. Uscendo ovunque termina. | Registro is singular, vengono terminati did not agree.
+- 'Saved. Schedule for {domain}: {period}. The first crawl starts one period from now. Nothing else on this accou' | Salvato. Pianificazione per {domain}: {period}. La prima scansione parte tra un periodo. Nient'altro in questo account è | Salvato. Pianificazione per {domain}: {period}. La prima scansione parte alla fine del primo intervallo. Nient'altro in  | tra un periodo is unclear.
+- 'Screenshot, scrollable. Plus and minus zoom, 0 fits the width.' | Screenshot scorrevole. Più e meno ingrandiscono, 0 adatta alla larghezza. | Screenshot scorrevole. I tasti più e meno ingrandiscono, 0 adatta alla larghezza. | Subject was unclear.
+- 'The crawl tried to take a screenshot of this page and could not. The findings and the source are not affected.' | La scansione ha provato a fare uno screenshot di questa pagina e non ci è riuscita. I rilievi e il sorgente non sono toc | La scansione ha provato a fare uno screenshot di questa pagina e non ci è riuscita. I rilievi e il sorgente non sono int | toccati is colloquial.
+- 'They join this account and see what you see. Whoever pays for this account covers them; their own plan stays f' | Si uniscono a questo account e vedono ciò che vede lei. Chi paga questo account li copre; il loro piano personale resta  | Si uniscono a questo account e vedono ciò che vede lei. Chi paga questo account ne sostiene i costi; il loro piano perso | li copre is ambiguous.
+- 'This is part of a later stage. It stays available from now on.' | Fa parte di una fase successiva. Resta disponibile da ora in poi. | Fa parte di un livello successivo. Resta disponibile da ora in poi. | Stage is livello elsewhere (Livello successivo, Il suo livello).
+- 'This is part of a later stage; it stays available from now on.' | Fa parte di una fase successiva; resta disponibile da ora in poi. | Fa parte di un livello successivo; resta disponibile da ora in poi. | Same.
+- 'Two of those you can exercise yourself, at once: "Download my data" gives you everything we hold about you in ' | Due di questi può esercitarli subito da solo: «Scarica i miei dati» le dà tutto ciò che conserviamo su di lei in un unic | Due di questi può esercitarli subito in autonomia: «Scarica i miei dati» le dà tutto ciò che conserviamo su di lei in un | da solo is gendered.
+- 'You chose a different Google account from the one you use here, so nothing was saved, and you are now logged i' | Ha scelto un account Google diverso da quello che usa qui, quindi non è stato salvato nulla, e ora ha effettuato l'acces | Ha scelto un account Google diverso da quello che usa qui, quindi non è stato salvato nulla, e ora ha effettuato l'acces | colleghi di nuovo had no object.
+- 'Your login is kept in your browser\'s own storage. If you clear it, or you did not tick "Remember me", you are ' | Il suo accesso è conservato nella memoria propria del browser. Se la cancella, o se non ha selezionato «Ricordami», vien | Il suo accesso è conservato nell'archiviazione locale del browser. Se la cancella, o se non ha selezionato «Ricordami»,  | Local storage is archiviazione locale (see section 6 heading).
+- 'Failing and to-review incidents are separate, worst first. Group them by URL pattern to see which part of the ' | Gli incidenti non superati e quelli da rivedere sono separati, i peggiori per primi. Li raggruppi per schema di URL per  | Gli incidenti non superati e quelli da rivedere sono separati, i peggiori per primi. Li raggruppi per schema di URL per  | Subject and object were swapped.
+- 'The first crawl of a site has nothing to compare with, so it has no changes page.' | La prima scansione di un sito non ha nulla con cui confrontarsi, quindi non ha una pagina delle modifiche. | La prima scansione di un sito non ha nulla con cui essere confrontata, quindi non ha una pagina delle modifiche. | Reflexive was wrong.
+- 'The legal basis, the personal data involved, and the evidence that would stand up.' | La base giuridica, i dati personali coinvolti e le evidenze che reggerebbero. | La base giuridica, i dati personali coinvolti e le prove che reggerebbero in giudizio. | evidenze that reggerebbero is unclear.
+- 'Clean means the rules ran and found nothing. Could not be checked means a rule needs data the crawl did not co' | Nessun problema significa che le regole sono state eseguite e non hanno trovato nulla. Non verificabile significa che un | «Nessun problema» significa che le regole sono state eseguite e non hanno trovato nulla. «Non è stato possibile verifica | Uses the labels of the states, quoted so the sentence parses.
+
+## Second pass: adopt WordPress and Mozilla wording (2026-10-27)
+
+35 labels differed from the references for the identical English: 9 adopted, 26 kept with a reason (a: different sense, b: register, c: consistency with the file, d: grammar or gender).
+
+- 'Already have an account?' | Ha già un account? | Ha già un account? | kept: a different sense (user name)
+- 'Connected' | Collegato | Collegato | kept: c file uses collegato for connected everywhere
+- 'Content' | Contenuti | Contenuti | kept: d same word, only number differs
+- 'Create account' | Crea account | Crea account | kept: c Account kept throughout, reference is tu or utenza
+- 'Create your account' | Crei il suo account | Crei il suo account | kept: b formal register kept, utenza vs account (c)
+- 'Dismiss' | Chiudi | Chiudi | kept: a Ignora reads as ignore a finding, this closes a toast
+- 'Display name' | Nome visualizzato | Nome visualizzato | kept: a reference is a different construction
+- 'Email' | E-mail | E-mail | kept: c file writes e-mail everywhere
+- 'Email address' | Indirizzo e-mail | Indirizzo e-mail | kept: c file writes e-mail everywhere
+- 'Email sent' | E-mail inviata | E-mail inviata | kept: c file writes e-mail everywhere
+- 'Enter your email address.' | Inserisca il suo indirizzo e-mail. | Inserisca il suo indirizzo e-mail. | kept: b formal Lei kept, e-mail (c)
+- 'Enter your password.' | Inserisca la sua password. | Inserisca la sua password. | kept: b formal Lei kept, vocabulary already the same
+- 'Free' | Gratuito | Gratuito | kept: a libero means free as in unrestricted, not a free plan
+- 'Latest' | La più recente | La più recente | kept: c sibling label is "Non è la più recente"
+- 'Log out everywhere' | Esci ovunque | Esci ovunque | kept: c Log out is Esci, reference is a different sentence
+- 'Maintenance' | Manutenzione | Manutenzione | kept: a reference is the mode "in maintenance", ours is a page heading
+- 'Please log in again' | Acceda di nuovo | Acceda nuovamente | adopted wp-core
+- 'Saving…' | Salvataggio… | Salvataggio in corso… | adopted moz/wp-core
+- 'Send reset link' | Invia il link di reimpostazione | Invia il link per la reimpostazione | adopted wp-admin
+- 'Skip to main content' | Vai al contenuto principale | Salta al contenuto principale | adopted wp-admin
+- 'Type the new password again.' | Inserisca di nuovo la nuova password. | Inserisca nuovamente la nuova password. | adopted wp-admin
+- 'Wrap long lines' | A capo automatico per le righe lunghe | A capo automatico per le righe lunghe | kept: d reference drops "long lines"; ours uses the same term
+- 'You' | Lei | Lei | kept: b formal Lei kept
+- 'Your domain' | Il suo dominio | Il suo dominio | kept: a different sense (specify the domain)
+- 'Zoom in' | Ingrandisci | Aumenta zoom | adopted moz/wp-core
+- 'Zoom out' | Riduci | Riduci zoom | adopted moz/wp-core
+- 'good' | buona | buona | kept: d same word, feminine for password
+- 'legal' | note legali | Legale | adopted moz
+- 'not logged in' | non connesso | non connesso | kept: c file uses connesso for logged in, reference is mw only
+- 'Check' | Controllo | Controllo | kept: a reference is checkbox sense
+- 'Citation' | Riferimento normativo | Riferimento normativo | kept: a reference is quotation, ours is legal citation
+- 'Failed' | Non riuscito | Non riuscito | kept: a reference is a different sense (missed), glossary keeps Non riuscito
+- 'Fixed' | Corretto | Corretto | kept: a reference is a different sense (fixed position)
+- 'Resolved' | Risolto | Risolto | kept: c would equal Fixed = Corretto
+- 'Show more' | Mostra altro | Mostra di più | adopted wp-core

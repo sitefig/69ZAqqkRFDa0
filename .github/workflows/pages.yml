@@ -23,7 +23,7 @@ jobs:
         with:
           node-version: 22
       - run: node --test tests/*.test.mjs
-      - run: node tools/check.mjs
+      - run: node tools/check.mjs --strict
       - run: node tools/build.mjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
