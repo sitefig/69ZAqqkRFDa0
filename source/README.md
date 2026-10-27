@@ -2,7 +2,7 @@
 
 Do not edit the JSON files here. They are copies.
 
-- `source-strings.json`: copy of `i18n/source-strings.json` of the app repo (schema i18n-source/1, 1349 strings, hash f9043fd1). The app makes it with `npm run i18n:extract`.
+- `source-strings.json`: copy of `i18n/source-strings.json` of the app repo (schema i18n-source/1, 1349 strings, hash 017e3522). The app makes it with `npm run i18n:extract`.
 - `languages.json`: copy of `config/app/languages.json` of the app repo (the 24 codes and endonyms).
 - Copied on 2026-10-27.
 

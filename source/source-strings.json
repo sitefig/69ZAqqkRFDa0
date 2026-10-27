@@ -1,6 +1,6 @@
 {
   "schema": "i18n-source/1",
-  "hash": "f9043fd13ee33fa8e8a6f5174f498f69e6863a01316ca35431ae38274dc00b62",
+  "hash": "017e352257d82b821b0c5af723e4d838cc7498cc7a3bc91b14de71c54aed389e",
   "count": 1349,
   "entries": {
     "\"{label}\" needs the part of sus.bot that makes changes, which isn't connected to this app yet. Nothing was changed.": {
@@ -333,7 +333,7 @@
         "other": "About {n} hours left."
       },
       "where": [
-        "src/shared/findings.ts:153"
+        "src/shared/findings.ts:159"
       ],
       "note": ""
     },
@@ -348,7 +348,7 @@
         "other": "About {n} minutes left."
       },
       "where": [
-        "src/shared/findings.ts:152"
+        "src/shared/findings.ts:158"
       ],
       "note": ""
     },
@@ -910,8 +910,8 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:233",
-        "src/shared/findings.ts:259"
+        "src/shared/findings.ts:239",
+        "src/shared/findings.ts:265"
       ],
       "note": ""
     },
@@ -1002,7 +1002,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:379"
+        "src/shared/findings.ts:385"
       ],
       "note": ""
     },
@@ -1108,7 +1108,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:253"
+        "src/shared/findings.ts:259"
       ],
       "note": ""
     },
@@ -1271,7 +1271,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:389"
+        "src/shared/findings.ts:395"
       ],
       "note": ""
     },
@@ -1378,15 +1378,6 @@
       "plural": false,
       "where": [
         "src/app/tracker-connect.ts:169"
-      ],
-      "note": ""
-    },
-    "Check failed to run": {
-      "bundle": "findings",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/words.json:9"
       ],
       "note": ""
     },
@@ -1606,7 +1597,7 @@
       ],
       "note": ""
     },
-    "Clean means the rules ran and found nothing. Could not be checked means a rule needs data the crawl did not collect.": {
+    "Clean means the rules ran and found nothing. Could not be checked means a rule had not enough data from the crawl, or the check is not implemented yet. Open the audit to see which.": {
       "bundle": "findings",
       "vars": [],
       "plural": false,
@@ -2084,17 +2075,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:119",
-        "src/app/findings-blocks.ts:594"
-      ],
-      "note": ""
-    },
-    "Could not be decided": {
-      "bundle": "findings",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/words.json:8"
+        "config/app/words.json:119"
       ],
       "note": ""
     },
@@ -2272,7 +2253,7 @@
       "plural": false,
       "where": [
         "config/app/pages/runs.json:56",
-        "src/shared/findings.ts:357"
+        "src/shared/findings.ts:363"
       ],
       "note": ""
     },
@@ -2306,7 +2287,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:162"
+        "src/shared/findings.ts:168"
       ],
       "note": ""
     },
@@ -2318,7 +2299,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:162"
+        "src/shared/findings.ts:168"
       ],
       "note": ""
     },
@@ -2331,7 +2312,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:211"
+        "src/shared/findings.ts:217"
       ],
       "note": ""
     },
@@ -2343,7 +2324,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:210"
+        "src/shared/findings.ts:216"
       ],
       "note": ""
     },
@@ -2727,7 +2708,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:257"
+        "src/shared/findings.ts:263"
       ],
       "note": ""
     },
@@ -2851,7 +2832,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:595"
+        "src/app/findings-blocks.ts:598"
       ],
       "note": ""
     },
@@ -3193,7 +3174,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:361"
+        "src/shared/findings.ts:367"
       ],
       "note": ""
     },
@@ -3416,7 +3397,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:255"
+        "src/shared/findings.ts:261"
       ],
       "note": ""
     },
@@ -3553,7 +3534,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:212"
+        "src/shared/findings.ts:218"
       ],
       "note": ""
     },
@@ -3573,7 +3554,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:367"
+        "src/shared/findings.ts:373"
       ],
       "note": ""
     },
@@ -3582,7 +3563,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:369"
+        "src/shared/findings.ts:375"
       ],
       "note": ""
     },
@@ -3591,7 +3572,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:368"
+        "src/shared/findings.ts:374"
       ],
       "note": ""
     },
@@ -3756,7 +3737,7 @@
         "config/app/pages/changes-detail.json:97",
         "src/app/findings-blocks.ts:240",
         "src/app/findings-blocks.ts:249",
-        "src/shared/findings.ts:238"
+        "src/shared/findings.ts:244"
       ],
       "note": ""
     },
@@ -3767,7 +3748,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:416"
+        "src/shared/findings.ts:422"
       ],
       "note": ""
     },
@@ -3826,7 +3807,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:387"
+        "src/shared/findings.ts:393"
       ],
       "note": ""
     },
@@ -3845,7 +3826,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:380"
+        "src/shared/findings.ts:386"
       ],
       "note": ""
     },
@@ -3854,7 +3835,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:388"
+        "src/shared/findings.ts:394"
       ],
       "note": ""
     },
@@ -4159,7 +4140,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:195"
+        "src/shared/findings.ts:201"
       ],
       "note": ""
     },
@@ -4194,7 +4175,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:377"
+        "src/shared/findings.ts:383"
       ],
       "note": ""
     },
@@ -4252,7 +4233,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:252"
+        "src/shared/findings.ts:258"
       ],
       "note": ""
     },
@@ -4482,7 +4463,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:376"
+        "src/shared/findings.ts:382"
       ],
       "note": ""
     },
@@ -4659,7 +4640,7 @@
       "where": [
         "src/app/findings-blocks.ts:180",
         "src/app/findings-blocks.ts:181",
-        "src/shared/findings.ts:239"
+        "src/shared/findings.ts:245"
       ],
       "note": ""
     },
@@ -4897,7 +4878,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:150"
+        "src/shared/findings.ts:156"
       ],
       "note": ""
     },
@@ -5376,7 +5357,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:193"
+        "src/shared/findings.ts:199"
       ],
       "note": ""
     },
@@ -5407,7 +5388,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:385"
+        "src/shared/findings.ts:391"
       ],
       "note": ""
     },
@@ -5427,7 +5408,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:417"
+        "src/shared/findings.ts:423"
       ],
       "note": ""
     },
@@ -5456,7 +5437,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:380"
+        "src/shared/findings.ts:386"
       ],
       "note": ""
     },
@@ -5465,7 +5446,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:386"
+        "src/shared/findings.ts:392"
       ],
       "note": ""
     },
@@ -5563,7 +5544,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:158",
+        "src/shared/findings.ts:164",
         "_site/app/onboard/crawling/index.html:59",
         "_site/app/runs/index.html:109"
       ],
@@ -5844,7 +5825,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:295",
+        "src/shared/findings.ts:301",
         "_site/app/incidents/index.html:138",
         "_site/app/m/incidents/index.html:116"
       ],
@@ -5942,7 +5923,37 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:191"
+        "src/shared/findings.ts:197"
+      ],
+      "note": ""
+    },
+    "Not enough data": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "config/app/words.json:8",
+        "src/app/findings-blocks.ts:596"
+      ],
+      "note": ""
+    },
+    "Not enough data: the crawl did not collect {detail}.": {
+      "bundle": "findings",
+      "vars": [
+        "detail"
+      ],
+      "plural": false,
+      "where": [
+        "config/app/words.json:71"
+      ],
+      "note": ""
+    },
+    "Not enough data: the data this check needs could not be read.": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "config/app/words.json:74"
       ],
       "note": ""
     },
@@ -5953,7 +5964,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:418"
+        "src/shared/findings.ts:424"
       ],
       "note": ""
     },
@@ -5976,6 +5987,61 @@
         "config/app/words.json:122",
         "_site/app/incidents/index.html:134",
         "_site/app/m/incidents/index.html:112"
+      ],
+      "note": ""
+    },
+    "Not implemented": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "config/app/words.json:9",
+        "src/app/findings-blocks.ts:597"
+      ],
+      "note": ""
+    },
+    "Not implemented: a condition of this check cannot be evaluated yet.": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "config/app/words.json:73"
+      ],
+      "note": ""
+    },
+    "Not implemented: the check did not run. The reason is recorded with the crawl.": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "config/app/words.json:76"
+      ],
+      "note": ""
+    },
+    "Not implemented: the query of this check fails, so it does not run yet.": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "config/app/words.json:72"
+      ],
+      "note": ""
+    },
+    "Not implemented: this check does not run on the data store in use.": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "config/app/words.json:70"
+      ],
+      "note": ""
+    },
+    "Not implemented: this version of the rule engine does not know this check.": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "config/app/words.json:75"
       ],
       "note": ""
     },
@@ -6012,9 +6078,9 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:243",
-        "src/shared/findings.ts:246",
-        "src/shared/findings.ts:250"
+        "src/shared/findings.ts:249",
+        "src/shared/findings.ts:252",
+        "src/shared/findings.ts:256"
       ],
       "note": ""
     },
@@ -6631,7 +6697,7 @@
       "where": [
         "config/app/nav.json:233",
         "src/app/findings-blocks.ts:250",
-        "src/shared/findings.ts:378",
+        "src/shared/findings.ts:384",
         "_site/app/audits/detail/index.html:92",
         "_site/app/i/detail/index.html:92"
       ],
@@ -6691,7 +6757,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:359"
+        "src/shared/findings.ts:365"
       ],
       "note": ""
     },
@@ -6703,7 +6769,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:164"
+        "src/shared/findings.ts:170"
       ],
       "note": ""
     },
@@ -6896,7 +6962,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:402"
+        "src/shared/findings.ts:408"
       ],
       "note": ""
     },
@@ -7070,7 +7136,7 @@
       "plural": false,
       "where": [
         "src/app/findings-blocks.ts:259",
-        "src/shared/findings.ts:247",
+        "src/shared/findings.ts:253",
         "src/shared/findings.ts:60"
       ],
       "note": ""
@@ -7284,7 +7350,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:404"
+        "src/shared/findings.ts:410"
       ],
       "note": ""
     },
@@ -7304,7 +7370,7 @@
       "plural": false,
       "where": [
         "src/app/findings-blocks.ts:294",
-        "src/shared/findings.ts:254",
+        "src/shared/findings.ts:260",
         "src/shared/findings.ts:63"
       ],
       "note": ""
@@ -8696,7 +8762,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:360"
+        "src/shared/findings.ts:366"
       ],
       "note": ""
     },
@@ -9334,51 +9400,6 @@
       ],
       "note": ""
     },
-    "The check could not be run because a condition could not be evaluated.": {
-      "bundle": "findings",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/words.json:73"
-      ],
-      "note": ""
-    },
-    "The check could not be run because its query failed.": {
-      "bundle": "findings",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/words.json:72"
-      ],
-      "note": ""
-    },
-    "The check could not be run because the data it needs could not be read.": {
-      "bundle": "findings",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/words.json:74"
-      ],
-      "note": ""
-    },
-    "The check could not be run. The reason is recorded with the crawl.": {
-      "bundle": "findings",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/words.json:76"
-      ],
-      "note": ""
-    },
-    "The check is not known to this version of the rule engine.": {
-      "bundle": "findings",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/words.json:75"
-      ],
-      "note": ""
-    },
     "The crawl could not store the source of this page.": {
       "bundle": "core",
       "vars": [],
@@ -9420,7 +9441,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:163"
+        "src/shared/findings.ts:169"
       ],
       "note": ""
     },
@@ -9431,7 +9452,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:163"
+        "src/shared/findings.ts:169"
       ],
       "note": ""
     },
@@ -9500,17 +9521,6 @@
       "where": [
         "config/app/pages/settings-integrations.json:38",
         "_site/app/settings/integrations/index.html:57"
-      ],
-      "note": ""
-    },
-    "The data this check needs was not collected: {detail}.": {
-      "bundle": "findings",
-      "vars": [
-        "detail"
-      ],
-      "plural": false,
-      "where": [
-        "config/app/words.json:71"
       ],
       "note": ""
     },
@@ -10160,15 +10170,6 @@
       ],
       "note": ""
     },
-    "This check cannot run on the data store in use.": {
-      "bundle": "findings",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/words.json:70"
-      ],
-      "note": ""
-    },
     "This check is not part of the current plan.": {
       "bundle": "findings",
       "vars": [],
@@ -10492,7 +10493,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:370"
+        "src/shared/findings.ts:376"
       ],
       "note": ""
     },
@@ -10618,7 +10619,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:358"
+        "src/shared/findings.ts:364"
       ],
       "note": ""
     },
@@ -10629,7 +10630,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:403"
+        "src/shared/findings.ts:409"
       ],
       "note": ""
     },
@@ -10638,7 +10639,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:390"
+        "src/shared/findings.ts:396"
       ],
       "note": ""
     },
@@ -11407,7 +11408,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:242"
+        "src/shared/findings.ts:248"
       ],
       "note": ""
     },
@@ -11478,7 +11479,7 @@
       "where": [
         "config/app/pages/incidents-detail.json:84",
         "src/app/findings-blocks.ts:262",
-        "src/shared/findings.ts:249",
+        "src/shared/findings.ts:255",
         "src/shared/findings.ts:58",
         "_site/app/i/detail/index.html:176"
       ],
@@ -11510,7 +11511,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:245"
+        "src/shared/findings.ts:251"
       ],
       "note": ""
     },
@@ -11727,7 +11728,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:194"
+        "src/shared/findings.ts:200"
       ],
       "note": ""
     },
@@ -12454,7 +12455,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:329"
+        "src/shared/findings.ts:335"
       ],
       "note": ""
     },
@@ -12939,7 +12940,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:230"
+        "src/shared/findings.ts:236"
       ],
       "note": ""
     },
@@ -13377,7 +13378,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:328"
+        "src/shared/findings.ts:334"
       ],
       "note": ""
     },
