@@ -687,6 +687,8 @@
   "Showing what {name} needs.": "Ag taispeáint an méid a theastaíonn ó {name}.",
   "Showing {loaded} of {total}.": "Ag taispeáint {loaded} as {total}.",
   "Sign-up is closed right now": "Tá an clárú dúnta faoi láthair",
+  "Site did not answer": "Níor fhreagair an suíomh",
+  "Site did not answer: {n}.": "Níor fhreagair an suíomh: {n}.",
   "Skip to main content": "Léim go dtí an príomhábhar",
   "Skipped": "Scipeáilte",
   "Slack": "Slack",

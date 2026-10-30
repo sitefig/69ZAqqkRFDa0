@@ -666,6 +666,8 @@
   "Showing what {name} needs.": "Megjelenítve, mire van szüksége a következőnek: {name}.",
   "Showing {loaded} of {total}.": "{loaded} megjelenítve, összesen {total}.",
   "Sign-up is closed right now": "A regisztráció jelenleg le van zárva",
+  "Site did not answer": "A webhely nem válaszolt",
+  "Site did not answer: {n}.": "A webhely nem válaszolt: {n}.",
   "Skip to main content": "Ugrás a fő tartalomra",
   "Skipped": "Kihagyva",
   "Slack": "Slack",

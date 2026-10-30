@@ -666,6 +666,8 @@
   "Showing what {name} needs.": "Toont wat {name} nodig heeft.",
   "Showing {loaded} of {total}.": "{loaded} van {total} getoond.",
   "Sign-up is closed right now": "Aanmelden is nu gesloten",
+  "Site did not answer": "Site gaf geen antwoord",
+  "Site did not answer: {n}.": "Site gaf geen antwoord: {n}.",
   "Skip to main content": "Naar de hoofdinhoud springen",
   "Skipped": "Overgeslagen",
   "Slack": "Slack",

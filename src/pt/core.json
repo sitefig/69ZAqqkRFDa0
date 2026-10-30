@@ -673,6 +673,8 @@
   "Showing what {name} needs.": "A mostrar o que {name} precisa.",
   "Showing {loaded} of {total}.": "A mostrar {loaded} de {total}.",
   "Sign-up is closed right now": "O registo está fechado neste momento",
+  "Site did not answer": "O site não respondeu",
+  "Site did not answer: {n}.": "O site não respondeu: {n}.",
   "Skip to main content": "Ir para o conteúdo principal",
   "Skipped": "Ignorado",
   "Slack": "Slack",

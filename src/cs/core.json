@@ -680,6 +680,8 @@
   "Showing what {name} needs.": "Zobrazuje se, co potřebuje {name}.",
   "Showing {loaded} of {total}.": "Zobrazeno {loaded} z {total}.",
   "Sign-up is closed right now": "Registrace je teď uzavřena",
+  "Site did not answer": "Web neodpověděl",
+  "Site did not answer: {n}.": "Web neodpověděl: {n}.",
   "Skip to main content": "Přejít k hlavnímu obsahu webu",
   "Skipped": "Přeskočeno",
   "Slack": "Slack",

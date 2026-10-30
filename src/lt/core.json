@@ -680,6 +680,8 @@
   "Showing what {name} needs.": "Rodoma, ko reikia {name}.",
   "Showing {loaded} of {total}.": "Rodoma {loaded} iš {total}.",
   "Sign-up is closed right now": "Registracija šiuo metu uždaryta",
+  "Site did not answer": "Svetainė neatsakė",
+  "Site did not answer: {n}.": "Svetainė neatsakė: {n}.",
   "Skip to main content": "Pereiti prie pagrindinio turinio",
   "Skipped": "Praleista",
   "Slack": "Slack",

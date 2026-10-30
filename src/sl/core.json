@@ -680,6 +680,8 @@
   "Showing what {name} needs.": "Prikazano je, kar potrebuje {name}.",
   "Showing {loaded} of {total}.": "Prikazano {loaded} od {total}.",
   "Sign-up is closed right now": "Registracija je trenutno zaprta",
+  "Site did not answer": "Spletno mesto se ni odzvalo",
+  "Site did not answer: {n}.": "Spletno mesto se ni odzvalo: {n}.",
   "Skip to main content": "Preskoči na glavno vsebino",
   "Skipped": "Preskočeno",
   "Slack": "Slack",

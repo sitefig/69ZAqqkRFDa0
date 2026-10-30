@@ -666,6 +666,8 @@
   "Showing what {name} needs.": "Viser, hvad {name} har brug for.",
   "Showing {loaded} of {total}.": "Viser {loaded} af {total}.",
   "Sign-up is closed right now": "Tilmelding er lukket lige nu",
+  "Site did not answer": "Websitet svarede ikke",
+  "Site did not answer: {n}.": "Websitet svarede ikke: {n}.",
   "Skip to main content": "Videre til indhold",
   "Skipped": "Sprunget over",
   "Slack": "Slack",

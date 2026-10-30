@@ -666,6 +666,8 @@
   "Showing what {name} needs.": "Visar vad {name} behöver.",
   "Showing {loaded} of {total}.": "Visar {loaded} av {total}.",
   "Sign-up is closed right now": "Registreringen är stängd just nu",
+  "Site did not answer": "Webbplatsen svarade inte",
+  "Site did not answer: {n}.": "Webbplatsen svarade inte: {n}.",
   "Skip to main content": "Hoppa till huvudinnehåll",
   "Skipped": "Hoppades över",
   "Slack": "Slack",

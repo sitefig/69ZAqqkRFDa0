@@ -666,6 +666,8 @@
   "Showing what {name} needs.": "Näidatakse, mida {name} vajab.",
   "Showing {loaded} of {total}.": "Näidatud {loaded} / {total}.",
   "Sign-up is closed right now": "Registreerumine on praegu suletud",
+  "Site did not answer": "Sait ei vastanud",
+  "Site did not answer: {n}.": "Sait ei vastanud: {n}.",
   "Skip to main content": "Liigu põhilise sisu juurde",
   "Skipped": "Vahele jäetud",
   "Slack": "Slack",

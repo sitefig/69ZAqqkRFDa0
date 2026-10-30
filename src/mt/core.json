@@ -687,6 +687,8 @@
   "Showing what {name} needs.": "Qed jintwera dak meħtieġ minn {name}.",
   "Showing {loaded} of {total}.": "Qed jintwerew {loaded} minn {total}.",
   "Sign-up is closed right now": "Ir-reġistrazzjoni magħluqa bħalissa",
+  "Site did not answer": "Is-sit ma weġibx",
+  "Site did not answer: {n}.": "Is-sit ma weġibx: {n}.",
   "Skip to main content": "Aqbeż għall-kontenut ewlieni",
   "Skipped": "Maqbuż",
   "Slack": "Slack",

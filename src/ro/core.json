@@ -673,6 +673,8 @@
   "Showing what {name} needs.": "Se afișează de ce are nevoie {name}.",
   "Showing {loaded} of {total}.": "Se afișează {loaded} din {total}.",
   "Sign-up is closed right now": "Înregistrarea este închisă momentan",
+  "Site did not answer": "Site-ul nu a răspuns",
+  "Site did not answer: {n}.": "Site-ul nu a răspuns: {n}.",
   "Skip to main content": "Treceți la conținutul principal",
   "Skipped": "Omis",
   "Slack": "Slack",

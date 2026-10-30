@@ -666,6 +666,8 @@
   "Showing what {name} needs.": "Показва се какво е нужно на {name}.",
   "Showing {loaded} of {total}.": "Показани: {loaded} от {total}.",
   "Sign-up is closed right now": "Регистрацията е затворена в момента",
+  "Site did not answer": "Сайтът не отговори",
+  "Site did not answer: {n}.": "Сайтът не отговори: {n}.",
   "Skip to main content": "Към основното съдържание",
   "Skipped": "Пропуснато",
   "Slack": "Slack",

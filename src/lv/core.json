@@ -673,6 +673,8 @@
   "Showing what {name} needs.": "Tiek rādīts, kas nepieciešams {name}.",
   "Showing {loaded} of {total}.": "Rādīti {loaded} no {total}.",
   "Sign-up is closed right now": "Reģistrācija pašlaik ir slēgta",
+  "Site did not answer": "Vietne neatbildēja",
+  "Site did not answer: {n}.": "Vietne neatbildēja: {n}.",
   "Skip to main content": "Pāriet uz galveno saturu",
   "Skipped": "Izlaists",
   "Slack": "Slack",

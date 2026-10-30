@@ -666,6 +666,8 @@
   "Showing what {name} needs.": "Εμφάνιση των στοιχείων που χρειάζεται το {name}.",
   "Showing {loaded} of {total}.": "Εμφανίζονται {loaded} από {total}.",
   "Sign-up is closed right now": "Οι εγγραφές είναι κλειστές αυτή τη στιγμή",
+  "Site did not answer": "Ο ιστότοπος δεν απάντησε",
+  "Site did not answer: {n}.": "Ο ιστότοπος δεν απάντησε: {n}.",
   "Skip to main content": "Μετάβαση στο κύριο περιεχόμενο",
   "Skipped": "Παραλείφθηκε",
   "Slack": "Slack",

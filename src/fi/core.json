@@ -666,6 +666,8 @@
   "Showing what {name} needs.": "Näytetään, mitä {name} tarvitsee.",
   "Showing {loaded} of {total}.": "Näytetään {loaded} / {total}.",
   "Sign-up is closed right now": "Rekisteröityminen on nyt suljettu",
+  "Site did not answer": "Sivusto ei vastannut",
+  "Site did not answer: {n}.": "Sivusto ei vastannut: {n}.",
   "Skip to main content": "Siirry pääsisältöön",
   "Skipped": "Ohitettu",
   "Slack": "Slack",

@@ -666,6 +666,8 @@
   "Showing what {name} needs.": "Angezeigt wird, was {name} braucht.",
   "Showing {loaded} of {total}.": "{loaded} von {total} angezeigt.",
   "Sign-up is closed right now": "Die Registrierung ist gerade geschlossen",
+  "Site did not answer": "Website hat nicht geantwortet",
+  "Site did not answer: {n}.": "Website hat nicht geantwortet: {n}.",
   "Skip to main content": "Zum Hauptinhalt springen",
   "Skipped": "Übersprungen",
   "Slack": "Slack",

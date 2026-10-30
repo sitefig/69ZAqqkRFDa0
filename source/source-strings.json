@@ -1,7 +1,7 @@
 {
   "schema": "i18n-source/1",
-  "hash": "017e352257d82b821b0c5af723e4d838cc7498cc7a3bc91b14de71c54aed389e",
-  "count": 1349,
+  "hash": "1fb9adacdc59d59f634163f8b5a33bf0cfea61cd508dfb6e456a3d5ad9c4c10a",
+  "count": 1351,
   "entries": {
     "\"{label}\" needs the part of sus.bot that makes changes, which isn't connected to this app yet. Nothing was changed.": {
       "bundle": "core",
@@ -910,8 +910,8 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:239",
-        "src/shared/findings.ts:265"
+        "src/shared/findings.ts:240",
+        "src/shared/findings.ts:266"
       ],
       "note": ""
     },
@@ -1002,7 +1002,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:385"
+        "src/shared/findings.ts:387"
       ],
       "note": ""
     },
@@ -1108,7 +1108,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:259"
+        "src/shared/findings.ts:260"
       ],
       "note": ""
     },
@@ -1271,7 +1271,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:395"
+        "src/shared/findings.ts:397"
       ],
       "note": ""
     },
@@ -2253,7 +2253,7 @@
       "plural": false,
       "where": [
         "config/app/pages/runs.json:56",
-        "src/shared/findings.ts:363"
+        "src/shared/findings.ts:364"
       ],
       "note": ""
     },
@@ -2312,7 +2312,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:217"
+        "src/shared/findings.ts:218"
       ],
       "note": ""
     },
@@ -2324,7 +2324,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:216"
+        "src/shared/findings.ts:217"
       ],
       "note": ""
     },
@@ -2708,7 +2708,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:263"
+        "src/shared/findings.ts:264"
       ],
       "note": ""
     },
@@ -3174,7 +3174,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:367"
+        "src/shared/findings.ts:368"
       ],
       "note": ""
     },
@@ -3397,7 +3397,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:261"
+        "src/shared/findings.ts:262"
       ],
       "note": ""
     },
@@ -3534,7 +3534,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:218"
+        "src/shared/findings.ts:219"
       ],
       "note": ""
     },
@@ -3554,7 +3554,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:373"
+        "src/shared/findings.ts:375"
       ],
       "note": ""
     },
@@ -3563,7 +3563,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:375"
+        "src/shared/findings.ts:377"
       ],
       "note": ""
     },
@@ -3572,7 +3572,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:374"
+        "src/shared/findings.ts:376"
       ],
       "note": ""
     },
@@ -3737,7 +3737,7 @@
         "config/app/pages/changes-detail.json:97",
         "src/app/findings-blocks.ts:240",
         "src/app/findings-blocks.ts:249",
-        "src/shared/findings.ts:244"
+        "src/shared/findings.ts:245"
       ],
       "note": ""
     },
@@ -3748,7 +3748,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:422"
+        "src/shared/findings.ts:424"
       ],
       "note": ""
     },
@@ -3807,7 +3807,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:393"
+        "src/shared/findings.ts:395"
       ],
       "note": ""
     },
@@ -3826,7 +3826,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:386"
+        "src/shared/findings.ts:388"
       ],
       "note": ""
     },
@@ -3835,7 +3835,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:394"
+        "src/shared/findings.ts:396"
       ],
       "note": ""
     },
@@ -4140,7 +4140,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:201"
+        "src/shared/findings.ts:202"
       ],
       "note": ""
     },
@@ -4175,7 +4175,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:383"
+        "src/shared/findings.ts:385"
       ],
       "note": ""
     },
@@ -4233,7 +4233,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:258"
+        "src/shared/findings.ts:259"
       ],
       "note": ""
     },
@@ -4463,7 +4463,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:382"
+        "src/shared/findings.ts:384"
       ],
       "note": ""
     },
@@ -4640,7 +4640,7 @@
       "where": [
         "src/app/findings-blocks.ts:180",
         "src/app/findings-blocks.ts:181",
-        "src/shared/findings.ts:245"
+        "src/shared/findings.ts:246"
       ],
       "note": ""
     },
@@ -5357,7 +5357,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:199"
+        "src/shared/findings.ts:200"
       ],
       "note": ""
     },
@@ -5388,7 +5388,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:391"
+        "src/shared/findings.ts:393"
       ],
       "note": ""
     },
@@ -5408,7 +5408,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:423"
+        "src/shared/findings.ts:425"
       ],
       "note": ""
     },
@@ -5437,7 +5437,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:386"
+        "src/shared/findings.ts:388"
       ],
       "note": ""
     },
@@ -5446,7 +5446,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:392"
+        "src/shared/findings.ts:394"
       ],
       "note": ""
     },
@@ -5825,7 +5825,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:301",
+        "src/shared/findings.ts:302",
         "_site/app/incidents/index.html:138",
         "_site/app/m/incidents/index.html:116"
       ],
@@ -5923,7 +5923,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:197"
+        "src/shared/findings.ts:198"
       ],
       "note": ""
     },
@@ -5964,7 +5964,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:424"
+        "src/shared/findings.ts:426"
       ],
       "note": ""
     },
@@ -6078,9 +6078,9 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:249",
-        "src/shared/findings.ts:252",
-        "src/shared/findings.ts:256"
+        "src/shared/findings.ts:250",
+        "src/shared/findings.ts:253",
+        "src/shared/findings.ts:257"
       ],
       "note": ""
     },
@@ -6697,7 +6697,7 @@
       "where": [
         "config/app/nav.json:233",
         "src/app/findings-blocks.ts:250",
-        "src/shared/findings.ts:384",
+        "src/shared/findings.ts:386",
         "_site/app/audits/detail/index.html:92",
         "_site/app/i/detail/index.html:92"
       ],
@@ -6757,7 +6757,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:365"
+        "src/shared/findings.ts:366"
       ],
       "note": ""
     },
@@ -6962,7 +6962,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:408"
+        "src/shared/findings.ts:410"
       ],
       "note": ""
     },
@@ -7136,7 +7136,7 @@
       "plural": false,
       "where": [
         "src/app/findings-blocks.ts:259",
-        "src/shared/findings.ts:253",
+        "src/shared/findings.ts:254",
         "src/shared/findings.ts:60"
       ],
       "note": ""
@@ -7350,7 +7350,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:410"
+        "src/shared/findings.ts:412"
       ],
       "note": ""
     },
@@ -7370,7 +7370,7 @@
       "plural": false,
       "where": [
         "src/app/findings-blocks.ts:294",
-        "src/shared/findings.ts:260",
+        "src/shared/findings.ts:261",
         "src/shared/findings.ts:63"
       ],
       "note": ""
@@ -8744,6 +8744,26 @@
       ],
       "note": ""
     },
+    "Site did not answer": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "src/shared/findings.ts:369"
+      ],
+      "note": ""
+    },
+    "Site did not answer: {n}.": {
+      "bundle": "core",
+      "vars": [
+        "n"
+      ],
+      "plural": false,
+      "where": [
+        "src/shared/findings.ts:171"
+      ],
+      "note": ""
+    },
     "Skip to main content": {
       "bundle": "core",
       "vars": [],
@@ -8762,7 +8782,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:366"
+        "src/shared/findings.ts:367"
       ],
       "note": ""
     },
@@ -10493,7 +10513,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:376"
+        "src/shared/findings.ts:378"
       ],
       "note": ""
     },
@@ -10619,7 +10639,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:364"
+        "src/shared/findings.ts:365"
       ],
       "note": ""
     },
@@ -10630,7 +10650,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:409"
+        "src/shared/findings.ts:411"
       ],
       "note": ""
     },
@@ -10639,7 +10659,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:396"
+        "src/shared/findings.ts:398"
       ],
       "note": ""
     },
@@ -11408,7 +11428,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:248"
+        "src/shared/findings.ts:249"
       ],
       "note": ""
     },
@@ -11479,7 +11499,7 @@
       "where": [
         "config/app/pages/incidents-detail.json:84",
         "src/app/findings-blocks.ts:262",
-        "src/shared/findings.ts:255",
+        "src/shared/findings.ts:256",
         "src/shared/findings.ts:58",
         "_site/app/i/detail/index.html:176"
       ],
@@ -11511,7 +11531,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:251"
+        "src/shared/findings.ts:252"
       ],
       "note": ""
     },
@@ -11728,7 +11748,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:200"
+        "src/shared/findings.ts:201"
       ],
       "note": ""
     },
@@ -12455,7 +12475,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:335"
+        "src/shared/findings.ts:336"
       ],
       "note": ""
     },
@@ -12940,7 +12960,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:236"
+        "src/shared/findings.ts:237"
       ],
       "note": ""
     },
@@ -13378,7 +13398,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:334"
+        "src/shared/findings.ts:335"
       ],
       "note": ""
     },
