@@ -1,7 +1,7 @@
 {
   "schema": "i18n-source/1",
-  "hash": "1fb9adacdc59d59f634163f8b5a33bf0cfea61cd508dfb6e456a3d5ad9c4c10a",
-  "count": 1351,
+  "hash": "1d7253931f2b4ef7c886673124d38cff62bc0e79512df72bd57b9e46ef16a999",
+  "count": 1363,
   "entries": {
     "\"{label}\" needs the part of sus.bot that makes changes, which isn't connected to this app yet. Nothing was changed.": {
       "bundle": "core",
@@ -205,6 +205,15 @@
       ],
       "note": ""
     },
+    "A crawl was requested.": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "config/app/words.json:111"
+      ],
+      "note": ""
+    },
     "A decision needs a project and an incident.": {
       "bundle": "core",
       "vars": [],
@@ -228,7 +237,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:112"
+        "config/app/words.json:117"
       ],
       "note": ""
     },
@@ -257,6 +266,33 @@
       "plural": false,
       "where": [
         "src/app/findings-blocks.ts:181"
+      ],
+      "note": ""
+    },
+    "A processing step failed.": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "config/app/words.json:125"
+      ],
+      "note": ""
+    },
+    "A processing step finished.": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "config/app/words.json:124"
+      ],
+      "note": ""
+    },
+    "A processing step was started.": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "config/app/words.json:123"
       ],
       "note": ""
     },
@@ -304,7 +340,7 @@
         "config/app/nav.json:117",
         "config/app/pages/incidents.json:55",
         "config/app/pages/standards.json:60",
-        "config/app/words.json:45",
+        "config/app/words.json:48",
         "_site/app/audits/detail/index.html:50"
       ],
       "note": ""
@@ -368,7 +404,7 @@
       "plural": false,
       "where": [
         "config/app/pages/incidents.json:128",
-        "config/app/words.json:80",
+        "config/app/words.json:83",
         "_site/app/incidents/index.html:131"
       ],
       "note": ""
@@ -399,7 +435,7 @@
         "config/app/nav.json:93",
         "config/app/pages/incidents.json:43",
         "config/app/pages/standards.json:48",
-        "config/app/words.json:42",
+        "config/app/words.json:45",
         "_site/app/audits/detail/index.html:50"
       ],
       "note": ""
@@ -467,7 +503,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:151"
+        "config/app/words.json:163"
       ],
       "note": ""
     },
@@ -818,12 +854,21 @@
       ],
       "note": ""
     },
-    "Analysing": {
+    "Analysing the interactions": {
       "bundle": "findings",
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:33"
+        "config/app/words.json:36"
+      ],
+      "note": ""
+    },
+    "Analysing the pages": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "config/app/words.json:34"
       ],
       "note": ""
     },
@@ -1165,15 +1210,6 @@
       ],
       "note": ""
     },
-    "Building the URL list": {
-      "bundle": "findings",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/words.json:30"
-      ],
-      "note": ""
-    },
     "Business": {
       "bundle": "core",
       "vars": [],
@@ -1200,7 +1236,7 @@
       "plural": false,
       "where": [
         "config/app/pages/reports.json:17",
-        "config/app/words.json:48",
+        "config/app/words.json:51",
         "_site/app/reports/index.html:108"
       ],
       "note": ""
@@ -1211,7 +1247,7 @@
       "plural": false,
       "where": [
         "config/app/pages/reports.json:29",
-        "config/app/words.json:50",
+        "config/app/words.json:53",
         "_site/app/reports/index.html:108"
       ],
       "note": ""
@@ -1222,7 +1258,7 @@
       "plural": false,
       "where": [
         "config/app/pages/reports.json:23",
-        "config/app/words.json:49",
+        "config/app/words.json:52",
         "_site/app/reports/index.html:108"
       ],
       "note": ""
@@ -1593,7 +1629,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:129"
+        "config/app/words.json:141"
       ],
       "note": ""
     },
@@ -1958,7 +1994,7 @@
       "where": [
         "config/app/nav.json:77",
         "config/app/pages/incidents.json:35",
-        "config/app/words.json:40",
+        "config/app/words.json:43",
         "_site/app/audits/detail/index.html:50",
         "_site/app/changes/detail/index.html:50"
       ],
@@ -2018,7 +2054,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:143"
+        "config/app/words.json:155"
       ],
       "note": ""
     },
@@ -2027,7 +2063,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:144"
+        "config/app/words.json:156"
       ],
       "note": ""
     },
@@ -2075,7 +2111,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:119"
+        "config/app/words.json:131"
       ],
       "note": ""
     },
@@ -2115,7 +2151,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:98"
+        "config/app/words.json:101"
       ],
       "note": ""
     },
@@ -2354,7 +2390,7 @@
       "plural": false,
       "where": [
         "config/app/pages/reports.json:48",
-        "config/app/words.json:63",
+        "config/app/words.json:66",
         "_site/app/reports/index.html:108"
       ],
       "note": ""
@@ -2456,7 +2492,7 @@
       "plural": false,
       "where": [
         "config/app/pages/reports.json:18",
-        "config/app/words.json:58",
+        "config/app/words.json:61",
         "_site/app/reports/index.html:108"
       ],
       "note": ""
@@ -2498,7 +2534,7 @@
       "plural": false,
       "where": [
         "config/app/pages/reports.json:53",
-        "config/app/words.json:54",
+        "config/app/words.json:57",
         "_site/app/reports/index.html:108"
       ],
       "note": ""
@@ -2697,7 +2733,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:137"
+        "config/app/words.json:149"
       ],
       "note": ""
     },
@@ -2717,7 +2753,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:149"
+        "config/app/words.json:161"
       ],
       "note": ""
     },
@@ -2727,7 +2763,7 @@
       "plural": false,
       "where": [
         "config/app/pages/reports.json:59",
-        "config/app/words.json:55",
+        "config/app/words.json:58",
         "_site/app/reports/index.html:108"
       ],
       "note": ""
@@ -2786,7 +2822,7 @@
       "plural": false,
       "where": [
         "config/app/pages/incidents.json:124",
-        "config/app/words.json:79",
+        "config/app/words.json:82",
         "_site/app/incidents/index.html:131"
       ],
       "note": ""
@@ -2805,7 +2841,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:90"
+        "config/app/words.json:93"
       ],
       "note": ""
     },
@@ -2911,7 +2947,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:93"
+        "config/app/words.json:96"
       ],
       "note": ""
     },
@@ -3387,7 +3423,7 @@
       "plural": false,
       "where": [
         "config/app/pages/reports.json:60",
-        "config/app/words.json:65",
+        "config/app/words.json:68",
         "_site/app/reports/index.html:108"
       ],
       "note": ""
@@ -3583,7 +3619,7 @@
       "where": [
         "config/app/pages/incidents.json:154",
         "config/app/pages/modules-incidents.json:101",
-        "config/app/words.json:126",
+        "config/app/words.json:138",
         "_site/app/incidents/index.html:134",
         "_site/app/m/incidents/index.html:112"
       ],
@@ -3613,7 +3649,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:32"
+        "config/app/words.json:33"
       ],
       "note": ""
     },
@@ -3622,7 +3658,25 @@
       "vars": [],
       "plural": false,
       "where": [
+        "config/app/words.json:30"
+      ],
+      "note": ""
+    },
+    "Fetching pages as other visitors": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
         "config/app/words.json:31"
+      ],
+      "note": ""
+    },
+    "Fetching sample pages": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "config/app/words.json:32"
       ],
       "note": ""
     },
@@ -3920,7 +3974,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:133"
+        "config/app/words.json:145"
       ],
       "note": ""
     },
@@ -4104,7 +4158,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:97"
+        "config/app/words.json:100"
       ],
       "note": ""
     },
@@ -4122,7 +4176,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:116"
+        "config/app/words.json:128"
       ],
       "note": ""
     },
@@ -4348,7 +4402,7 @@
       "where": [
         "config/app/pages/incidents.json:142",
         "config/app/pages/modules-incidents.json:89",
-        "config/app/words.json:123",
+        "config/app/words.json:135",
         "_site/app/incidents/index.html:134",
         "_site/app/m/incidents/index.html:112"
       ],
@@ -4831,7 +4885,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:95"
+        "config/app/words.json:98"
       ],
       "note": ""
     },
@@ -5099,7 +5153,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:152"
+        "config/app/words.json:164"
       ],
       "note": ""
     },
@@ -5145,7 +5199,7 @@
       "plural": false,
       "where": [
         "config/app/pages/reports.json:35",
-        "config/app/words.json:51",
+        "config/app/words.json:54",
         "_site/app/reports/index.html:108"
       ],
       "note": ""
@@ -5215,7 +5269,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:138"
+        "config/app/words.json:150"
       ],
       "note": ""
     },
@@ -5525,7 +5579,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:142"
+        "config/app/words.json:154"
       ],
       "note": ""
     },
@@ -5585,7 +5639,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:117"
+        "config/app/words.json:129"
       ],
       "note": ""
     },
@@ -5856,7 +5910,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:147",
+        "config/app/words.json:159",
         "src/app/screenshot.ts:152",
         "src/app/screenshot.ts:153"
       ],
@@ -5944,7 +5998,7 @@
       ],
       "plural": false,
       "where": [
-        "config/app/words.json:71"
+        "config/app/words.json:74"
       ],
       "note": ""
     },
@@ -5953,7 +6007,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:74"
+        "config/app/words.json:77"
       ],
       "note": ""
     },
@@ -5984,7 +6038,7 @@
       "where": [
         "config/app/pages/incidents.json:138",
         "config/app/pages/modules-incidents.json:85",
-        "config/app/words.json:122",
+        "config/app/words.json:134",
         "_site/app/incidents/index.html:134",
         "_site/app/m/incidents/index.html:112"
       ],
@@ -6005,7 +6059,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:73"
+        "config/app/words.json:76"
       ],
       "note": ""
     },
@@ -6014,7 +6068,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:76"
+        "config/app/words.json:79"
       ],
       "note": ""
     },
@@ -6023,7 +6077,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:72"
+        "config/app/words.json:75"
       ],
       "note": ""
     },
@@ -6032,7 +6086,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:70"
+        "config/app/words.json:73"
       ],
       "note": ""
     },
@@ -6041,7 +6095,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:75"
+        "config/app/words.json:78"
       ],
       "note": ""
     },
@@ -6107,7 +6161,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:89"
+        "config/app/words.json:92"
       ],
       "note": ""
     },
@@ -6328,15 +6382,6 @@
       "plural": false,
       "where": [
         "_site/app/experience/index.html:86"
-      ],
-      "note": ""
-    },
-    "One step failed and was retried or skipped.": {
-      "bundle": "findings",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/words.json:113"
       ],
       "note": ""
     },
@@ -7096,7 +7141,7 @@
         "config/app/nav.json:101",
         "config/app/pages/incidents.json:47",
         "config/app/pages/standards.json:52",
-        "config/app/words.json:43",
+        "config/app/words.json:46",
         "_site/403/index.html:55"
       ],
       "note": ""
@@ -7188,7 +7233,7 @@
       "plural": false,
       "where": [
         "config/app/pages/reports.json:41",
-        "config/app/words.json:52",
+        "config/app/words.json:55",
         "_site/app/reports/index.html:108"
       ],
       "note": ""
@@ -7262,7 +7307,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:148"
+        "config/app/words.json:160"
       ],
       "note": ""
     },
@@ -7271,7 +7316,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:36"
+        "config/app/words.json:39"
       ],
       "note": ""
     },
@@ -7283,7 +7328,7 @@
         "config/app/nav.json:85",
         "config/app/pages/incidents.json:39",
         "config/app/pages/standards.json:44",
-        "config/app/words.json:41",
+        "config/app/words.json:44",
         "_site/app/audits/detail/index.html:50"
       ],
       "note": ""
@@ -7380,7 +7425,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:94"
+        "config/app/words.json:97"
       ],
       "note": ""
     },
@@ -7614,7 +7659,7 @@
       "where": [
         "config/app/pages/incidents.json:146",
         "config/app/pages/modules-incidents.json:93",
-        "config/app/words.json:124",
+        "config/app/words.json:136",
         "_site/app/incidents/index.html:134",
         "_site/app/m/incidents/index.html:112"
       ],
@@ -7703,7 +7748,7 @@
       "where": [
         "config/app/pages/incidents.json:150",
         "config/app/pages/modules-incidents.json:97",
-        "config/app/words.json:125",
+        "config/app/words.json:137",
         "_site/app/incidents/index.html:134",
         "_site/app/m/incidents/index.html:112"
       ],
@@ -7823,7 +7868,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:35"
+        "config/app/words.json:37"
       ],
       "note": ""
     },
@@ -7845,7 +7890,7 @@
         "config/app/nav.json:69",
         "config/app/pages/incidents.json:31",
         "config/app/pages/standards.json:40",
-        "config/app/words.json:39",
+        "config/app/words.json:42",
         "_site/app/audits/detail/index.html:50"
       ],
       "note": ""
@@ -7856,7 +7901,7 @@
       "plural": false,
       "where": [
         "config/app/pages/reports.json:47",
-        "config/app/words.json:53",
+        "config/app/words.json:56",
         "_site/app/reports/index.html:108"
       ],
       "note": ""
@@ -7866,7 +7911,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:134"
+        "config/app/words.json:146"
       ],
       "note": ""
     },
@@ -7954,6 +7999,15 @@
       "plural": false,
       "where": [
         "_site/app/settings/monitoring/index.html:112"
+      ],
+      "note": ""
+    },
+    "Saving the history": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "config/app/words.json:38"
       ],
       "note": ""
     },
@@ -8069,7 +8123,7 @@
       "plural": false,
       "where": [
         "config/app/pages/reports.json:42",
-        "config/app/words.json:62",
+        "config/app/words.json:65",
         "_site/app/reports/index.html:108"
       ],
       "note": ""
@@ -8271,7 +8325,7 @@
         "config/app/nav.json:109",
         "config/app/pages/incidents.json:51",
         "config/app/pages/standards.json:56",
-        "config/app/words.json:44",
+        "config/app/words.json:47",
         "_site/account/settings/index.html:52"
       ],
       "note": ""
@@ -8946,7 +9000,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:96"
+        "config/app/words.json:99"
       ],
       "note": ""
     },
@@ -9126,7 +9180,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:139"
+        "config/app/words.json:151"
       ],
       "note": ""
     },
@@ -9168,7 +9222,7 @@
       "plural": false,
       "where": [
         "config/app/pages/reports.json:24",
-        "config/app/words.json:59",
+        "config/app/words.json:62",
         "_site/app/reports/index.html:108"
       ],
       "note": ""
@@ -9227,7 +9281,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:34"
+        "config/app/words.json:35"
       ],
       "note": ""
     },
@@ -9434,7 +9488,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:111"
+        "config/app/words.json:122"
       ],
       "note": ""
     },
@@ -9443,7 +9497,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:109"
+        "config/app/words.json:120"
       ],
       "note": ""
     },
@@ -9476,6 +9530,15 @@
       ],
       "note": ""
     },
+    "The crawl is stopping.": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "config/app/words.json:118"
+      ],
+      "note": ""
+    },
     "The crawl reads your site once. It does not repeat by itself.": {
       "bundle": "core",
       "vars": [],
@@ -9496,12 +9559,21 @@
       ],
       "note": ""
     },
+    "The crawl request was turned down.": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "config/app/words.json:112"
+      ],
+      "note": ""
+    },
     "The crawl started.": {
       "bundle": "findings",
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:108"
+        "config/app/words.json:114"
       ],
       "note": ""
     },
@@ -9514,12 +9586,21 @@
       ],
       "note": ""
     },
+    "The crawl was aborted and its open jobs were closed.": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "config/app/words.json:121"
+      ],
+      "note": ""
+    },
     "The crawl was stopped.": {
       "bundle": "findings",
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:110"
+        "config/app/words.json:119"
       ],
       "note": ""
     },
@@ -9531,6 +9612,15 @@
       "plural": false,
       "where": [
         "src/app/crawl-select.ts:68"
+      ],
+      "note": ""
+    },
+    "The crawler began working.": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "config/app/words.json:116"
       ],
       "note": ""
     },
@@ -9621,6 +9711,15 @@
       ],
       "note": ""
     },
+    "The first page was handed to the crawler.": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "config/app/words.json:115"
+      ],
+      "note": ""
+    },
     "The full image is shown, {size}.": {
       "bundle": "core",
       "vars": [
@@ -9637,7 +9736,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:102"
+        "config/app/words.json:105"
       ],
       "note": ""
     },
@@ -9734,8 +9833,17 @@
       "plural": false,
       "where": [
         "config/app/pages/reports.json:54",
-        "config/app/words.json:64",
+        "config/app/words.json:67",
         "_site/app/reports/index.html:108"
+      ],
+      "note": ""
+    },
+    "The list of URLs to fetch was built.": {
+      "bundle": "findings",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "config/app/words.json:113"
       ],
       "note": ""
     },
@@ -9781,7 +9889,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:105"
+        "config/app/words.json:108"
       ],
       "note": ""
     },
@@ -9790,7 +9898,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:101"
+        "config/app/words.json:104"
       ],
       "note": ""
     },
@@ -9904,7 +10012,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:103"
+        "config/app/words.json:106"
       ],
       "note": ""
     },
@@ -9958,7 +10066,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:104"
+        "config/app/words.json:107"
       ],
       "note": ""
     },
@@ -10195,7 +10303,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:69"
+        "config/app/words.json:72"
       ],
       "note": ""
     },
@@ -10232,7 +10340,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:68"
+        "config/app/words.json:71"
       ],
       "note": ""
     },
@@ -10540,7 +10648,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:150"
+        "config/app/words.json:162"
       ],
       "note": ""
     },
@@ -10854,7 +10962,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/words.json:88"
+        "config/app/words.json:91"
       ],
       "note": ""
     },
@@ -11511,7 +11619,7 @@
       "plural": false,
       "where": [
         "config/app/pages/reports.json:30",
-        "config/app/words.json:60",
+        "config/app/words.json:63",
         "_site/app/reports/index.html:108"
       ],
       "note": ""
@@ -11632,7 +11740,7 @@
       "plural": false,
       "where": [
         "config/app/pages/reports.json:36",
-        "config/app/words.json:61",
+        "config/app/words.json:64",
         "_site/app/reports/index.html:108"
       ],
       "note": ""
