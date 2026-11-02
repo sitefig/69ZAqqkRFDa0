@@ -170,7 +170,6 @@
   "Nothing matches these filters.": "Pēc šiem filtriem nekas netika atrasts.",
   "Nothing to compare": "Nav ko salīdzināt",
   "Nothing to list yet.": "Pagaidām nav ko uzskaitīt.",
-  "On this page: {counts}. Worst result: {worst}.": "Šajā lapā: {counts}. Sliktākais rezultāts: {worst}.",
   "One crawl": "Viena skenēšana",
   "One report for each role": "Viens pārskats katrai lomai",
   "Only pages that have a result are listed. A page the crawl read without finding anything is not here.": "Uzskaitītas tikai lapas ar rezultātu. Lapas, ko skenēšana izlasīja, neko neatrodot, šeit nav.",

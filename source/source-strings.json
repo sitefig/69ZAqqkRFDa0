@@ -1,7 +1,7 @@
 {
   "schema": "i18n-source/1",
-  "hash": "dc2338e9ecc154d5edb7fe9d15217e34e70f81e01e4ccd0e685ffd74a847c380",
-  "count": 1355,
+  "hash": "bfc75abe1952b12bf16a1a6b2268bbeea2bd99b475c7cc5d79f1fd540f81c13a",
+  "count": 1354,
   "entries": {
     "\"{label}\" needs the part of sus.bot that makes changes, which isn't connected to this app yet. Nothing was changed.": {
       "bundle": "core",
@@ -265,7 +265,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:181"
+        "src/app/findings-blocks.ts:179"
       ],
       "note": ""
     },
@@ -1018,7 +1018,7 @@
       "plural": false,
       "where": [
         "config/app/pages/modules-audits.json:67",
-        "src/app/findings-blocks.ts:540",
+        "src/app/findings-blocks.ts:538",
         "_site/app/m/audits/index.html:98"
       ],
       "note": ""
@@ -1038,7 +1038,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:182"
+        "src/app/findings-blocks.ts:180"
       ],
       "note": ""
     },
@@ -1058,7 +1058,7 @@
       "where": [
         "config/app/pages/modules-audits.json:18",
         "config/app/pages/modules-detail.json:29",
-        "src/app/findings-blocks.ts:182",
+        "src/app/findings-blocks.ts:180",
         "_site/app/m/audits/index.html:95",
         "_site/app/m/detail/index.html:101"
       ],
@@ -1341,7 +1341,7 @@
       ],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:108"
+        "src/app/findings-blocks.ts:106"
       ],
       "note": ""
     },
@@ -1395,7 +1395,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:237"
+        "src/app/findings-blocks.ts:235"
       ],
       "note": ""
     },
@@ -1706,7 +1706,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:245"
+        "src/app/findings-blocks.ts:243"
       ],
       "note": ""
     },
@@ -2182,7 +2182,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:550"
+        "src/app/findings-blocks.ts:548"
       ],
       "note": ""
     },
@@ -2310,8 +2310,8 @@
       ],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:107",
-        "src/app/findings-blocks.ts:233",
+        "src/app/findings-blocks.ts:105",
+        "src/app/findings-blocks.ts:231",
         "src/app/findings-blocks.ts:65"
       ],
       "note": ""
@@ -2868,7 +2868,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:598"
+        "src/app/findings-blocks.ts:596"
       ],
       "note": ""
     },
@@ -3268,7 +3268,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:579"
+        "src/app/findings-blocks.ts:577"
       ],
       "note": ""
     },
@@ -3277,7 +3277,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:564"
+        "src/app/findings-blocks.ts:562"
       ],
       "note": ""
     },
@@ -3380,7 +3380,7 @@
       "plural": false,
       "where": [
         "config/app/pages/incidents-detail.json:22",
-        "src/app/findings-blocks.ts:241",
+        "src/app/findings-blocks.ts:239",
         "_site/app/i/detail/index.html:146",
         "_site/app/i/detail/index.html:171"
       ],
@@ -3404,7 +3404,7 @@
       ],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:434"
+        "src/app/findings-blocks.ts:432"
       ],
       "note": ""
     },
@@ -3413,7 +3413,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:442"
+        "src/app/findings-blocks.ts:440"
       ],
       "note": ""
     },
@@ -3516,7 +3516,7 @@
         "config/app/pages/modules-incidents.json:13",
         "config/app/pages/pages.json:26",
         "config/app/words.json:4",
-        "src/app/findings-blocks.ts:180"
+        "src/app/findings-blocks.ts:178"
       ],
       "note": ""
     },
@@ -3770,8 +3770,8 @@
       "plural": false,
       "where": [
         "config/app/pages/changes-detail.json:97",
-        "src/app/findings-blocks.ts:240",
-        "src/app/findings-blocks.ts:249",
+        "src/app/findings-blocks.ts:238",
+        "src/app/findings-blocks.ts:247",
         "src/shared/findings.ts:245"
       ],
       "note": ""
@@ -4120,7 +4120,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:243"
+        "src/app/findings-blocks.ts:241"
       ],
       "note": ""
     },
@@ -4286,7 +4286,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:289",
+        "src/app/findings-blocks.ts:287",
         "src/shared/findings.ts:62"
       ],
       "note": ""
@@ -4409,8 +4409,8 @@
         "config/app/nav.json:60",
         "config/app/pages/audits-detail.json:43",
         "config/app/pages/pages.json:69",
-        "src/app/findings-blocks.ts:180",
-        "src/app/findings-blocks.ts:181"
+        "src/app/findings-blocks.ts:178",
+        "src/app/findings-blocks.ts:179"
       ],
       "note": ""
     },
@@ -4663,8 +4663,8 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:180",
-        "src/app/findings-blocks.ts:181",
+        "src/app/findings-blocks.ts:178",
+        "src/app/findings-blocks.ts:179",
         "src/shared/findings.ts:246"
       ],
       "note": ""
@@ -4692,7 +4692,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:193"
+        "src/app/findings-blocks.ts:191"
       ],
       "note": ""
     },
@@ -4894,7 +4894,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:485"
+        "src/app/findings-blocks.ts:483"
       ],
       "note": ""
     },
@@ -5286,7 +5286,7 @@
       ],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:176"
+        "src/app/findings-blocks.ts:174"
       ],
       "note": ""
     },
@@ -5609,7 +5609,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:299"
+        "src/app/findings-blocks.ts:297"
       ],
       "note": ""
     },
@@ -5658,7 +5658,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:486"
+        "src/app/findings-blocks.ts:484"
       ],
       "note": ""
     },
@@ -5862,7 +5862,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:547"
+        "src/app/findings-blocks.ts:545"
       ],
       "note": ""
     },
@@ -5902,7 +5902,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:230"
+        "src/app/findings-blocks.ts:228"
       ],
       "note": ""
     },
@@ -5948,7 +5948,7 @@
       "plural": false,
       "where": [
         "config/app/words.json:8",
-        "src/app/findings-blocks.ts:596"
+        "src/app/findings-blocks.ts:594"
       ],
       "note": ""
     },
@@ -6011,7 +6011,7 @@
       "plural": false,
       "where": [
         "config/app/words.json:9",
-        "src/app/findings-blocks.ts:597"
+        "src/app/findings-blocks.ts:595"
       ],
       "note": ""
     },
@@ -6228,18 +6228,6 @@
       "where": [
         "_site/privacy/index.html:97",
         "_site/terms/index.html:82"
-      ],
-      "note": ""
-    },
-    "On this page: {counts}. Worst result: {worst}.": {
-      "bundle": "findings",
-      "vars": [
-        "counts",
-        "worst"
-      ],
-      "plural": false,
-      "where": [
-        "src/app/findings-blocks.ts:83"
       ],
       "note": ""
     },
@@ -6471,7 +6459,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:417"
+        "src/app/findings-blocks.ts:415"
       ],
       "note": ""
     },
@@ -6482,7 +6470,7 @@
       ],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:418"
+        "src/app/findings-blocks.ts:416"
       ],
       "note": ""
     },
@@ -6522,7 +6510,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:85"
+        "src/app/findings-blocks.ts:83"
       ],
       "note": ""
     },
@@ -6659,7 +6647,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:446"
+        "src/app/findings-blocks.ts:444"
       ],
       "note": ""
     },
@@ -6679,7 +6667,7 @@
       ],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:86"
+        "src/app/findings-blocks.ts:84"
       ],
       "note": ""
     },
@@ -6702,7 +6690,7 @@
       "plural": false,
       "where": [
         "config/app/nav.json:233",
-        "src/app/findings-blocks.ts:250",
+        "src/app/findings-blocks.ts:248",
         "src/shared/findings.ts:386",
         "_site/app/audits/detail/index.html:92",
         "_site/app/i/detail/index.html:92"
@@ -6754,7 +6742,7 @@
       "plural": false,
       "where": [
         "config/app/pages/runs.json:61",
-        "src/app/findings-blocks.ts:549"
+        "src/app/findings-blocks.ts:547"
       ],
       "note": ""
     },
@@ -6793,7 +6781,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:182"
+        "src/app/findings-blocks.ts:180"
       ],
       "note": ""
     },
@@ -6803,7 +6791,7 @@
       "plural": false,
       "where": [
         "config/app/pages/pages.json:39",
-        "src/app/findings-blocks.ts:548",
+        "src/app/findings-blocks.ts:546",
         "_site/app/experience/index.html:86",
         "_site/app/pages/index.html:113"
       ],
@@ -7061,7 +7049,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:547"
+        "src/app/findings-blocks.ts:545"
       ],
       "note": ""
     },
@@ -7141,7 +7129,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:259",
+        "src/app/findings-blocks.ts:257",
         "src/shared/findings.ts:254",
         "src/shared/findings.ts:60"
       ],
@@ -7299,7 +7287,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:182"
+        "src/app/findings-blocks.ts:180"
       ],
       "note": ""
     },
@@ -7308,7 +7296,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:332"
+        "src/app/findings-blocks.ts:330"
       ],
       "note": ""
     },
@@ -7345,7 +7333,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:503"
+        "src/app/findings-blocks.ts:501"
       ],
       "note": ""
     },
@@ -7375,7 +7363,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:294",
+        "src/app/findings-blocks.ts:292",
         "src/shared/findings.ts:261",
         "src/shared/findings.ts:63"
       ],
@@ -7442,7 +7430,7 @@
       "plural": false,
       "where": [
         "config/app/pages/reports-detail.json:6",
-        "src/app/findings-blocks.ts:89",
+        "src/app/findings-blocks.ts:87",
         "_site/app/reports/detail/index.html:68",
         "_site/app/reports/detail/index.html:99"
       ],
@@ -7464,7 +7452,7 @@
       ],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:90"
+        "src/app/findings-blocks.ts:88"
       ],
       "note": ""
     },
@@ -7484,7 +7472,7 @@
       ],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:92"
+        "src/app/findings-blocks.ts:90"
       ],
       "note": ""
     },
@@ -7732,7 +7720,7 @@
         "config/app/pages/audits-detail.json:28",
         "config/app/pages/incidents.json:224",
         "config/app/pages/modules-incidents.json:160",
-        "src/app/findings-blocks.ts:236"
+        "src/app/findings-blocks.ts:234"
       ],
       "note": ""
     },
@@ -7774,7 +7762,7 @@
       ],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:559"
+        "src/app/findings-blocks.ts:557"
       ],
       "note": ""
     },
@@ -8527,7 +8515,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:228"
+        "src/app/findings-blocks.ts:226"
       ],
       "note": ""
     },
@@ -8612,7 +8600,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:454"
+        "src/app/findings-blocks.ts:452"
       ],
       "note": ""
     },
@@ -8621,7 +8609,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:391"
+        "src/app/findings-blocks.ts:389"
       ],
       "note": ""
     },
@@ -8937,7 +8925,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:483"
+        "src/app/findings-blocks.ts:481"
       ],
       "note": ""
     },
@@ -9037,7 +9025,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:287",
+        "src/app/findings-blocks.ts:285",
         "src/shared/findings.ts:61"
       ],
       "note": ""
@@ -9071,7 +9059,7 @@
       "where": [
         "config/app/pages/incidents-detail.json:34",
         "config/app/pages/reports-detail.json:21",
-        "src/app/findings-blocks.ts:258",
+        "src/app/findings-blocks.ts:256",
         "src/shared/findings.ts:59",
         "_site/app/i/detail/index.html:149"
       ],
@@ -9985,7 +9973,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:242"
+        "src/app/findings-blocks.ts:240"
       ],
       "note": ""
     },
@@ -10114,7 +10102,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:326"
+        "src/app/findings-blocks.ts:324"
       ],
       "note": ""
     },
@@ -10165,7 +10153,7 @@
       ],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:353"
+        "src/app/findings-blocks.ts:351"
       ],
       "note": ""
     },
@@ -10240,7 +10228,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:546"
+        "src/app/findings-blocks.ts:544"
       ],
       "note": ""
     },
@@ -10305,7 +10293,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:388"
+        "src/app/findings-blocks.ts:386"
       ],
       "note": ""
     },
@@ -10314,7 +10302,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:441"
+        "src/app/findings-blocks.ts:439"
       ],
       "note": ""
     },
@@ -10333,7 +10321,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:256"
+        "src/app/findings-blocks.ts:254"
       ],
       "note": ""
     },
@@ -10342,7 +10330,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:513"
+        "src/app/findings-blocks.ts:511"
       ],
       "note": ""
     },
@@ -10646,7 +10634,7 @@
         "config/app/pages/incidents.json:237",
         "config/app/pages/modules-incidents.json:168",
         "config/app/pages/modules-pages.json:33",
-        "src/app/findings-blocks.ts:242",
+        "src/app/findings-blocks.ts:240",
         "_site/app/incidents/index.html:139"
       ],
       "note": ""
@@ -11524,7 +11512,7 @@
       "plural": false,
       "where": [
         "config/app/pages/incidents-detail.json:84",
-        "src/app/findings-blocks.ts:262",
+        "src/app/findings-blocks.ts:260",
         "src/shared/findings.ts:256",
         "src/shared/findings.ts:58",
         "_site/app/i/detail/index.html:176"
@@ -11725,7 +11713,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:261",
+        "src/app/findings-blocks.ts:259",
         "src/shared/findings.ts:57"
       ],
       "note": ""
@@ -12837,7 +12825,7 @@
       ],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:435"
+        "src/app/findings-blocks.ts:433"
       ],
       "note": ""
     },
@@ -12974,7 +12962,7 @@
       ],
       "plural": false,
       "where": [
-        "src/app/findings-blocks.ts:527"
+        "src/app/findings-blocks.ts:525"
       ],
       "note": ""
     },
@@ -13086,7 +13074,7 @@
         "other": "{n} evidence rows"
       },
       "where": [
-        "src/app/findings-blocks.ts:231"
+        "src/app/findings-blocks.ts:229"
       ],
       "note": ""
     },
@@ -13101,7 +13089,7 @@
         "other": "{n} evidence rows."
       },
       "where": [
-        "src/app/findings-blocks.ts:434"
+        "src/app/findings-blocks.ts:432"
       ],
       "note": ""
     },
@@ -13132,7 +13120,7 @@
         "other": "{n} incidents ({severities})"
       },
       "where": [
-        "src/app/findings-blocks.ts:170"
+        "src/app/findings-blocks.ts:168"
       ],
       "note": ""
     },
@@ -13274,7 +13262,7 @@
         "other": "{n} rules could not be checked. Open the audit for the reason."
       },
       "where": [
-        "src/app/findings-blocks.ts:571"
+        "src/app/findings-blocks.ts:569"
       ],
       "note": ""
     },

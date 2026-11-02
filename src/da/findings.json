@@ -170,7 +170,6 @@
   "Nothing matches these filters.": "Intet matcher disse filtre.",
   "Nothing to compare": "Intet at sammenligne",
   "Nothing to list yet.": "Intet at vise endnu.",
-  "On this page: {counts}. Worst result: {worst}.": "På denne side: {counts}. Værste resultat: {worst}.",
   "One crawl": "Én scanning",
   "One report for each role": "Én rapport for hver rolle",
   "Only pages that have a result are listed. A page the crawl read without finding anything is not here.": "Kun sider med et resultat vises. En side, som scanningen læste uden at finde noget, er ikke med her.",

@@ -170,7 +170,6 @@
   "Nothing matches these filters.": "Нищо не отговаря на тези филтри.",
   "Nothing to compare": "Няма какво да се сравни",
   "Nothing to list yet.": "Още няма какво да се изброи.",
-  "On this page: {counts}. Worst result: {worst}.": "На тази страница: {counts}. Най-лош резултат: {worst}.",
   "One crawl": "Едно обхождане",
   "One report for each role": "Един отчет за всяка роля",
   "Only pages that have a result are listed. A page the crawl read without finding anything is not here.": "Изброени са само страниците с резултат. Страница, която обхождането е прочело, без да намери нищо, не е тук.",

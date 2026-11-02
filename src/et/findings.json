@@ -170,7 +170,6 @@
   "Nothing matches these filters.": "Ükski ei vasta nendele filtritele.",
   "Nothing to compare": "Pole millegagi võrrelda",
   "Nothing to list yet.": "Loetleda pole veel midagi.",
-  "On this page: {counts}. Worst result: {worst}.": "Sellel lehel: {counts}. Halvim tulemus: {worst}.",
   "One crawl": "Üks skannimine",
   "One report for each role": "Üks aruanne iga rolli jaoks",
   "Only pages that have a result are listed. A page the crawl read without finding anything is not here.": "Loetletud on ainult tulemusega lehed. Leht, mille skannimine luges ja millelt midagi ei leitud, siin puudub.",

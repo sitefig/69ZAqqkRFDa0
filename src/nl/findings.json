@@ -170,7 +170,6 @@
   "Nothing matches these filters.": "Niets komt overeen met deze filters.",
   "Nothing to compare": "Niets om te vergelijken",
   "Nothing to list yet.": "Nog niets om te tonen.",
-  "On this page: {counts}. Worst result: {worst}.": "Op deze pagina: {counts}. Slechtste resultaat: {worst}.",
   "One crawl": "Eén crawl",
   "One report for each role": "Eén rapport voor elke rol",
   "Only pages that have a result are listed. A page the crawl read without finding anything is not here.": "Alleen pagina's met een resultaat staan in de lijst. Een pagina die de crawl las zonder iets te vinden, staat hier niet.",

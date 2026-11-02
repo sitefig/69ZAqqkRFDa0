@@ -170,7 +170,6 @@
   "Nothing matches these filters.": "Ništa ne odgovara ovim filtrima.",
   "Nothing to compare": "Nema što usporediti",
   "Nothing to list yet.": "Još nema ničega za prikaz.",
-  "On this page: {counts}. Worst result: {worst}.": "Na ovoj stranici: {counts}. Najlošiji rezultat: {worst}.",
   "One crawl": "Jedno skeniranje",
   "One report for each role": "Jedno izvješće za svaku ulogu",
   "Only pages that have a result are listed. A page the crawl read without finding anything is not here.": "Navedene su samo stranice koje imaju rezultat. Stranice koje je skeniranje pročitalo bez nalaza nisu ovdje.",

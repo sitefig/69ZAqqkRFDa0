@@ -170,7 +170,6 @@
   "Nothing matches these filters.": "Nimic nu corespunde acestor filtre.",
   "Nothing to compare": "Nimic de comparat",
   "Nothing to list yet.": "Încă nu există nimic de listat.",
-  "On this page: {counts}. Worst result: {worst}.": "Pe această pagină: {counts}. Cel mai grav rezultat: {worst}.",
   "One crawl": "O scanare",
   "One report for each role": "Un raport pentru fiecare rol",
   "Only pages that have a result are listed. A page the crawl read without finding anything is not here.": "Sunt listate doar paginile care au un rezultat. O pagină citită de scanare fără să găsească nimic nu apare aici.",

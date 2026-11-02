@@ -170,7 +170,6 @@
   "Nothing matches these filters.": "Zu diesen Filtern passt nichts.",
   "Nothing to compare": "Nichts zu vergleichen",
   "Nothing to list yet.": "Noch nichts aufzulisten.",
-  "On this page: {counts}. Worst result: {worst}.": "Auf dieser Seite: {counts}. Schlechtestes Ergebnis: {worst}.",
   "One crawl": "Ein Crawl",
   "One report for each role": "Ein Report für jede Rolle",
   "Only pages that have a result are listed. A page the crawl read without finding anything is not here.": "Nur Seiten mit Ergebnis sind aufgelistet. Eine Seite, die der Crawl gelesen hat, ohne etwas zu finden, steht nicht hier.",

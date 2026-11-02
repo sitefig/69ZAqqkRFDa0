@@ -170,7 +170,6 @@
   "Nothing matches these filters.": "Inget matchar de här filtren.",
   "Nothing to compare": "Inget att jämföra",
   "Nothing to list yet.": "Inget att visa ännu.",
-  "On this page: {counts}. Worst result: {worst}.": "På den här sidan: {counts}. Sämsta resultat: {worst}.",
   "One crawl": "En genomsökning",
   "One report for each role": "En rapport för varje roll",
   "Only pages that have a result are listed. A page the crawl read without finding anything is not here.": "Bara sidor som har ett resultat visas. En sida som genomsökningen läste utan att hitta något finns inte här.",
