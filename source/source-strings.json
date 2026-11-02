@@ -1,7 +1,7 @@
 {
   "schema": "i18n-source/1",
-  "hash": "1d7253931f2b4ef7c886673124d38cff62bc0e79512df72bd57b9e46ef16a999",
-  "count": 1363,
+  "hash": "dc2338e9ecc154d5edb7fe9d15217e34e70f81e01e4ccd0e685ffd74a847c380",
+  "count": 1355,
   "entries": {
     "\"{label}\" needs the part of sus.bot that makes changes, which isn't connected to this app yet. Nothing was changed.": {
       "bundle": "core",
@@ -3733,25 +3733,6 @@
       ],
       "note": ""
     },
-    "Finding": {
-      "bundle": "findings",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/pages/pages-detail.json:32"
-      ],
-      "note": ""
-    },
-    "Findings": {
-      "bundle": "findings",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/pages/pages-detail.json:79",
-        "_site/app/pages/detail/index.html:111"
-      ],
-      "note": ""
-    },
     "Finish setting up": {
       "bundle": "findings",
       "vars": [],
@@ -4131,16 +4112,6 @@
       "plural": false,
       "where": [
         "src/app/group-by.ts:22"
-      ],
-      "note": ""
-    },
-    "Grouped by module. The text of a finding comes from your site or about it.": {
-      "bundle": "findings",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/pages/pages-detail.json:22",
-        "_site/app/pages/detail/index.html:115"
       ],
       "note": ""
     },
@@ -5282,7 +5253,7 @@
         "config/app/pages/incidents.json:27",
         "config/app/pages/modules-detail.json:7",
         "config/app/pages/overview.json:33",
-        "config/app/pages/pages-detail.json:36"
+        "config/app/pages/reports-detail.json:43"
       ],
       "note": ""
     },
@@ -5621,16 +5592,6 @@
       "where": [
         "config/app/pages/overview.json:84",
         "_site/app/overview/index.html:121"
-      ],
-      "note": ""
-    },
-    "No finding is recorded for this page.": {
-      "bundle": "findings",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/pages/pages-detail.json:56",
-        "_site/app/pages/detail/index.html:116"
       ],
       "note": ""
     },
@@ -6679,8 +6640,8 @@
         "config/app/pages/pages-detail.json:2",
         "config/app/pages/pages.json:2",
         "src/app/findings-blocks.ts:80",
-        "_site/app/pages/detail/index.html:110",
-        "_site/app/pages/detail/index.html:68"
+        "_site/app/pages/detail/index.html:68",
+        "_site/app/pages/detail/index.html:99"
       ],
       "note": ""
     },
@@ -7674,7 +7635,7 @@
         "config/app/pages/changes-detail.json:46",
         "config/app/pages/incidents.json:66",
         "config/app/pages/modules-incidents.json:27",
-        "config/app/pages/pages-detail.json:45"
+        "src/shared/findings.ts:243"
       ],
       "note": ""
     },
@@ -7771,7 +7732,6 @@
         "config/app/pages/audits-detail.json:28",
         "config/app/pages/incidents.json:224",
         "config/app/pages/modules-incidents.json:160",
-        "config/app/pages/pages-detail.json:41",
         "src/app/findings-blocks.ts:236"
       ],
       "note": ""
@@ -8125,26 +8085,6 @@
         "config/app/pages/reports.json:42",
         "config/app/words.json:65",
         "_site/app/reports/index.html:108"
-      ],
-      "note": ""
-    },
-    "Screenshot": {
-      "bundle": "findings",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/pages/pages-detail.json:63",
-        "_site/app/pages/detail/index.html:111"
-      ],
-      "note": ""
-    },
-    "Screenshot of this page": {
-      "bundle": "findings",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/pages/pages-detail.json:63",
-        "_site/app/pages/detail/index.html:119"
       ],
       "note": ""
     },
@@ -8956,9 +8896,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "config/app/pages/pages-detail.json:70",
-        "config/app/pages/settings-integrations.json:56",
-        "_site/app/pages/detail/index.html:111"
+        "config/app/pages/settings-integrations.json:56"
       ],
       "note": ""
     },
@@ -8982,16 +8920,6 @@
       "plural": false,
       "where": [
         "src/app/source-view.ts:79"
-      ],
-      "note": ""
-    },
-    "Source of this page": {
-      "bundle": "findings",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/pages/pages-detail.json:70",
-        "_site/app/pages/detail/index.html:124"
       ],
       "note": ""
     },
@@ -11577,16 +11505,6 @@
       "plural": false,
       "where": [
         "_site/app/experience/index.html:86"
-      ],
-      "note": ""
-    },
-    "What the crawl found on this page": {
-      "bundle": "findings",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/pages/pages-detail.json:21",
-        "_site/app/pages/detail/index.html:114"
       ],
       "note": ""
     },
