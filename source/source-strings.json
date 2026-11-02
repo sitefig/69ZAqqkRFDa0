@@ -1,7 +1,7 @@
 {
   "schema": "i18n-source/1",
-  "hash": "bfc75abe1952b12bf16a1a6b2268bbeea2bd99b475c7cc5d79f1fd540f81c13a",
-  "count": 1354,
+  "hash": "71f95272f908e437b21e9f833c02673bf7418d06eb0c80342479996647b6d9a2",
+  "count": 1293,
   "entries": {
     "\"{label}\" needs the part of sus.bot that makes changes, which isn't connected to this app yet. Nothing was changed.": {
       "bundle": "core",
@@ -10,7 +10,7 @@
       ],
       "plural": false,
       "where": [
-        "src/app/app-renderers.ts:43"
+        "src/app/app-renderers.ts:39"
       ],
       "note": ""
     },
@@ -495,15 +495,6 @@
       "plural": false,
       "where": [
         "_site/privacy/index.html:58"
-      ],
-      "note": ""
-    },
-    "Achromatopsia (greyscale)": {
-      "bundle": "findings",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/words.json:163"
       ],
       "note": ""
     },
@@ -1047,7 +1038,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:387"
+        "src/shared/findings.ts:375"
       ],
       "note": ""
     },
@@ -1307,7 +1298,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:397"
+        "src/shared/findings.ts:385"
       ],
       "note": ""
     },
@@ -1679,15 +1670,6 @@
       ],
       "note": ""
     },
-    "Compare with normal": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/app/screenshot.ts:203"
-      ],
-      "note": ""
-    },
     "Compared with crawl {previous}: new incidents {new}, fixed incidents {fixed}.": {
       "bundle": "findings",
       "vars": [
@@ -2039,58 +2021,12 @@
       ],
       "note": ""
     },
-    "Cookie banner": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/app/screenshot.ts:195",
-        "src/app/source-view.ts:210"
-      ],
-      "note": ""
-    },
-    "Cookies accepted": {
-      "bundle": "findings",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/words.json:155"
-      ],
-      "note": ""
-    },
-    "Cookies rejected": {
-      "bundle": "findings",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/words.json:156"
-      ],
-      "note": ""
-    },
-    "Copy": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/app/source-view.ts:156"
-      ],
-      "note": ""
-    },
     "Copy message": {
       "bundle": "core",
       "vars": [],
       "plural": false,
       "where": [
         "src/app/handoff.ts:33"
-      ],
-      "note": ""
-    },
-    "Copying did not work. Select the text and copy it yourself.": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/app/source-view.ts:159"
       ],
       "note": ""
     },
@@ -2289,7 +2225,7 @@
       "plural": false,
       "where": [
         "config/app/pages/runs.json:56",
-        "src/shared/findings.ts:364"
+        "src/shared/findings.ts:352"
       ],
       "note": ""
     },
@@ -2728,15 +2664,6 @@
       ],
       "note": ""
     },
-    "Desktop": {
-      "bundle": "findings",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/words.json:149"
-      ],
-      "note": ""
-    },
     "Details: {link}": {
       "bundle": "core",
       "vars": [
@@ -2748,15 +2675,6 @@
       ],
       "note": ""
     },
-    "Deuteranopia": {
-      "bundle": "findings",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/words.json:161"
-      ],
-      "note": ""
-    },
     "Developer": {
       "bundle": "findings",
       "vars": [],
@@ -2765,16 +2683,6 @@
         "config/app/pages/reports.json:59",
         "config/app/words.json:58",
         "_site/app/reports/index.html:108"
-      ],
-      "note": ""
-    },
-    "Device": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/app/screenshot.ts:194",
-        "src/app/source-view.ts:209"
       ],
       "note": ""
     },
@@ -2911,15 +2819,6 @@
         "_site/app/onboard/crawling/index.html:30",
         "_site/app/onboard/crawling/index.html:34",
         "_site/app/onboard/crawling/index.html:38"
-      ],
-      "note": ""
-    },
-    "Download .txt": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/app/source-view.ts:161"
       ],
       "note": ""
     },
@@ -3210,7 +3109,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:368"
+        "src/shared/findings.ts:356"
       ],
       "note": ""
     },
@@ -3590,7 +3489,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:375"
+        "src/shared/findings.ts:363"
       ],
       "note": ""
     },
@@ -3599,7 +3498,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:377"
+        "src/shared/findings.ts:365"
       ],
       "note": ""
     },
@@ -3608,7 +3507,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:376"
+        "src/shared/findings.ts:364"
       ],
       "note": ""
     },
@@ -3783,25 +3682,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:424"
-      ],
-      "note": ""
-    },
-    "Fit to width": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/app/screenshot.ts:177"
-      ],
-      "note": ""
-    },
-    "Fit to width.": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/app/screenshot.ts:189"
+        "src/shared/findings.ts:412"
       ],
       "note": ""
     },
@@ -3842,7 +3723,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:395"
+        "src/shared/findings.ts:383"
       ],
       "note": ""
     },
@@ -3861,7 +3742,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:388"
+        "src/shared/findings.ts:376"
       ],
       "note": ""
     },
@@ -3870,7 +3751,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:396"
+        "src/shared/findings.ts:384"
       ],
       "note": ""
     },
@@ -3968,18 +3849,6 @@
       ],
       "note": ""
     },
-    "Full size {size}, crawled {date}.": {
-      "bundle": "core",
-      "vars": [
-        "date",
-        "size"
-      ],
-      "plural": false,
-      "where": [
-        "src/app/screenshot.ts:209"
-      ],
-      "note": ""
-    },
     "General": {
       "bundle": "core",
       "vars": [],
@@ -4008,15 +3877,6 @@
       "plural": false,
       "where": [
         "_site/app/experience/index.html:52"
-      ],
-      "note": ""
-    },
-    "Go to line": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/app/source-view.ts:67"
       ],
       "note": ""
     },
@@ -4200,7 +4060,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:385"
+        "src/shared/findings.ts:373"
       ],
       "note": ""
     },
@@ -4488,7 +4348,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:384"
+        "src/shared/findings.ts:372"
       ],
       "note": ""
     },
@@ -4952,16 +4812,6 @@
       ],
       "note": ""
     },
-    "Loading…": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/app/screenshot.ts:160",
-        "src/app/source-view.ts:205"
-      ],
-      "note": ""
-    },
     "Log in": {
       "bundle": "core",
       "vars": [],
@@ -5119,15 +4969,6 @@
       ],
       "note": ""
     },
-    "Low vision: blur": {
-      "bundle": "findings",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/words.json:164"
-      ],
-      "note": ""
-    },
     "Low: when IT has time": {
       "bundle": "core",
       "vars": [],
@@ -5175,22 +5016,6 @@
       ],
       "note": ""
     },
-    "Match {at} of {n} lines": {
-      "bundle": "core",
-      "vars": [
-        "at",
-        "n"
-      ],
-      "plural": true,
-      "forms": {
-        "one": "Match {at} of {n} line",
-        "other": "Match {at} of {n} lines"
-      },
-      "where": [
-        "src/app/source-view.ts:127"
-      ],
-      "note": ""
-    },
     "Medium": {
       "bundle": "findings",
       "vars": [],
@@ -5232,15 +5057,6 @@
       "plural": false,
       "where": [
         "src/app/handoff.ts:66"
-      ],
-      "note": ""
-    },
-    "Mobile": {
-      "bundle": "findings",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/words.json:150"
       ],
       "note": ""
     },
@@ -5413,7 +5229,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:393"
+        "src/shared/findings.ts:381"
       ],
       "note": ""
     },
@@ -5433,7 +5249,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:425"
+        "src/shared/findings.ts:413"
       ],
       "note": ""
     },
@@ -5462,7 +5278,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:388"
+        "src/shared/findings.ts:376"
       ],
       "note": ""
     },
@@ -5471,7 +5287,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:394"
+        "src/shared/findings.ts:382"
       ],
       "note": ""
     },
@@ -5492,15 +5308,6 @@
       "plural": false,
       "where": [
         "src/app/monitoring.ts:124"
-      ],
-      "note": ""
-    },
-    "Next match": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/app/source-view.ts:62"
       ],
       "note": ""
     },
@@ -5542,15 +5349,6 @@
         "config/app/pages/modules-detail.json:71",
         "_site/app/m/audits/index.html:97",
         "_site/app/m/detail/index.html:103"
-      ],
-      "note": ""
-    },
-    "No cookie choice made": {
-      "bundle": "findings",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/words.json:154"
       ],
       "note": ""
     },
@@ -5662,15 +5460,6 @@
       ],
       "note": ""
     },
-    "No match.": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/app/source-view.ts:126"
-      ],
-      "note": ""
-    },
     "No new incident since the crawl before.": {
       "bundle": "findings",
       "vars": [],
@@ -5779,15 +5568,6 @@
       ],
       "note": ""
     },
-    "No screenshot was captured for this page in this crawl.": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/app/viewer-ui.ts:44"
-      ],
-      "note": ""
-    },
     "No standard is listed for the enabled jurisdictions.": {
       "bundle": "findings",
       "vars": [],
@@ -5866,17 +5646,6 @@
       ],
       "note": ""
     },
-    "Normal": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/words.json:159",
-        "src/app/screenshot.ts:152",
-        "src/app/screenshot.ts:153"
-      ],
-      "note": ""
-    },
     "Not allowed · sus.bot": {
       "bundle": "core",
       "vars": [],
@@ -5911,7 +5680,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/app-renderers.ts:43"
+        "src/app/app-renderers.ts:39"
       ],
       "note": ""
     },
@@ -5979,7 +5748,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:426"
+        "src/shared/findings.ts:414"
       ],
       "note": ""
     },
@@ -6075,16 +5844,6 @@
       "plural": false,
       "where": [
         "src/app/dashboard.ts:82"
-      ],
-      "note": ""
-    },
-    "Not named": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/app/screenshot.ts:195",
-        "src/app/source-view.ts:210"
       ],
       "note": ""
     },
@@ -6691,7 +6450,7 @@
       "where": [
         "config/app/nav.json:233",
         "src/app/findings-blocks.ts:248",
-        "src/shared/findings.ts:386",
+        "src/shared/findings.ts:374",
         "_site/app/audits/detail/index.html:92",
         "_site/app/i/detail/index.html:92"
       ],
@@ -6751,7 +6510,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:366"
+        "src/shared/findings.ts:354"
       ],
       "note": ""
     },
@@ -6956,7 +6715,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:410"
+        "src/shared/findings.ts:398"
       ],
       "note": ""
     },
@@ -7050,15 +6809,6 @@
       "plural": false,
       "where": [
         "src/app/findings-blocks.ts:545"
-      ],
-      "note": ""
-    },
-    "Previous match": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/app/source-view.ts:61"
       ],
       "note": ""
     },
@@ -7251,15 +7001,6 @@
       ],
       "note": ""
     },
-    "Protanopia": {
-      "bundle": "findings",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/words.json:160"
-      ],
-      "note": ""
-    },
     "Publishing results": {
       "bundle": "findings",
       "vars": [],
@@ -7344,7 +7085,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:412"
+        "src/shared/findings.ts:400"
       ],
       "note": ""
     },
@@ -8076,37 +7817,6 @@
       ],
       "note": ""
     },
-    "Screenshot of {url}, {device}, crawled {date}.": {
-      "bundle": "core",
-      "vars": [
-        "date",
-        "device",
-        "url"
-      ],
-      "plural": false,
-      "where": [
-        "src/app/screenshot.ts:79"
-      ],
-      "note": ""
-    },
-    "Screenshot, scrollable. Plus and minus zoom, 0 fits the width.": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/app/screenshot.ts:107"
-      ],
-      "note": ""
-    },
-    "Screenshots are a paid feature, so none was stored for this page. The findings and the source are there on every plan.": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/app/viewer-ui.ts:41"
-      ],
-      "note": ""
-    },
     "Search": {
       "bundle": "findings",
       "vars": [],
@@ -8183,15 +7893,6 @@
       "where": [
         "config/app/pages/settings-integrations.json:19",
         "_site/app/settings/integrations/index.html:57"
-      ],
-      "note": ""
-    },
-    "Search in the source": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/app/source-view.ts:57"
       ],
       "note": ""
     },
@@ -8557,15 +8258,6 @@
       ],
       "note": ""
     },
-    "Show full size": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/app/screenshot.ts:157"
-      ],
-      "note": ""
-    },
     "Show it is yours": {
       "bundle": "core",
       "vars": [],
@@ -8622,45 +8314,12 @@
       ],
       "note": ""
     },
-    "Show the source": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/app/source-view.ts:203"
-      ],
-      "note": ""
-    },
     "Show this crawl": {
       "bundle": "findings",
       "vars": [],
       "plural": false,
       "where": [
         "config/app/pages/runs.json:46"
-      ],
-      "note": ""
-    },
-    "Show {n} more lines": {
-      "bundle": "core",
-      "vars": [
-        "n"
-      ],
-      "plural": true,
-      "forms": {
-        "one": "Show {n} more line",
-        "other": "Show {n} more lines"
-      },
-      "where": [
-        "src/app/source-view.ts:98"
-      ],
-      "note": ""
-    },
-    "Showed more lines.": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/app/source-view.ts:104"
       ],
       "note": ""
     },
@@ -8731,7 +8390,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:369"
+        "src/shared/findings.ts:357"
       ],
       "note": ""
     },
@@ -8764,7 +8423,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:367"
+        "src/shared/findings.ts:355"
       ],
       "note": ""
     },
@@ -8885,29 +8544,6 @@
       "plural": false,
       "where": [
         "config/app/pages/settings-integrations.json:56"
-      ],
-      "note": ""
-    },
-    "Source as stored: {size}, crawled {date}. It is shown as text and never run.": {
-      "bundle": "core",
-      "vars": [
-        "date",
-        "size"
-      ],
-      "plural": false,
-      "where": [
-        "src/app/source-view.ts:46"
-      ],
-      "note": ""
-    },
-    "Source of the page, {n} lines. Read only.": {
-      "bundle": "core",
-      "vars": [
-        "n"
-      ],
-      "plural": false,
-      "where": [
-        "src/app/source-view.ts:79"
       ],
       "note": ""
     },
@@ -9088,15 +8724,6 @@
         "_site/app/decisions/index.html:68",
         "_site/app/i/detail/index.html:101",
         "_site/app/incidents/index.html:68"
-      ],
-      "note": ""
-    },
-    "Tablet": {
-      "bundle": "findings",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/words.json:151"
       ],
       "note": ""
     },
@@ -9390,15 +9017,6 @@
       ],
       "note": ""
     },
-    "The crawl could not store the source of this page.": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/app/viewer-ui.ts:48"
-      ],
-      "note": ""
-    },
     "The crawl failed.": {
       "bundle": "findings",
       "vars": [],
@@ -9490,15 +9108,6 @@
       "plural": false,
       "where": [
         "config/app/words.json:114"
-      ],
-      "note": ""
-    },
-    "The crawl tried to take a screenshot of this page and could not. The findings and the source are not affected.": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/app/viewer-ui.ts:42"
       ],
       "note": ""
     },
@@ -9636,32 +9245,12 @@
       ],
       "note": ""
     },
-    "The full image is shown, {size}.": {
-      "bundle": "core",
-      "vars": [
-        "size"
-      ],
-      "plural": false,
-      "where": [
-        "src/app/screenshot.ts:169"
-      ],
-      "note": ""
-    },
     "The host name could not be resolved.": {
       "bundle": "findings",
       "vars": [],
       "plural": false,
       "where": [
         "config/app/words.json:105"
-      ],
-      "note": ""
-    },
-    "The image could not be loaded. Check your connection and try again.": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/app/screenshot.ts:99"
       ],
       "note": ""
     },
@@ -9914,15 +9503,6 @@
       ],
       "note": ""
     },
-    "The screenshot of this page was removed after the time screenshots are kept.": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/app/viewer-ui.ts:43"
-      ],
-      "note": ""
-    },
     "The secure connection failed.": {
       "bundle": "findings",
       "vars": [],
@@ -9959,15 +9539,6 @@
       ],
       "note": ""
     },
-    "The simulation is an approximation of how a person with this kind of colour vision may see the page. It is not a test result.": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/app/screenshot.ts:68"
-      ],
-      "note": ""
-    },
     "The site as a whole": {
       "bundle": "findings",
       "vars": [],
@@ -9994,60 +9565,6 @@
         "_site/app/onboard/confirm/index.html:35",
         "_site/app/onboard/crawling/index.html:35",
         "_site/app/onboard/index.html:35"
-      ],
-      "note": ""
-    },
-    "The source could not be loaded. Check your connection and try again.": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/app/source-view.ts:195"
-      ],
-      "note": ""
-    },
-    "The source is copied.": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/app/source-view.ts:159"
-      ],
-      "note": ""
-    },
-    "The source is downloaded as a text file.": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/app/source-view.ts:172"
-      ],
-      "note": ""
-    },
-    "The source is not available any more. It may have been removed after the time sources are kept.": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/app/source-view.ts:194"
-      ],
-      "note": ""
-    },
-    "The source of this page was not captured in this crawl.": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/app/viewer-ui.ts:50"
-      ],
-      "note": ""
-    },
-    "The source of this page was removed after the time sources are kept.": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/app/viewer-ui.ts:49"
       ],
       "note": ""
     },
@@ -10103,18 +9620,6 @@
       "plural": false,
       "where": [
         "src/app/findings-blocks.ts:324"
-      ],
-      "note": ""
-    },
-    "There is no line {n}. The source has {total} lines.": {
-      "bundle": "core",
-      "vars": [
-        "n",
-        "total"
-      ],
-      "plural": false,
-      "where": [
-        "src/app/source-view.ts:113"
       ],
       "note": ""
     },
@@ -10266,15 +9771,6 @@
       "plural": false,
       "where": [
         "src/app/domains.ts:273"
-      ],
-      "note": ""
-    },
-    "This image is not available any more. It may have been removed after the time images are kept.": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/app/screenshot.ts:98"
       ],
       "note": ""
     },
@@ -10537,7 +10033,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:378"
+        "src/shared/findings.ts:366"
       ],
       "note": ""
     },
@@ -10559,21 +10055,11 @@
       ],
       "note": ""
     },
-    "Tritanopia": {
-      "bundle": "findings",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "config/app/words.json:162"
-      ],
-      "note": ""
-    },
     "Try again": {
       "bundle": "core",
       "vars": [],
       "plural": false,
       "where": [
-        "src/app/screenshot.ts:141",
         "_site/maintenance/index.html:43"
       ],
       "note": ""
@@ -10663,7 +10149,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:365"
+        "src/shared/findings.ts:353"
       ],
       "note": ""
     },
@@ -10674,7 +10160,7 @@
       ],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:411"
+        "src/shared/findings.ts:399"
       ],
       "note": ""
     },
@@ -10683,7 +10169,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "src/shared/findings.ts:398"
+        "src/shared/findings.ts:386"
       ],
       "note": ""
     },
@@ -10911,15 +10397,6 @@
       ],
       "note": ""
     },
-    "View as": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/app/screenshot.ts:196"
-      ],
-      "note": ""
-    },
     "View for": {
       "bundle": "core",
       "vars": [],
@@ -10928,28 +10405,6 @@
         "_site/app/i/detail/index.html:135",
         "_site/app/incidents/index.html:102",
         "_site/app/m/incidents/index.html:90"
-      ],
-      "note": ""
-    },
-    "Viewed as: {view}.": {
-      "bundle": "core",
-      "vars": [
-        "view"
-      ],
-      "plural": false,
-      "where": [
-        "src/app/screenshot.ts:80"
-      ],
-      "note": ""
-    },
-    "Viewing the screenshot as: {view}.": {
-      "bundle": "core",
-      "vars": [
-        "view"
-      ],
-      "plural": false,
-      "where": [
-        "src/app/screenshot.ts:200"
       ],
       "note": ""
     },
@@ -11766,15 +11221,6 @@
       ],
       "note": ""
     },
-    "Wrap long lines": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/app/source-view.ts:155"
-      ],
-      "note": ""
-    },
     "Written for someone who has not seen this page: what it costs first, then what to do. Change anything before you send it.": {
       "bundle": "core",
       "vars": [],
@@ -12325,35 +11771,6 @@
       ],
       "note": ""
     },
-    "Zoom in": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/app/screenshot.ts:177"
-      ],
-      "note": ""
-    },
-    "Zoom out": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/app/screenshot.ts:177"
-      ],
-      "note": ""
-    },
-    "Zoom {percent} percent.": {
-      "bundle": "core",
-      "vars": [
-        "percent"
-      ],
-      "plural": false,
-      "where": [
-        "src/app/screenshot.ts:189"
-      ],
-      "note": ""
-    },
     "add_domain answered offline for {host}": {
       "bundle": "core",
       "vars": [
@@ -12394,16 +11811,6 @@
       "plural": false,
       "where": [
         "src/app/domains.ts:208"
-      ],
-      "note": ""
-    },
-    "device not named": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "src/app/screenshot.ts:76",
-        "src/app/source-view.ts:209"
       ],
       "note": ""
     },
