@@ -1,6 +1,6 @@
 {
   "schema": "i18n-source/1",
-  "hash": "4e5a7dc1720736a593cea8fd520ad7dc1c645edc0868c8bb4418b8174c52931b",
+  "hash": "1a50ed91103d078d4e5302de687bffc531ab85a24090ac83106862f4f8f3e464",
   "count": 1357,
   "entries": {
     "\"{label}\" needs the part of sus.bot that makes changes, which isn't connected to this app yet. Nothing was changed.": {
@@ -8118,7 +8118,7 @@
       ],
       "note": ""
     },
-    "Screenshots are a paid feature, so none was stored for this page. The findings and the source are there on every plan.": {
+    "Screenshots are a paid feature, so none was stored for this page. The source is there on every plan.": {
       "bundle": "core",
       "vars": [],
       "plural": false,
@@ -9525,7 +9525,7 @@
       ],
       "note": ""
     },
-    "The crawl tried to take a screenshot of this page and could not. The findings and the source are not affected.": {
+    "The crawl tried to take a screenshot of this page and could not. The source is not affected.": {
       "bundle": "core",
       "vars": [],
       "plural": false,
