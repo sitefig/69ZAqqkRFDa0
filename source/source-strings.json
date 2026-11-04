@@ -1,7 +1,7 @@
 {
   "schema": "i18n-source/1",
-  "hash": "7157d9efdcd3c27f28a4d752958349bd8915527a0867cb0c8100c3f7e13f801d",
-  "count": 2728,
+  "hash": "8ad3c1deda08fbee072b35052fb5489764794ba2fb500703ff32824e40fc73c4",
+  "count": 2733,
   "entries": {
     "\"{label}\" needs the part of sus.bot that makes changes, which isn't connected to this app yet. Nothing was changed.": {
       "bundle": "core",
@@ -29,8 +29,8 @@
       "vars": [],
       "plural": false,
       "where": [
-        "_site/privacy/index.html:42",
-        "_site/privacy/index.html:98"
+        "_site/privacy/index.html:106",
+        "_site/privacy/index.html:42"
       ],
       "note": ""
     },
@@ -51,8 +51,8 @@
       "vars": [],
       "plural": false,
       "where": [
-        "_site/privacy/index.html:51",
-        "_site/privacy/index.html:98"
+        "_site/privacy/index.html:106",
+        "_site/privacy/index.html:51"
       ],
       "note": ""
     },
@@ -81,8 +81,8 @@
       "vars": [],
       "plural": false,
       "where": [
-        "_site/privacy/index.html:57",
-        "_site/privacy/index.html:98"
+        "_site/privacy/index.html:106",
+        "_site/privacy/index.html:57"
       ],
       "note": ""
     },
@@ -91,8 +91,8 @@
       "vars": [],
       "plural": false,
       "where": [
-        "_site/privacy/index.html:63",
-        "_site/privacy/index.html:98"
+        "_site/privacy/index.html:106",
+        "_site/privacy/index.html:63"
       ],
       "note": ""
     },
@@ -121,8 +121,8 @@
       "vars": [],
       "plural": false,
       "where": [
-        "_site/privacy/index.html:71",
-        "_site/privacy/index.html:98"
+        "_site/privacy/index.html:106",
+        "_site/privacy/index.html:71"
       ],
       "note": ""
     },
@@ -141,8 +141,8 @@
       "vars": [],
       "plural": false,
       "where": [
-        "_site/privacy/index.html:77",
-        "_site/privacy/index.html:98"
+        "_site/privacy/index.html:106",
+        "_site/privacy/index.html:77"
       ],
       "note": ""
     },
@@ -161,18 +161,8 @@
       "vars": [],
       "plural": false,
       "where": [
-        "_site/privacy/index.html:83",
-        "_site/privacy/index.html:98"
-      ],
-      "note": ""
-    },
-    "8. Changes and contact": {
-      "bundle": "core",
-      "vars": [],
-      "plural": false,
-      "where": [
-        "_site/privacy/index.html:90",
-        "_site/privacy/index.html:98"
+        "_site/privacy/index.html:106",
+        "_site/privacy/index.html:83"
       ],
       "note": ""
     },
@@ -183,6 +173,26 @@
       "where": [
         "_site/terms/index.html:71",
         "_site/terms/index.html:83"
+      ],
+      "note": ""
+    },
+    "8. What we read from audited sites, and our data sources": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "_site/privacy/index.html:106",
+        "_site/privacy/index.html:90"
+      ],
+      "note": ""
+    },
+    "9. Changes and contact": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "_site/privacy/index.html:106",
+        "_site/privacy/index.html:98"
       ],
       "note": ""
     },
@@ -4535,11 +4545,11 @@
       "vars": [],
       "plural": false,
       "where": [
-        "_site/403/index.html:53",
-        "_site/404.html:55",
-        "_site/app/onboard/confirm/index.html:72",
-        "_site/app/onboard/crawling/index.html:82",
-        "_site/app/onboard/index.html:77"
+        "_site/403/index.html:54",
+        "_site/404.html:56",
+        "_site/app/onboard/confirm/index.html:73",
+        "_site/app/onboard/crawling/index.html:83",
+        "_site/app/onboard/index.html:78"
       ],
       "note": ""
     },
@@ -6199,6 +6209,19 @@
       "plural": false,
       "where": [
         "config/app/labels.json:888"
+      ],
+      "note": ""
+    },
+    "Documentation": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "_site/403/index.html:53",
+        "_site/404.html:55",
+        "_site/app/onboard/confirm/index.html:72",
+        "_site/app/onboard/crawling/index.html:82",
+        "_site/app/onboard/index.html:77"
       ],
       "note": ""
     },
@@ -8602,6 +8625,15 @@
       ],
       "note": ""
     },
+    "IP location: the country of a web server comes from the DB-IP Lite country database, licensed under CC BY 4.0. IP Geolocation by DB-IP: https://db-ip.com. We look the address up in a file on our own servers; no address is sent to DB-IP.": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "_site/privacy/index.html:92"
+      ],
+      "note": ""
+    },
     "IT": {
       "bundle": "core",
       "vars": [],
@@ -9617,8 +9649,8 @@
       "vars": [],
       "plural": false,
       "where": [
-        "_site/403/index.html:59",
-        "_site/404.html:61",
+        "_site/403/index.html:60",
+        "_site/404.html:62",
         "_site/account/settings/index.html:31",
         "_site/account/settings/index.html:81",
         "_site/app/audits/detail/index.html:110"
@@ -11591,7 +11623,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "_site/privacy/index.html:91"
+        "_site/privacy/index.html:99"
       ],
       "note": ""
     },
@@ -12598,6 +12630,15 @@
       ],
       "note": ""
     },
+    "Number, date and currency formats come from the Unicode CLDR data under the Unicode License v3 (https://www.unicode.org/license.txt). Telephone country codes come from Google libphonenumber under the Apache License 2.0 (https://github.com/google/libphonenumber).": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "_site/privacy/index.html:94"
+      ],
+      "note": ""
+    },
     "Numbers or prices differ between languages": {
       "bundle": "findings",
       "vars": [],
@@ -12697,7 +12738,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "_site/privacy/index.html:97",
+        "_site/privacy/index.html:105",
         "_site/terms/index.html:82"
       ],
       "note": ""
@@ -14996,7 +15037,7 @@
       "vars": [],
       "plural": false,
       "where": [
-        "_site/privacy/index.html:100",
+        "_site/privacy/index.html:108",
         "_site/terms/index.html:85"
       ],
       "note": ""
@@ -15029,7 +15070,7 @@
         "config/app/pages/incidents.json:47",
         "config/app/pages/standards.json:52",
         "config/app/words.json:46",
-        "_site/403/index.html:55"
+        "_site/403/index.html:56"
       ],
       "note": ""
     },
@@ -19125,11 +19166,11 @@
       "vars": [],
       "plural": false,
       "where": [
-        "_site/403/index.html:54",
-        "_site/404.html:56",
-        "_site/app/onboard/confirm/index.html:73",
-        "_site/app/onboard/crawling/index.html:83",
-        "_site/app/onboard/index.html:78"
+        "_site/403/index.html:55",
+        "_site/404.html:57",
+        "_site/app/onboard/confirm/index.html:74",
+        "_site/app/onboard/crawling/index.html:84",
+        "_site/app/onboard/index.html:79"
       ],
       "note": ""
     },
@@ -23627,6 +23668,15 @@
       "plural": false,
       "where": [
         "src/app/decisions.ts:240"
+      ],
+      "note": ""
+    },
+    "When we audit a website we store the public text of its pages as evidence for the findings. This can include email addresses, phone numbers and names printed on a page, for example an author line. We keep it only in your reports and delete it with the crawl it came from, under the retention of your plan.": {
+      "bundle": "core",
+      "vars": [],
+      "plural": false,
+      "where": [
+        "_site/privacy/index.html:91"
       ],
       "note": ""
     },
