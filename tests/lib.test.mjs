@@ -126,3 +126,4 @@ test('a changed entry changes the file name', () => {
   i.files.pl.findings.data = { Fail: 'Fehler' };
   assert.notEqual(buildDist(i).manifest.languages.pl.findings.file, before);
 });
+

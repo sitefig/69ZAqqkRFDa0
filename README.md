@@ -39,6 +39,7 @@ node tools/build.mjs            check, then write dist/
 node tools/sync-source.mjs      refresh source/ from ../app
 node tools/missing.mjs [dir]    list every key some language lacks (writes <dir>/missing.json, default .work/)
 node tools/merge-patch.mjs [dir]  merge <dir>/patch.<lang>.json into src/<lang>/ after checking it
+node tools/review-sheet.mjs <lang> [out.csv]  review sheet (CSV) for a native reviewer; checklist in reviews/CHECKLIST.md
 node --test tests/*.test.mjs
 ```
 
@@ -68,7 +69,7 @@ Changed English wording keeps its key only if the meaning is the same; a changed
 
 ## Check the wording against other software
 
-`sh tools/reference/download.sh` fetches WordPress, Mozilla and MediaWiki translations into `.reference/` (git-ignored); `python3 -I tools/reference/build_index.py` indexes them; `python3 -I tools/reference/compare.py` lists labels where ours differs from the reference for the identical English; `python3 -I tools/reference/lookup.py <lang> "<word>"` shows how those projects translate a term. A difference is not an error: judge it, and write corrections as a patch (`tools/merge-patch.mjs`). The 2026-10-27 review and what it changed is in `reviews/`. Do this for a language before a native reviewer is asked to sign it off.
+`sh tools/reference/download.sh` fetches WordPress, Mozilla and MediaWiki translations into `.reference/` (git-ignored); `python3 -I tools/reference/build_index.py` indexes them (also the `.po` files below); `python3 -I tools/reference/compare.py` lists labels where ours differs from the reference for the identical English; `python3 -I tools/reference/lookup.py <lang> "<word>"` shows how those projects translate a term. A difference is not an error: judge it, and write corrections as a patch (`tools/merge-patch.mjs`). The 2026-10-27 review and what it changed is in `reviews/`. `sh tools/reference/download_po.sh` adds `.po` files from Django, Odoo, GitLab, GNOME and Drupal into `.reference/po/<project>/<lang>.po`. Do this for a language before a native reviewer is asked to sign it off.
 
 ## Review status
 

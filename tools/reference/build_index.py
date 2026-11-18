@@ -68,6 +68,8 @@ for l in langs:
         for k,v in parse_ftl(f).items():
             e=en.get((base,k))
             if e: add(l,e,v,'moz')
+    for f in glob.glob(f'{R}/po/*/{l}.po'):  # download_po.sh: django-admin, gitlab, gnome-shell, ...
+        for ctx,i,t in parse_po(f): add(l,i,t,os.path.basename(os.path.dirname(f)))
     # mediawiki
     if os.path.exists(f'{R}/mw/{l}.json') and os.path.exists(f'{R}/mw/en.json'):
         E=json.load(open(f'{R}/mw/en.json')); L=json.load(open(f'{R}/mw/{l}.json'))

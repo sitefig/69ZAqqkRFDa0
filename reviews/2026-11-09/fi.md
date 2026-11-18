@@ -1,0 +1,3 @@
+# fi
+Changed 1: "Offline" Ei yhteyttä -> Pois käytöstä. The key is the badge on the maintenance page (service is down); "Ei yhteyttä" reads as the visitor's own connection failing. Matches the page heading "poissa käytöstä huollon vuoksi". Sources: odoo-web "poissa" is the user-presence sense, not used.
+Kept 26: all other differs. Reasons as in reviews/2026-10-27 (different sense: Terms, Fixed, Check, Citation, Unchanged, legal, Medium, Info, Revoke, Maintenance; consistency: tili, Vahvista, Kirjoita, uusin singular; Free is the plan name; register: ei kirjautuneena avoids sinä). New sources (drupal "tili" variants, "Aloittaminen", "Oma tili", "Nollaa", "Documents") are not clearly better: single-project hits.

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # python3 -I lookup.py <lang> <english word or phrase> [max]
-# Lists reference UI strings (WordPress core/admin, Mozilla, MediaWiki) whose English contains the word, with the language's translation.
+# Lists reference UI strings (WordPress, Mozilla, MediaWiki, Django, Odoo, GitLab, GNOME, Drupal) whose English contains the word, with the language's translation.
 import json,sys,re,os
 R=os.environ.get('REF_DIR') or os.path.join(os.path.dirname(os.path.abspath(__file__)),'..','..','.reference')
 lang,term=sys.argv[1],sys.argv[2].lower(); mx=int(sys.argv[3]) if len(sys.argv)>3 else 25
